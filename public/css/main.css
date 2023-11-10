@@ -1,0 +1,259 @@
+body {
+    font-family: Inter;
+    position: relative;
+    overflow: hidden;
+}
+
+::placeholder {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 2.18rem;
+}
+
+input {
+    width: 32rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    background: #F0F0F0;
+}
+
+button { border: 0; }
+
+/* List Style Type */
+.list-none	{ list-style-type: none; }
+.list-disc	{ list-style-type: disc; }
+.list-decimal { list-style-type: decimal; }
+
+/* Text Decoration */
+.no-underline { text-decoration-line: none; }
+
+/* Font Size */
+.fs-14 { font-size: 1.15rem; }
+.fs-20 { font-size: 1.25rem; }
+.fs-24 { font-size: 1.5rem; }
+.fs-30 { font-size: 1.875rem; }
+.fs-36 { font-size: 36px; }
+.fs-50 { font-size: 50px; }
+.fs-85 { font-size: 85px; }
+.fs-96 { font-size: 6rem; }
+
+.font-normal { font-style: normal; }
+
+.fw-400 { font-weight: 400; }
+.fw-500 { font-weight: 500; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
+
+.lh-normal { line-height: normal; }
+
+.p-0 { padding: 0%; }
+.pt-10 { padding-top: 1.25rem; }
+.pt-5 { padding-top: 5rem; }
+.pb-10 { padding-bottom: 1.25rem; }
+
+.m-0 { margin: 0; }
+
+/* Margin Top */
+.mt-14 { margin-top: 0.875rem; }
+.mt-22 { margin-top: 1.375rem; }
+.mt-46 { margin-top: 1.8125rem; }
+.mt-50 { margin-top: 1.9375rem; }
+.mt-80 { margin-top: 3.125rem; }
+.mt-145 { margin-top: 9.0625rem; }
+.mt-148 { margin-top: 9.25rem; }
+.mt-197 { margin-top: 12.25rem; }
+.mt-198 { margin-top: 12.375rem; }
+.mt-280 { margin-top: 17.5rem; }
+.mt-315 { margin-top: 19.75rem; }
+
+.mt-n10 { margin-top: -0.625rem;}
+ 
+.mr-10 { margin-right: 0.625rem; }
+.mr-57 { margin-right: 3.125px; }
+.mr-60 { margin-right: 60px; }
+.mr-99 { margin-right: 6.25rem; }
+.mr-60 { margin-right: 5rem;}
+
+.mb-23 { margin-bottom: 23px; }
+
+.ml-9 { margin-left: 0.5625rem; }
+.ml-35 { margin-left: 2.1875rem; }
+.ml-139 { margin-left: 8.6875rem; }
+.ml-146 { margin-left: 9.125rem; }
+.ml-149 { margin-left: 9.3125rem; }
+.ml-150 { margin-left: 9.375rem; }
+.ml-50p { margin-left: 15%; }
+
+.w-320 { width: 20rem; }
+.w-495 { width: 30.9375rem; }
+.w-513 { width: 32.0625rem; }
+.w-50 { width: 50%; }
+
+.vw-65 { width: 6vw; }
+.vw-75 { width: 75vw; }
+.vw-98 { width: 50vw; }
+.vh-100 { height: 100vh; }
+
+.h-50 { height: 50px; }
+.h-73 { height: 37px; }
+
+.radius-50 { border-radius: 50%; }
+
+.bg-gray-20 { background: (255, 255, 255, 0.20); }
+.bg-yellow { background: #FCFF5C; }
+
+.text-green { color: #19D67B; }
+.text-yellow { color: #FCFF5C; } 
+.text-black { color: black; }
+.text-black { color: black}
+
+.register-background { background: url('../images/backgrounds/image_1.png'), lightgray 50% / cover no-repeat; }
+.the-kingdom { background: url('../images/backgrounds/the_kingdom.png'), lightgray 50% / cover no-repeat; }
+.the-change { background: url('../images/backgrounds/the_change.png'), lightgray 50% / cover no-repeat; }
+.the-law { background: url('../images/backgrounds/the_law.png'), lightgray 50% / cover no-repeat; }
+.the-climate { background: url('../images/backgrounds/the_climate.png'), lightgray 50% / cover no-repeat; }
+.the-flora { background: url('../images/backgrounds/the_flora.png'), lightgray 50% / cover no-repeat; }
+.the-people { background: url('../images/backgrounds/the_people.png'), lightgray 50% / cover no-repeat; }
+.the-fauna { background: url('../images/backgrounds/the_fauna.png'), lightgray 50% / cover no-repeat; }
+
+
+
+.the-laws-1 { background: #13599A; }
+
+.the-law-cnav-bg { background: linear-gradient(270deg, #51A0FF 42.11%, rgba(54, 94, 138, 0.00) 101.31%); }
+.the-kingdom-cnav-bg { background: linear-gradient(270deg, #0D1A28 42.11%, rgba(46, 89, 136, 0.00) 101.31%); }
+.the-climate-cnav-bg { background: linear-gradient(270deg, #995800 42.11%, rgba(255, 221, 139, 0.00) 101.31%); }
+.the-flora-cnav-bg { background: linear-gradient(270deg, #58B5FF 42.11%, rgba(117, 205, 255, 0.00) 101.31%); }
+.the-people-cnav-bg { background: linear-gradient(270deg, #4F4842 42.11%, rgba(144, 132, 124, 0.47) 101.31%); }
+.the-fauna-cnav-bg { background: linear-gradient(270deg, #201003 42.11%, rgba(105, 79, 60, 0.47) 101.31%); }
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: #FCFF5C;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    left: 85%;
+    top: 45%;
+}
+
+.circle-xm {
+    width: 59px;
+    height: 59px;
+
+    background-color: #FCFF5C;;
+    border-radius: 50%;
+    color: black;
+    font-weight: bold;
+
+}
+
+.language-btn {
+    width: 94px;
+    height: 39px;
+    flex-shrink: 0;
+
+    border-radius: 0.625rem;
+    border: 0.3px solid #FFF;
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.hidden { display: none; }
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.zoom-in-element { animation: zoomIn 1s ease; }
+
+.snowfall {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    animation: snowfall 5s linear infinite;
+}
+
+.snow,.snow:after,.snow::before {
+    content: '';
+    position: absolute;
+    top: -650px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: radial-gradient(4px 4px at 100px 50px,#fff,transparent),
+                        radial-gradient(6px 6px at 200px 150px, #fff,transparent),
+                        radial-gradient(3px 3px at 300px 250px,#fff,transparent),
+                        radial-gradient(4px 4px at 400px 350px,#fff,transparent),
+                        radial-gradient(6px 6px at 500px 100px,#fff,transparent),
+                        radial-gradient(3px 3px at 50px 200px,#fff,transparent),
+                        radial-gradient(4px 4px at 150px 300px,#fff,transparent),
+                        radial-gradient(6px 6px at 250px 400px,#fff,transparent),
+                        radial-gradient(3px 3px at 350px 500px,#fff,transparent),
+                        radial-gradient(4px 4px at 550px 550px,#fff,transparent);
+    background-size: 650px 650px;
+    animation: SnowAnim 3s linear infinite;
+}
+.snow:after {
+    margin-left: -250px;
+    opacity: 0.5;
+    filter: blur(2px);
+    animation-direction: reverse;
+    animation-duration: 6s;
+}
+.snow::before {
+    margin-left: -350px;
+    opacity: 0.7;
+    filter: blur(1px);
+    animation-direction: reverse;
+    animation-duration: 9s;
+}
+@keyframes SnowAnim {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(650px);
+    }
+}
+
+
+
+/* Snowfall End*/
+
+.wrapper {
+    position: relative;
+}
+
+.only-border{
+    border: 2px solid #FCFF5C;
+    border-radius: 50px;
+}
+.circle-fill{
+    background-color: transparent;
+    color: white;
+}
+
+/* CSS code to center the image gallery */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh; /* Adjust the minimum height as needed */
+}
+
+
+
