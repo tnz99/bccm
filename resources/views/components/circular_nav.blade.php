@@ -8,7 +8,8 @@
     <div class="semi-circle-item"><p class="nav-item nav-item-5"><a class="no-underline text-white font-normal fw-700 fs-20" href="the-fauna">The Fauna</a></p></div>
     <div class="semi-circle-item"><p class="nav-item nav-item-6"><a class="no-underline text-white font-normal fw-700 fs-20" href="the-flora">The Flora</a></p></div>
     <div class="semi-circle-item"><p class="nav-item nav-item-7"><a class="no-underline text-white font-normal fw-700 fs-20" href="the-kingdom">The Kingdom</a></p></div>
-    <div id="hide_circular_nav" class="inner-circle z-1">
+    <div id="hide_circular_nav" class="inner-circle z-1 {{ $innerBorder }}">
         <p class="inner-text ml-50p fw-700 font-normal lh-normal fs-24">Our Story</p>
     </div>
 </nav>
+`

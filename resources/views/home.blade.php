@@ -1,6 +1,11 @@
 @extends('components.layout')
 
 @section('body_class', 'the-kingdom')
+
+@section('header')
+    <x-header :dark=true />
+@endsection
+
 @section('content')
 <section class="ml-146 mt-145 d-flex justify-content-between ">
 <div>
@@ -22,5 +27,5 @@
 @endsection
 
 @section('nav')
-<x-circular_nav />
+<x-circular_nav background="" inner-border=""/>
 @endsection

@@ -30,7 +30,6 @@ Route::get('/contact', function() {
     return view('contact');
 });
 
-
 Route::get('/register', function() {
     return view('register');
 });
@@ -73,6 +72,6 @@ Route::get('/the-flora2', function() {
     return view('flora2');
 });
 
-Route::get('/', function() {
+Route::get('/laws-2000', function() {
     return view('laws-2000');
-})
+});

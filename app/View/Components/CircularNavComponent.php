@@ -7,6 +7,7 @@ use Illuminate\View\Component;
 class CircularNavComponent extends Component {
     public function __construct(
         public string $background,
+        public string $innerBorder
     ){}
 
     public function render() {

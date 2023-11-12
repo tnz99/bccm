@@ -75,6 +75,7 @@ button { border: 0; }
 .mt-n10 { margin-top: -0.625rem;}
  
 .mr-10 { margin-right: 0.625rem; }
+.mr-50 { margin-right: 50px; }
 .mr-57 { margin-right: 3.125px; }
 .mr-60 { margin-right: 60px; }
 .mr-99 { margin-right: 6.25rem; }
@@ -141,13 +142,20 @@ button { border: 0; }
     background-size: cover;
 }
 
-.the-law-cnav-bg { background: linear-gradient(270deg, #51A0FF 42.11%, rgba(54, 94, 138, 0.00) 101.31%); }
+.the-law-cnav-bg { background: linear-gradient(270deg, #585858 42.11%, rgba(193, 195, 194, 0.71) 101.31%); }
 .the-kingdom-cnav-bg { background: linear-gradient(270deg, #0D1A28 42.11%, rgba(46, 89, 136, 0.00) 101.31%); }
 .the-climate-cnav-bg { background: linear-gradient(270deg, #995800 42.11%, rgba(255, 221, 139, 0.00) 101.31%); }
 .the-flora-cnav-bg { background: linear-gradient(270deg, #58B5FF 42.11%, rgba(117, 205, 255, 0.00) 101.31%); }
 .the-people-cnav-bg { background: linear-gradient(270deg, #4F4842 42.11%, rgba(144, 132, 124, 0.47) 101.31%); }
 .the-fauna-cnav-bg { background: linear-gradient(270deg, #201003 42.11%, rgba(105, 79, 60, 0.47) 101.31%); }
 .the-register-cnav-bg { background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 101.31%); }
+
+/* Circular nave inner circle border */
+
+.border-gray {
+    border: 2px solid yellow;
+}
+
 
 .circle {
     width: 150px;
@@ -166,7 +174,6 @@ button { border: 0; }
 .circle-xm {
     width: 59px;
     height: 59px;
-
     background-color: #FCFF5C;;
     border-radius: 50%;
     color: black;
