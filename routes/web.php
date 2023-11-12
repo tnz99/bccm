@@ -72,3 +72,7 @@ Route::get('/imgs', function() {
 Route::get('/the-flora2', function() {
     return view('flora2');
 });
+
+Route::get('/', function() {
+    return view('laws-2000');
+})
