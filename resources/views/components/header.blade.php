@@ -1,4 +1,4 @@
-<header style="padding-top: 80px;">
+<header class="header">
     <nav class="d-flex align-items-center">
         <div class="d-flex align-items-center ml-149 ">
             <svg width="85" height="58" viewBox="0 0 85 58" xmlns="http://www.w3.org/2000/svg">
@@ -21,11 +21,11 @@
             </div>
         </div>
 
-        <ul class="d-flex list-none">
-            <li class="text-uppercase "><a class="fs-14 no-underline p-4 {{ $dark ? 'text-white' : 'text-black' }} fw-semibold font-normal fw-300 lh-normal mr-57" href="/">home</a></li>
-            <li class="text-uppercase "><a class="fs-14 no-underline p-4 {{ $dark ? 'text-white' : 'text-black' }} fw-semibold font-normal fw-300 lh-normal mr-57" href="about">about</a></li>
-            <li class="text-uppercase "><a class="fs-14 no-underline p-4 {{ $dark ? 'text-white' : 'text-black' }} fw-semibold font-normal fw-300 lh-normal mr-57" href="news-and-event">news & events</a></li>
-            <li class="text-uppercase "><a class="fs-14 no-underline p-4 {{ $dark ? 'text-white' : 'text-black' }} fw-semibold font-normal fw-300 lh-normal mr-57" href="contact">contact</a></li>
+        <ul class="d-flex nav-list">
+            <li class="text-uppercase"><a class="no-underline p-4 {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="/">home</a></li>
+            <li class="text-uppercase"><a class="no-underline p-4 {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="about">about</a></li>
+            <li class="text-uppercase"><a class="no-underline p-4 {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="news-and-event">news & events</a></li>
+            <li class="text-uppercase"><a class="no-underline p-4 {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="contact">contact</a></li>
             <li class="mt-n10">
                 <div class="custom-audio">
                  <audio id="audio" src="{{ asset('audios/a1.mp3') }}" preload="auto"></audio>

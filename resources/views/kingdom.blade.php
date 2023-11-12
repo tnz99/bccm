@@ -1,6 +1,11 @@
 @extends('components.layout')
 
 @section('body_class', 'the-kingdom')
+
+@section('header')
+    <x-header :dark=true />
+@endsection
+
 @section('content')
 <section class="d-flex flex-column">
     <div class="text-white ml-139 w-495 mt-148">
@@ -31,5 +36,5 @@
 @endsection
 
 @section('nav')
-<x-circular_nav />
+<x-circular_nav background="the-kingdom-cnav-bg" inner-border="border-white"/>
 @endsection

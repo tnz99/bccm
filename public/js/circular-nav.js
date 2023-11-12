@@ -10,4 +10,14 @@ $(function(){
         $('#our_story_btn').show();
         $('#circular_nav').hide();
     })
+
+    $('.nav-item').mouseenter(function() {
+        $('.cnav-icon').show();
+    })
+
+    $('.nav-item').mouseleave(function() {
+        $('.cnav-icon').hide();
+    })
+
+    // 2
 });

@@ -1,3 +1,7 @@
+* {
+    font-size: 16px;
+}
+
 body {
     font-family: Inter;
     position: relative;
@@ -142,29 +146,45 @@ button { border: 0; }
     background-size: cover;
 }
 
+.home {
+    backdrop-filter: blur(50%);
+    background: lightgray url('../images/backgrounds/home.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 .the-law-cnav-bg { background: linear-gradient(270deg, #585858 42.11%, rgba(193, 195, 194, 0.71) 101.31%); }
 .the-kingdom-cnav-bg { background: linear-gradient(270deg, #0D1A28 42.11%, rgba(46, 89, 136, 0.00) 101.31%); }
 .the-climate-cnav-bg { background: linear-gradient(270deg, #995800 42.11%, rgba(255, 221, 139, 0.00) 101.31%); }
-.the-flora-cnav-bg { background: linear-gradient(270deg, #58B5FF 42.11%, rgba(117, 205, 255, 0.00) 101.31%); }
+.the-flora-cnav-bg {background: linear-gradient(270deg, #1347AF 42.11%, rgba(238, 242, 245, 0.27) 101.31%);}
 .the-people-cnav-bg { background: linear-gradient(270deg, #4F4842 42.11%, rgba(144, 132, 124, 0.47) 101.31%); }
 .the-fauna-cnav-bg { background: linear-gradient(270deg, #201003 42.11%, rgba(105, 79, 60, 0.47) 101.31%); }
 .the-register-cnav-bg { background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 101.31%); }
+.home-cnav-bg {
+    background: linear-gradient(270deg, #151A21 42.11%, rgba(23, 28, 36, 0.06) 101.31%);
+}
+
 
 /* Circular nave inner circle border */
 
 .border-gray {
-    border: 2px solid yellow;
+    border: 1px solid gray;
+}
+.border-white {
+    border: 1px solid #BFBFBF;
 }
 
-
 .circle {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     background-color: #FCFF5C;;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     padding: 20px;
     left: 85%;
@@ -172,8 +192,8 @@ button { border: 0; }
 }
 
 .circle-xm {
-    width: 59px;
-    height: 59px;
+    width: 50px;
+    height: 50px;
     background-color: #FCFF5C;;
     border-radius: 50%;
     color: black;
@@ -289,3 +309,134 @@ button { border: 0; }
 }
 
 
+/* year story */
+.year-story-wrapper {
+    margin-top: 60px;
+}
+
+.year-nav-wrapper {
+    margin-left: 115px;
+    margin-top: 50px;
+}
+
+.year-nav-list {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.year-nav-list-item {
+    margin-right: 50px;
+}
+
+.year-nav-link {
+    font-size: 16px;
+    line-height: normal;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration-line: none;
+    color: black;
+}
+
+.story-control-wrapper {
+    margin-left: 110px;
+    margin-top: 60px;
+}
+
+.story-control {
+    margin-top: 10px;
+}
+
+/* Home Page */
+.home-wrapper {
+    margin-left: 145px;
+    margin-top: 100px;
+}
+
+.home-header-text {
+    color: white;
+    line-height: normal;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.home-header-subtext {
+    color: white;
+    line-height: normal;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.register-btn {
+    width: 250px;
+    background-color: yellow;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    padding: 8px;
+}
+
+
+/* header */
+.header {
+    padding-top: 60px;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list-link {
+    margin-right: 40px;
+    line-height: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;;
+}
+
+.nav-list-link:hover {
+    font-weight: 600;
+}
+
+.nav-item {
+    padding: 6px;
+}
+
+.nav-item:hover {
+    border-radius: 0px 15px 15px 0px;
+    background: linear-gradient(270deg, #947f7f 0%, rgba(255, 255, 255, 0.00) 74.59%);
+}
+
+.cnav-link:hover {
+    color: yellow;
+}
+
+.cnav-icon {
+    display: none;
+    margin-left: 8px;
+}
+
+.story-section {
+    margin-top: 50px;
+}
+
+.story-header {
+    margin-left: 139px;
+    width: 495px;
+}
+
+.story-header-text {
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.story-header-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+    font-style: normal;
+}

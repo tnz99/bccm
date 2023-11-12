@@ -75,3 +75,27 @@ Route::get('/the-flora2', function() {
 Route::get('/laws-2000', function() {
     return view('laws-2000');
 });
+
+Route::get('/story', function() {
+    $description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.";
+
+    return view('story')->with('darkThemeFlag', true)
+                        ->with('bodyClass', 'the-kingdom')
+                        ->with('name', 'Kingdom')
+                        ->with('description', $description)
+                        ->with('linkOne', '#')
+                        ->with('linkTwo', '#')
+                        ->with('nextLink', '#');
+});
+
+Route::get('/tenzin', function() {
+    $description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.";
+
+    return view('story')->with('darkThemeFlag', true)
+                        ->with('bodyClass', 'the-flora')
+                        ->with('name', 'Tenzin')
+                        ->with('description', $description)
+                        ->with('linkOne', '#')
+                        ->with('linkTwo', '#')
+                        ->with('nextLink', '#');
+});
