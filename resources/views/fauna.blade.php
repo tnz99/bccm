@@ -11,7 +11,7 @@
         <h1 class="fs-96 fw-700 lh-normal font-normal">Fauna</h1>
         <p class="fw-400 fs-20 lh-normal font-normal">Bhutan celebrated Prince Jigme Namgyel Wangchuck's birth with a display of environmental devotion, planting 108,000 tree saplings. Bhutan mandates 60% forest cover, symbolizing its commitment to nature. In 2015, the country set a Guinness World Record by planting nearly 50,000 trees in an hour.</p>
         
-            <div class="d-flex align-items-center justify-content-between mt-46">
+        <div class="d-flex align-items-center justify-content-between mt-46">
             <ul class="d-flex align-items-center justify-content-between list-none p-0 m-0">
                 <li><a href="#" class="no-underline circle-xm d-flex justify-content-center align-items-center mr-10 border-0">1</a></li>
                 <li class="only-border"><a href="#" class="no-underline circle-xm d-flex justify-content-center align-items-center border-0 circle-fill">2</a></li>

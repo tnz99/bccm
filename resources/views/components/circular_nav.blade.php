@@ -1,6 +1,6 @@
 <button id="our_story_btn" class="circle radius-50 mr-99  position-fixed black zoom-in-element">Our Story</button>
 
-<nav id="circular_nav" class="circular-nav  the-flora-cnav-bg zoom-in-element">
+<nav id="circular_nav" class="circular-nav  {{ $background }} zoom-in-element">
     <div class="semi-circle-item"><p class="nav-item nav-item-1"><a class="no-underline text-white font-normal fw-700 fs-20" href="the-people">The People</a></p></div>
     <div class="semi-circle-item"><p class="nav-item nav-item-2"><a class="no-underline text-white font-normal fw-700 fs-20" href="laws">The Laws</a></p></div>
     <div class="semi-circle-item"><p class="nav-item nav-item-3"><a class="no-underline text-white font-normal fw-700 fs-20" href="the-change">The Change</a></p></div>

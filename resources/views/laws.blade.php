@@ -30,5 +30,5 @@
 @endsection
 
 @section('nav')
-<x-circular_nav />
+<x-circular_nav background="the-register-cnav-bg"/>
 @endsection

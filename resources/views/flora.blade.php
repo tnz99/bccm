@@ -1,14 +1,13 @@
 @extends('components.layout')
-
 @section('body_class', 'the-flora')
 
+@section('header')
+    <x-header :dark=false />
+@endsection
+
 @section('content')
-
-
- 
-
 <section class="d-flex flex-column">
-    <div class="text-white ml-139 w-495 mt-148">
+    <div class="text-white ml-139 w-495">
         <h1 class="fs-96 fw-700 lh-normal font-normal">the</h1>
         <h1 class="fs-96 fw-700 lh-normal font-normal">Flora</h1>
         <p class="fw-400 fs-20 lh-normal font-normal">Bhutan, celebrated for its stunning landscapes and rich biodiversity, preserves over 72% forest cover, with 60% under protection. It has a historical connection to medicinal herbs and is renowned for its lush wildflower displays, notably the national flower, the blue poppy, which graces its mountain slopes with vibrant hues.</p>
@@ -36,14 +35,5 @@
 @endsection
 
 @section('nav')
-<x-circular_nav />
+    <x-circular_nav background="the-register-cnav-bg"/>
 @endsection
-
-
- fj f df  frfe uf8reht sfieru fsajeif 
-
-
-<!-- @section('content')
-    @include('image_gallery') <!-- Include the image gallery here -->
-    <!-- Your existing content continues here -->
-<!-- @endsection --> -->
