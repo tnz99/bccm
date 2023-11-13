@@ -38,22 +38,6 @@ Route::get('/register', function() {
     return view('register');
 });
 
-// Route::get('/the-change', function() {
-//     return view('change');
-// });
-
-// Route::get('/the-climate', function() {
-//     return view('climate');
-// });
-
-// Route::get('/the-fauna', function() {
-//     return view('fauna');
-// });
-
-// Route::get('/the-flora', function() {
-//     return view('flora');
-// });
-
 Route::get('/the-kingdom2', function() {
     return view('kingdom2');
 });
@@ -96,7 +80,7 @@ Route::get('/the-kingdom', function() {
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
                         ->with('cnavBg', $cnavBg)
-                       ->with('cnavInnerBorder', $cnavInnerBorder);
+                        ->with('cnavInnerBorder', $cnavInnerBorder);
                         
 });
 
