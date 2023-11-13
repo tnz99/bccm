@@ -38,7 +38,7 @@
                 </ul>
             </div>
 
-            <x-story-control link-one="laws" link-two="the-laws-1" next-link=""/>
+            <x-story-control :links="$links" :next-link="$nextLink"/>
         </div> 
     </div>   
 

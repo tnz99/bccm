@@ -1,5 +1,5 @@
 @extends('components.layout')
-@section('body_class', 'the-kingdom')
+@section('body_class', 'the-kingdom2')
 
 @section('header')
     <x-header :dark=true />

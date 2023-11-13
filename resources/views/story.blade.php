@@ -16,5 +16,6 @@
 @endsection
 
 @section('nav')
-    <x-circular_nav background="the-law-cnav-bg" inner-border=""/>
+    <!-- <x-circular_nav background="the-law-cnav-bg" inner-border=""/> -->
+    <x-circular_nav :background="$cnavBg" :inner-border="$cnavInnerBorder"/>
 @endsection

@@ -2,7 +2,7 @@
 
 <nav id="circular_nav" class="circular-nav  {{ $background }} zoom-in-element">
     <div class="semi-circle-item"><p class="nav-item nav-item-1"><a class="no-underline text-white font-normal fw-700 fs-20 cnav-link" href="the-people">The People</a><img class="cnav-icon" src="images/backgrounds/cnav-icon.png"></p></div>
-    <div class="semi-circle-item"><p class="nav-item nav-item-2"><a class="no-underline text-white font-normal fw-700 fs-20 cnav-link" href="laws">The Laws</a><img class="cnav-icon" src="images/backgrounds/cnav-icon.png"></p></div>
+    <div class="semi-circle-item"><p class="nav-item nav-item-2"><a class="no-underline text-white font-normal fw-700 fs-20 cnav-link" href="the-laws">The Laws</a><img class="cnav-icon" src="images/backgrounds/cnav-icon.png"></p></div>
     <div class="semi-circle-item"><p class="nav-item nav-item-3"><a class="no-underline text-white font-normal fw-700 fs-20 cnav-link" href="the-change">The Change</a></p></div>
     <div class="semi-circle-item"><p class="nav-item nav-item-4"><a class="no-underline text-white font-normal fw-700 fs-20 cnav-link" href="the-climate">The Climate</a></p></div>
     <div class="semi-circle-item"><p class="nav-item nav-item-5"><a class="no-underline text-white font-normal fw-700 fs-20 cnav-link" href="the-fauna">The Fauna</a></p></div>

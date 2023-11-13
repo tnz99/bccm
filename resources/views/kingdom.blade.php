@@ -2,9 +2,7 @@
 
 @section('body_class', 'the-kingdom')
 
-@section('header')
-    <x-header :dark=true />
-@endsection
+
 
 @section('content')
 <section class="d-flex flex-column">
