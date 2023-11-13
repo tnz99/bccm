@@ -6,7 +6,7 @@
 
 @section('content')
 <section class="d-flex flex-column z-3 story-section">
-    <div class="text-white story-header">
+    <div class="{{ $darkThemeFlag ? 'text-white' : 'text-black' }} story-header">
         <h2 class="story-header-text">the</h2>
         <h2 class="story-header-text">{{ $name }}</h2>
         <p class="story-header-description">{{ $description }}</p>
