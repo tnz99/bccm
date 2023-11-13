@@ -424,13 +424,37 @@ button { border: 0; }
     padding: 8px;
 }
 
+.register-icon {
+    width: 32px;
+    height: 36px;
+}
 
-/* header */
+
+/* Main Header */
 .header {
     padding-top: 60px;
 }
 
-.nav-list {
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.logo {
+    margin-left: 150px;
+}
+
+.logo-text {
+    margin-left: 9px;
+    font-size: 14px;
+}
+
+.header-nav-list {
+    display: flex;
     list-style: none;
 }
 
@@ -439,11 +463,12 @@ button { border: 0; }
     line-height: normal;
     font-style: normal;
     text-decoration: none;
-    font-size: 14px;;
+    font-size: 14px;
+    padding: 4px;
 }
 
 .nav-list-link:hover {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .nav-item {
@@ -464,6 +489,7 @@ button { border: 0; }
     margin-left: 8px;
 }
 
+/* Story Page */
 .story-section {
     margin-top: 140px;
 }
@@ -488,3 +514,5 @@ button { border: 0; }
     /* position: relative;
     bottom: -60px; */
 }
+
+

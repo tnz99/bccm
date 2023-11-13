@@ -15,7 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function() {
-    return view('home');
+    $cnavBg = "the-law-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+
+    return view('home')->with('cnavBg', $cnavBg)
+                       ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 
 Route::get('/about', function() {
@@ -50,10 +54,6 @@ Route::get('/register', function() {
 //     return view('flora');
 // });
 
-// Route::get('/the-kingdom', function() {
-//     return view('kingdom');
-// });
-
 Route::get('/the-kingdom2', function() {
     return view('kingdom2');
 });
@@ -86,6 +86,8 @@ Route::get('/the-kingdom', function() {
     $cnavBg = "the-kingdom-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
+    $cnavBg = "the-law-cnav-bg";
+    $cnavInnerBorder = "border-gray";
 
     return view('story')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-kingdom')
