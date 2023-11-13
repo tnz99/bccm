@@ -9,13 +9,14 @@
 <section>
     <div class="gallery-container">
         <div class="options">
-            <div class="option active" style="--optionBackground: url('../images/backgrounds/the_kingdom.png');">
+            <div class="option active" style="--optionBackground: url('../images/backgrounds/4thking.jpeg');">
+        
             </div>
-            <div class="option" style="--optionBackground: url('../images/backgrounds/the_kingdom.png');">
+            <div class="option" style="--optionBackground: url('../images/backgrounds/5thking.jpeg');">
             </div>
-            <div class="option" style="--optionBackground: url('../images/backgrounds/the_flora.png');">
+            <div class="option" style="--optionBackground: url('../images/backgrounds/king.jpeg');">
             </div>
-            <div class="option" style="--optionBackground: url('../images/backgrounds/the_people.png');">
+            <div class="option" style="--optionBackground: url('../images/backgrounds/queen.jpeg');">
             </div>
             <div class="option" style="--optionBackground: url('../images/backgrounds/the_fauna.png');">
             </div>
