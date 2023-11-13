@@ -3,9 +3,9 @@
         @foreach($links as $index => $link)
         <li><a href="{{ $link }}" class="no-underline circle-xm d-flex justify-content-center align-items-center mr-10 border-0 control-link">{{ $index + 1 }}</a></li>
         @endforeach
-        <li class="ml-139">
+        <li class="">
             <div class="d-flex align-items-center">
-                <p class="p-0 m-0 fw-400 lh-norma text-white">Next story</p>
+                <p class="p-0 m-0 fw-400 lh-normal text-white">Next story</p>
         
                 <div class="circle-xm d-flex justify-content-center align-items-center ml-9">
                     <svg width="30" height="26" viewBox="0 0 38 34" fill="none" xmlns="http://www.w3.org/2000/svg">

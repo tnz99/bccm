@@ -71,5 +71,16 @@
         height: 20px;
     }
 
+    /* Story Pages */
+    .story-section {
+        padding-left: 50px;
+        padding-right: 40px;
+        margin-top: 80px;
+    }
+
+    .story-header {
+        width: 100%;
+        margin-left: auto;
+    }
 }
 
