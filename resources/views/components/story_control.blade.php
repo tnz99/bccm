@@ -1,7 +1,8 @@
 <div class="d-flex align-items-center story-control-wrapper">
     <ul class="d-flex align-items-center justify-content-between list-none story-control">
-        <li><a href="{{ $linkOne }}" class="no-underline circle-xm d-flex justify-content-center align-items-center mr-10 border-0 control-link">1</a></li>
-        <li><a href="{{ $linkTwo }}" class="no-underline circle-xm d-flex justify-content-center align-items-center border-0 control-link">2</a></li>
+        @foreach($links as $index => $link)
+        <li><a href="{{ $link }}" class="no-underline circle-xm d-flex justify-content-center align-items-center mr-10 border-0 control-link">{{ $index + 1 }}</a></li>
+        @endforeach
         <li class="ml-139">
             <div class="d-flex align-items-center">
                 <p class="p-0 m-0 fw-400 lh-norma">Next story</p>

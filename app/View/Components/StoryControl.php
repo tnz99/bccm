@@ -6,8 +6,7 @@ use Illuminate\View\Component;
 
 class StoryControl extends Component {
     public function __construct(
-        public string $linkOne,
-        public string $linkTwo,
+        public array $links,
         public string $nextLink
     ) {}
 
