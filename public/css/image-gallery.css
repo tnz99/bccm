@@ -116,3 +116,18 @@ body .options .option {
     color: white;
     font-weight: bold;
 }
+
+
+.img-bg {
+    padding: 20px;
+    border-radius: 28px;
+    width: 487px;
+    height: 277px;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden; /* Ensure that overflow is hidden to hide the excess background */
+
+    background: url('../images/backgrounds/4thking.jpeg') left / cover no-repeat, lightgray;
+    /* The 'left' value positions the image on the left, and 'cover' ensures the image covers the container */
+}
