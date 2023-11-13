@@ -155,7 +155,7 @@ Route::get('/the-climate', function() {
 });
 
 Route::get('/the-summer', function() {
-    $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
+    $description = "Bhutan's summers beckon with open arms, inviting you to a world where the air is filled with the scent of wildflowers and the echoes of ancient traditions.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
     $nextLink = "#";
     $cnavBg = "the-change-cnav-bg";
@@ -172,7 +172,7 @@ Route::get('/the-summer', function() {
                        ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 Route::get('/the-winter', function() {
-    $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
+    $description = "Embrace the cozy charm of Bhutanese winters, where snow-capped peaks stand tall, and the crisp mountain air carries the promise of adventure and tranquility.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
     $nextLink = "#";
     $cnavBg = "the-law-cnav-bg";
@@ -190,10 +190,10 @@ Route::get('/the-winter', function() {
 });
 
 Route::get('/the-spring', function() {
-    $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
+    $description = "Awakening from winter's embrace, step into this captivating scene where cherry blossoms and dzongs come together, inviting you to witness not just a seasonal transformation but an enchanting fusion of nature's fleeting beauty and Bhutan's enduring cultural heritage.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
     $nextLink = "#";
-    $cnavBg = "the-law-cnav-bg";
+    $cnavBg = "the-spring-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
 
@@ -207,7 +207,7 @@ Route::get('/the-spring', function() {
                        ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 Route::get('/the-autumn', function() {
-    $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
+    $description = "As summer bids farewell, Bhutan's autumn unveils a breathtaking spectacle, with golden leaves carpeting the ground and the clear skies framing the majestic Himalayas.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
     $nextLink = "#";
     $cnavBg = "the-law-cnav-bg";
@@ -226,7 +226,7 @@ Route::get('/the-autumn', function() {
 
 Route::get('/the-change', function() {
     $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
-    $links = ['/the-change', '/the-summer','/the-winter','/the-spring','/the-autumn'];
+    $links = ['/the-change', '/the-r'];
     $nextLink = "#";
     $cnavBg = "the-change-cnav-bg";
     $cnavInnerBorder = "border-white";

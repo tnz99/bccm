@@ -1,5 +1,5 @@
 @extends('components.layout')
-@section('body_class', 'the-flora')
+@section('body_class', 'the-flora2')
 
 @section('header')
     <x-header :dark=false />
