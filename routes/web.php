@@ -50,8 +50,11 @@ Route::get('/the-flora', function() {
     return view('flora');
 });
 
-Route::get('/the-kingdom', function() {
-    return view('kingdom');
+// Route::get('/the-kingdom', function() {
+//     return view('kingdom');
+// });
+Route::get('/the-kingdom2', function() {
+    return view('kingdom2');
 });
 
 Route::get('/the-laws-1', function() {
@@ -76,24 +79,25 @@ Route::get('/laws-2000', function() {
     return view('laws-2000');
 });
 
-Route::get('/story', function() {
-    $description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.";
+Route::get('/the-kingdom', function() {
+    $description = "Visionary Kings of Bhutan have played essential roles in ensuring that Bhutan remains a shining example of environmental conservation and sustainability. Their leadership has helped the country maintain its carbon-neutral status and preserve its breathtaking natural landscapes for generations to come.";
 
     return view('story')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-kingdom')
                         ->with('name', 'Kingdom')
                         ->with('description', $description)
-                        ->with('linkOne', '#')
-                        ->with('linkTwo', '#')
+                        ->with('linkOne', '')
+                        ->with('linkTwo', 'the-kingdom2')
                         ->with('nextLink', '#');
 });
 
-Route::get('/tenzin', function() {
+
+Route::get('/the-template', function() {
     $description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.";
 
     return view('story')->with('darkThemeFlag', true)
-                        ->with('bodyClass', 'the-flora')
-                        ->with('name', 'Tenzin')
+                        ->with('bodyClass', 'the-kingdom')
+                        ->with('name', 'Kingdom')
                         ->with('description', $description)
                         ->with('linkOne', '#')
                         ->with('linkTwo', '#')

@@ -16,7 +16,7 @@
         <div class="d-flex align-items-center justify-content-between mt-46">
             <ul class="d-flex align-items-center justify-content-between list-none p-0 m-0">
                 <li><a href="#" class="no-underline circle-xm d-flex justify-content-center align-items-center mr-10 border-0">1</a></li>
-                <li class="only-border"><a href="#" class="no-underline circle-xm d-flex justify-content-center align-items-center border-0 circle-fill">2</a></li>
+                <li class="only-border"><a href="the-kingdom2" class="no-underline circle-xm d-flex justify-content-center align-items-center border-0 circle-fill">2</a></li>
             </ul>
 
             <div class="d-flex align-items-center">

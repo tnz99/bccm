@@ -64,5 +64,5 @@
 @endsection
 
 @section('nav')
-<x-circular_nav background=""/>
+<x-circular_nav background="" inner-border="border-white"/>
 @endsection

@@ -124,9 +124,13 @@ button { border: 0; }
     height: 100vh;
     background-size: cover;
 }
+.the-kingdom {
+    background: lightgray url('../images/backgrounds/the_kingdom.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
 
 
-.the-kingdom { background: url('../images/backgrounds/the_kingdom.png'), lightgray 50% / cover no-repeat; }
 .the-change { background: url('../images/backgrounds/the_change.png'), lightgray 50% / cover no-repeat; }
 .the-law { background: url('../images/backgrounds/the_law.png'), lightgray 50% / cover no-repeat; }
 .the-climate { background: url('../images/backgrounds/the_climate.png'), lightgray 50% / cover no-repeat; }
@@ -347,6 +351,10 @@ button { border: 0; }
     margin-top: 10px;
 }
 
+.control-link:visited {
+    background-color: rgba(252, 255, 92, 0.50);;
+}
+
 /* Home Page */
 .home-wrapper {
     margin-left: 145px;
@@ -419,7 +427,7 @@ button { border: 0; }
 }
 
 .story-section {
-    margin-top: 50px;
+    margin-top: 140px;
 }
 
 .story-header {
@@ -436,7 +444,7 @@ button { border: 0; }
 
 .story-header-description {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: normal;
     font-style: normal;
 }
