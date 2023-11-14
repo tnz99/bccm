@@ -17,7 +17,8 @@ Route::get('/', function() {
     $cnavBg = "the-law-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
-    return view('home')->with('cnavBg', $cnavBg)
+    return view('home')->with('darkThemeFlag', false)
+                       ->with('cnavBg', $cnavBg)
                        ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 
@@ -49,7 +50,11 @@ Route::get('/the-laws-1', function() {
 });
 
 Route::get('/the-flora2', function() {
-    return view('flora2');
+    $links = ['/the-kingdom', '/the-kingdom2'];
+    $nextLink = "#";
+
+    return view('flora2')->with('links', $links)
+                         ->with('nextLink', $nextLink);
 });
 
 Route::get('/the-kingdom', function() {
@@ -221,7 +226,6 @@ Route::get('/the-laws', function() {
     $nextLink = "#";
     $cnavBg = "the-law-cnav-bg";
     $cnavInnerBorder = "border-white";
-
 
     return view('story')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-laws')

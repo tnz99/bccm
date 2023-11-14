@@ -1,7 +1,7 @@
 @extends('components.layout')
 @section('body_class', 'home')
 @section('header')
-    <x-header :dark=false />
+    <x-header :dark=$darkThemeFlag />
 @endsection
 @section('content')
 <section class="d-flex justify-content-between home-wrapper">
@@ -23,5 +23,6 @@
 @endsection
 
 @section('nav')
+    <x-story-nav :dark=$darkThemeFlag />
     <x-circular_nav :background="$cnavBg" :inner-border="$cnavInnerBorder"/>
 @endsection
