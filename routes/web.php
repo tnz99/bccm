@@ -35,7 +35,7 @@ Route::get('/contact', function() {
 });
 
 Route::get('/register', function() {
-    return view('register');
+    return view('register')->with('darkThemeFlag', false);
 });
 
 Route::get('/the-kingdom2', function() {
@@ -48,10 +48,6 @@ Route::get('/the-laws-1', function() {
     return view('laws_1') ->with('links', $links)
                           ->with('nextLink', $nextLink);
 });
-
-// Route::get('/laws', function() {
-//     return view('laws');
-// });
 
 Route::get('/the-people', function() {
     return view('people');
@@ -87,7 +83,7 @@ Route::get('/the-kingdom', function() {
 Route::get('/the-flora', function() {
     $description = "Bhutan's flora is characterized by its incredible variety. The country's elevation gradient, ranging from subtropical valleys to snow-capped peaks, supports a wide array of plant life. Bhutan is home to over 5,500 species of vascular plants, including countless medicinal herbs, alpine flowers, and rare orchids. The country's rugged terrain and pristine environment have contributed to the preservation of many endemic species found nowhere else on Earth.";
     $links = ['/the-flora', '/the-flora2'];
-    $nextLink = "#";
+    $nextLink = "";
     $cnavBg = "the-flora-cnav-bg";
     $cnavInnerBorder = "border-white";
 

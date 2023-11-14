@@ -96,13 +96,25 @@
         margin-left: 10%;;
     }
 
-    .next-story-text {
-        
-    }
-
     .next-story-icon {
         width: 50%;
         height: 50%;
+    }
+
+    /* Registration Page */
+    .register-form-wrapper {
+        text-align: center;
+    }
+
+    .register-form-container {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+    }
+
+    .register-form {
+        justify-content: center;
+        align-items: center;
     }
 }
 

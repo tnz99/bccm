@@ -26,7 +26,7 @@
             <li class="text-uppercase"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="about">about</a></li>
             <li class="text-uppercase"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="news-and-event">news & events</a></li>
             <li class="text-uppercase"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="contact">contact</a></li>
-            <li class="text-uppercase" id="close-nav"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link" href="#">Close</a></li>
+            <li class="text-uppercase" id="close-nav"><a class="no-underline {{ $dark ? 'text-white' : 'text-black' }} nav-list-link menu-icon" href="#">Close</a></li>
             <li class="mt-n10">
                 <div class="custom-audio">
                     <audio id="audio" src="{{ asset('audios/a1.mp3') }}" preload="auto"></audio>
@@ -37,10 +37,10 @@
     </nav>
 
     <div id="open-menu" class="menu-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-            <path fill="{{ $dark ? 'white' : 'black' }}" d="M6.875 12.5H33.125" stroke="white" stroke-opacity="0.8" stroke-width="4"/>
-            <path fill="{{ $dark ? 'white' : 'black' }}" d="M6.875 20H33.125" stroke="white" stroke-opacity="0.8" stroke-width="4"/>
-            <path fill="{{ $dark ? 'white' : 'black' }}" d="M6.875 27.5H33.125" stroke="white" stroke-opacity="0.8" stroke-width="4"/>
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+            <path d="M6.875 12.5H33.125" stroke="{{ $dark ? 'white' : 'black' }}" stroke-opacity="0.8" stroke-width="4"/>
+            <path d="M6.875 20H33.125" stroke="{{ $dark ? 'white' : 'black' }}" stroke-opacity="0.8" stroke-width="4"/>
+            <path d="M6.875 27.5H33.125" stroke="{{ $dark ? 'white' : 'black' }}" stroke-opacity="0.8" stroke-width="4"/>
         </svg>
     <div>
 </header>

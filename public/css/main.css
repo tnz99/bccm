@@ -323,8 +323,6 @@ button { border: 0; }
     }
 }
 
-
-
 /* Snowfall End*/
 
 .wrapper {
@@ -535,4 +533,21 @@ button { border: 0; }
     bottom: -60px; */
 }
 
+/* Registration Page */
+.registration-input {
+    background: rgba(255, 255, 255, 0.80);
+    font-size: 20;
+    margin-bottom: 20px;
+    border: none;
+    width: 110%;
+}
+
+.registration-input {
+    text-align: center;
+}
+
+.register-form-container {
+    margin-left: 150px;
+    margin-top: 150px;
+}
 
