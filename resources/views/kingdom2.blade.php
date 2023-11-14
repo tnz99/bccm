@@ -2,7 +2,7 @@
 @section('body_class', 'the-kingdom2')
 
 @section('header')
-    <x-header :dark=true />
+    <x-header :dark=$darkThemeFlag />
 @endsection
 
 @section('content')
@@ -65,5 +65,6 @@
 @endsection
 
 @section('nav')
+<x-story-nav :dark=$darkThemeFlag />
 <x-circular_nav background="the-kingdom-cnav-bg" inner-border="border-white"/>
 @endsection

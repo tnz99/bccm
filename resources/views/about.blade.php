@@ -38,4 +38,5 @@
         </div>
     </div>
 </section>
+<x-story-nav :dark=true />
 @endsection
