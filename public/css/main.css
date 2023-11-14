@@ -386,13 +386,27 @@ button { border: 0; }
     color: black;
 }
 
+/* Story Control */
 .story-control-wrapper {
     margin-left: 110px;
     margin-top: 60px;
 }
 
+.next-story-text {
+    font-weight: 400;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+    margin-right: 8px;
+}
+
 .story-control {
     margin-top: 10px;
+}
+
+.next-story-icon {
+    width: 30px;
+    height: 26px;
 }
 
 .control-link:visited {

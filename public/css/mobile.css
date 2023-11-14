@@ -72,6 +72,15 @@
     }
 
     /* Story Pages */
+    .story-control-wrapper {
+        margin-left: 0px;
+        justify-content: space-between;
+    }
+
+    .story-control {
+        padding-left: 0;
+    }
+
     .story-section {
         padding-left: 50px;
         padding-right: 40px;
@@ -81,6 +90,19 @@
     .story-header {
         width: 100%;
         margin-left: auto;
+    }
+
+    .next-story {
+        margin-left: 10%;;
+    }
+
+    .next-story-text {
+        
+    }
+
+    .next-story-icon {
+        width: 50%;
+        height: 50%;
     }
 }
 
