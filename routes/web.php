@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
 Route::get('/', function() {
     $cnavBg = "the-law-cnav-bg";
     $cnavInnerBorder = "border-gray";
@@ -49,12 +48,6 @@ Route::get('/the-laws-1', function() {
                           ->with('nextLink', $nextLink);
 });
 
-Route::get('/the-people', function() {
-    return view('people');
-});
-Route::get('/imgs', function() {
-    return view('image_gallery');
-});
 Route::get('/the-flora2', function() {
     return view('flora2');
 });
