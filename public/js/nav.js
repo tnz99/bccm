@@ -15,4 +15,8 @@ $(function() {
     $('#story-nav-btn').click( function() {
         $('#fullpage-story-menu').show();
     })
+
+    $('#close-story-menu-btn').click(function() {
+        $('#fullpage-story-menu').hide();
+    });
 });
