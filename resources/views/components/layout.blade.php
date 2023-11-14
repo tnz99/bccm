@@ -14,7 +14,6 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/image-gallery.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/mobile.css') }}">
 
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
 
@@ -23,6 +22,7 @@
         @yield('header')
         @yield('content')
         @yield('nav')
+        <button id="story-nav-btn" class="zoom-in-element open-btn">Our Story</button>
     </div>
 
     <script src="{{ asset('js/circular-nav.js') }}"></script>

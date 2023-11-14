@@ -2,6 +2,16 @@
     .circular-nav, #our_story_btn {
         display: none;
     }
+    .open-btn {
+        display: block;
+        position: fixed;
+
+        bottom: 0;
+        right: 0;
+
+        margin-bottom: 20px;
+        margin-right: 40px;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -24,17 +34,41 @@
         margin-left: 50px;
     }
 
+    .svg-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .logo-text {
+        font-size: 12px;
+    }
+
+    .menu-icon-svg {
+        padding: 0;
+        margin: 0;
+        width: 40px;
+        height: 40px;
+    }
+
     .header-nav-list {
         display: none;
         flex-direction: column;
-        height: 100vh;
-        width: 200px;
+        height: 100%;
+        width: 0px;
         position: fixed;
         top: 0;
         right: 0;
         padding-top: 50px;
         z-index: 2;
-        background-color: red;
+        background: #a8aa4a;
+        animation: 1s grow ease forwards;
+    }
+
+    @keyframes grow {
+        100% {
+          width: 200px;
+          height: 100%;
+       }
     }
 
     /* Home */
@@ -50,6 +84,10 @@
 
     .header-nav-list li {
         margin-bottom: 30px;
+    }
+
+    .nav-list-link {
+        color: black;
     }
 
     .home-header-subtext {
@@ -92,13 +130,21 @@
         margin-left: auto;
     }
 
+    .story-header-text {
+        font-size: 50px;
+    }
+
+    .story-header-description {
+        font-size: 16px;
+    }
+
     .next-story {
         margin-left: 10%;;
     }
 
     .next-story-icon {
-        width: 50%;
-        height: 50%;
+        width: 15px;
+        height: 15px;
     }
 
     /* Registration Page */
@@ -115,6 +161,15 @@
     .register-form {
         justify-content: center;
         align-items: center;
+    }
+
+    .story-control-wrapper {
+        bottom: 100px;
+    }
+
+    .next-story-btn {
+        width: 60px;
+        height: 50px;
     }
 }
 

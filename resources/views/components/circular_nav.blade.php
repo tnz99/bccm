@@ -1,4 +1,4 @@
-<button id="our_story_btn" class="circle radius-50 mr-99  position-fixed black zoom-in-element">Our Story</button>
+<button id="our_story_btn" class="radius-50 mr-99  position-fixed black zoom-in-element circle">Our Story</button>
 
 <nav id="circular_nav" class="circular-nav  {{ $background }} zoom-in-element">
     <div class="semi-circle-item"><p class="nav-item nav-item-1"><a class="no-underline text-white font-normal fw-700 fs-20 cnav-link" href="the-people">The People</a><img class="cnav-icon" src="images/backgrounds/cnav-icon.png"></p></div>

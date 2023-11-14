@@ -8,4 +8,10 @@ $(function() {
         $('#open-menu').show();
         $(".header-nav-list").hide();
     })
+
+    // story nav
+
+    $('#story-nav-btn').click( function() {
+        $('#fullpage-story-menu').show();
+    })
 });
