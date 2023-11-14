@@ -587,6 +587,8 @@ button { border: 0; }
 
 /* Full Page Story Navigation */
 .story-nav {
+    display: none;
+
     position: fixed;
     top: 0;
     left: 0;
