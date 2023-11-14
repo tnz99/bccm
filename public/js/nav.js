@@ -10,6 +10,7 @@ $(function() {
     })
 
     // story nav
+    $('#fullpage-story-menu').hide();
 
     $('#story-nav-btn').click( function() {
         $('#fullpage-story-menu').show();

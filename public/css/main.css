@@ -602,9 +602,6 @@ button { border: 0; }
     align-items: center;
 }
 
-.story-nav-list {
-}
-
 .story-nav-list > li {
     margin-bottom: 10px;
     background-color: yellow;
