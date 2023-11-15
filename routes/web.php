@@ -41,8 +41,46 @@ Route::get('/register', function() {
 
 
 Route::get('/the-kingdom2', function() {
-    return view('kingdom2')->with('darkThemeFlag', true);
+    $links = ['/the-kingdom', '/the-kingdom2'];
+    $nextLink = "the-flora";
+    $cnavBg = "the-kingdom-cnav-bg";
+    $cnavInnerBorder = "border-white";
+
+    return view('kingdom2')->with('darkThemeFlag', true)
+                           ->with('links', $links)
+                           ->with('nextLink', $nextLink)
+                           ->with('cnavBg', $cnavBg)
+                           ->with('cnavInnerBorder', $cnavInnerBorder);
 });
+
+Route::get('/the-flora2', function() {
+    $links = ['/the-flora', '/the-flora2','/the-flora3'];
+    $nextLink = "the-fauna";
+    $cnavBg = "the-flora-cnav-bg";
+    $cnavInnerBorder = "border-white";
+   
+
+    return view('flora2')->with('darkThemeFlag', false)
+                         ->with('links', $links)
+                         ->with('nextLink', $nextLink)
+                         ->with('cnavBg', $cnavBg)
+                         ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+Route::get('/the-flora3', function() {
+    $links = ['/the-flora', '/the-flora2','/the-flora3'];
+    $nextLink = "the-fauna";
+    $cnavBg = "the-flora-cnav-bg";
+    $cnavInnerBorder = "border-white";
+   
+
+    return view('flora3')->with('darkThemeFlag', false)
+                         ->with('links', $links)
+                         ->with('nextLink', $nextLink)
+                         ->with('cnavBg', $cnavBg)
+                         ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+
+
 
 
 Route::get('/the-laws-1', function() {
@@ -50,14 +88,6 @@ Route::get('/the-laws-1', function() {
     $nextLink = "#";
     return view('laws_1') ->with('links', $links)
                           ->with('nextLink', $nextLink);
-});
-
-Route::get('/the-flora2', function() {
-    $links = ['/the-kingdom', '/the-kingdom2'];
-    $nextLink = "#";
-
-    return view('flora2')->with('links', $links)
-                         ->with('nextLink', $nextLink);
 });
 
 Route::get('/the-kingdom', function() {
@@ -90,7 +120,7 @@ Route::get('/the-kingdom', function() {
 
 Route::get('/the-flora', function() {
     $description = "Bhutan's flora is characterized by its incredible variety. The country's elevation gradient, ranging from subtropical valleys to snow-capped peaks, supports a wide array of plant life. Bhutan is home to over 5,500 species of vascular plants, including countless medicinal herbs, alpine flowers, and rare orchids. The country's rugged terrain and pristine environment have contributed to the preservation of many endemic species found nowhere else on Earth.";
-    $links = ['/the-flora', '/the-flora2'];
+    $links = ['/the-flora', '/the-flora2','/the-flora3'];
     $nextLink = "the-fauna";
     $cnavBg = "the-flora-cnav-bg";
     $cnavInnerBorder = "border-white";

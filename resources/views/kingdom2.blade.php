@@ -37,9 +37,7 @@
             </div>
             <div class="description" style="display: none;">
                 <div class="image-content"> His Majesty the 4th king of Bhutan was awarded the 2022 Blue Planet Prize by the Asahi Glass Foundation of Japan. The prize was given in recognition of His Majesty's visionary leadership and contributions to environmental conservation through the development philosophy of Gross National Happiness (GNH).
-                During the Prize Acceptance Speech, Her Royal Highness Ashi Sonam Dechan Wangchuck, who received the award on behalf of His Majesty, emphasized that the Prize is a tribute to Bhutan's commitment to preserving ecological balance. His Majesty accepted the prize not solely for his contributions but as an acknowledgement of Bhutan's dedication and the support of its people in maintaining ecological harmony.
-                
-</div>
+                During the Prize Acceptance Speech, Her Royal Highness Ashi Sonam Dechan Wangchuck, who received the award on behalf of His Majesty, emphasized that the Prize is a tribute to Bhutan's commitment to preserving ecological balance. His Majesty accepted the prize not solely for his contributions but as an acknowledgement of Bhutan's dedication and the support of its people in maintaining ecological harmony.</div>
             </div>
         </div>
 
@@ -182,7 +180,7 @@ Her Majesty's flagship project, OGOP, supports rural farmers by adding value to 
             <h1 class="text-white">the Kingdom</h1>
         </div>
 
-        <div class="d-flex align-items-center justify-content-between mt-46">
+        <!-- <div class="d-flex align-items-center justify-content-between mt-46">
             <ul class="d-flex align-items-center justify-content-between list-none p-0 m-0">
                 <li><a href="#" class="no-underline circle-xm d-flex justify-content-center align-items-center mr-10 border-0">1</a></li>
                 <li class="only-border"><a href="#" class="no-underline circle-xm d-flex justify-content-center align-items-center border-0 circle-fill">2</a></li>
@@ -198,8 +196,10 @@ Her Majesty's flagship project, OGOP, supports rural farmers by adding value to 
                     </svg>
                 </div>
             </div>
-        </div>        
+        </div>         -->
     </div>
+
+    <x-story-control :links="$links" :next-link="$nextLink"/>
 
  
     
@@ -221,6 +221,6 @@ Her Majesty's flagship project, OGOP, supports rural farmers by adding value to 
 @endsection
 
 @section('nav')
-<x-story-nav :dark=$darkThemeFlag />
-<x-circular_nav background="the-kingdom-cnav-bg" inner-border="border-white"/>
+    <x-story-nav :dark=$darkThemeFlag />
+    <x-circular_nav :background="$cnavBg" :inner-border="$cnavInnerBorder"/>
 @endsection

@@ -154,6 +154,12 @@ button { border: 0; }
     height: 100vh;
     background-size: cover;
 }
+.the-flora3 {
+    backdrop-filter: blur(10px);
+    background: lightgray url('../images/backgrounds/the_flora.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
 .the-fauna {   background: lightgray url('../images/backgrounds/the_fauna.png') center/cover no-repeat;
     height: 100vh;
     background-size: cover;
@@ -546,7 +552,7 @@ button { border: 0; }
     font-weight: 600;
     line-height: normal;
     position: relative;
-    bottom: 30px;
+    bottom: 20px;
 }
 
 .story-header-description {
@@ -555,7 +561,7 @@ button { border: 0; }
     line-height: normal;
     font-style: normal;
     position: relative;
-    bottom: 30px;
+    bottom: 20px;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow for better visibility */
    
     text-align: justify; 
@@ -706,7 +712,12 @@ button { border: 0; }
     position: relative;
     bottom: 5px;
     left: -130px;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
     height: 30%;
   
 }
+
+/* h3{
+    font-size: 14px;
+
+} */
