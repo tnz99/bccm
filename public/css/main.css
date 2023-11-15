@@ -18,12 +18,31 @@ body {
     padding-left: 2.18rem;
 }
 
-input {
+.registration-input {
     width: 32rem;
     height: 3.125rem;
     flex-shrink: 0;
     background: #F0F0F0;
 }
+
+.register-success-wrapper {
+    margin-top: 100px;
+}
+
+.register-success-text {
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.register-success-subtext {
+    color: rgba(0, 0, 0, 0.50);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 
 button { border: 0; }
 
@@ -221,6 +240,18 @@ button { border: 0; }
     background: linear-gradient(270deg, #151A21 42.11%, rgba(23, 28, 36, 0.06) 101.31%);
 }
 
+.register-cnav-bg {
+    background: linear-gradient(270deg, #151A21 42.11%, rgba(23, 28, 36, 0.06) 101.31%);
+}
+
+.the-spring-cnav-bg {
+background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 101.31%);
+}
+
+.the-law1-cnav-bg {
+    background: linear-gradient(270deg, #585858 42.11%, rgba(193, 195, 194, 0.71) 101.31%);
+} 
+
 
 /* Circular nave inner circle border */
 
@@ -231,10 +262,10 @@ button { border: 0; }
     border: 1px solid #BFBFBF;
 }
 
-.circle {
+.our-story-btn {
     width: 125px;
     height: 125px;
-    background-color: #FCFF5C;;
+    background-color: #FCFF5C;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -243,6 +274,12 @@ button { border: 0; }
     padding: 20px;
     left: 85%;
     top: 45%;
+
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .circle-xm, .next-story-btn {
@@ -362,12 +399,45 @@ button { border: 0; }
 
 /* year story */
 .year-story-wrapper {
-    margin-top: 60px;
+    margin-top: 145px;
+}
+
+.year-story-header {
+    margin-left: 150px;
+    margin-right: 40px;
+}
+
+.year-story-header-year {
+    font-size: 70px;
+}
+
+.year-story-header-subtext {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.year-story-content {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.story-header-content {
+    margin-left: 50px;
+    margin-right: 40px;
 }
 
 .year-nav-wrapper {
     margin-left: 115px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .year-nav-list {
@@ -441,7 +511,7 @@ button { border: 0; }
     line-height: normal;
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .home-header-subtext {
@@ -449,25 +519,43 @@ button { border: 0; }
     line-height: normal;
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 60px;
+}
+
+.home-main-content {
+    margin-top: 150px;
+}
+
+.register-btn {
+    margin-top: 50px;
+    height: 50px;
+}
+
+.register-text {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.register-icon {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
 }
 
 .register-btn {
     width: 250px;
-    background-color: yellow;
+    background: #FCFF5C;
     font-size: 20px;
     font-style: normal;
     line-height: normal;
     padding: 8px;
+    margin-top: 20px;
 }
-
-.register-icon {
-    width: 20px;
-    height: 24px;
-    
-   
-} 
-
 
 /* Main Header */
 .header {
@@ -501,6 +589,7 @@ button { border: 0; }
 .header-nav-list {
     display: flex;
     list-style: none;
+    margin-left: 100px;
 }
 
 .nav-list-link {
@@ -578,12 +667,16 @@ button { border: 0; }
 
 
 /* Registration Page */
+.register-form {
+    margin-top: 30px;
+}
+
 .registration-input {
     background: rgba(255, 255, 255, 0.80);
     font-size: 20;
     margin-bottom: 20px;
     border: none;
-    width: 110%;
+    border-radius: 0%;
 }
 
 .registration-input {
@@ -595,7 +688,26 @@ button { border: 0; }
     margin-top: 150px;
 }
 
+.check-label-text {
+    font-family: Space Grotesk;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 5px;
+    padding-left: 10px;
 
+}
+
+.terms-condition {
+    color: #FCFF5C;
+}
+
+.form-check-input-box {
+    border: 1px solid #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 0%;
+}
 
 /* Story Nav */
 .open-btn {
@@ -654,7 +766,6 @@ button { border: 0; }
     line-height: normal;
     padding: 10px;
 }
-
 
 /* Image gallery css */
 /* Image styling */

@@ -165,11 +165,38 @@
 
     .story-control-wrapper {
         bottom: 100px;
+        margin-left: 50px;
     }
 
     .next-story-btn {
         width: 60px;
         height: 50px;
     }
+
+    /* Prayer Wheel */
+    .prayer-wheel {
+        display: none;
+    }
+
+    /* Years story */
+    .year-story-wrapper {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .year-story-header {
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+
+    .year-story-header  > div > p {
+        width: 25ch;
+    }
+
+    .story-header-content {
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+
 }
 

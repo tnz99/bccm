@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Route;
 | Here is where you can register web routes for your application. These
 | routes are loaded by the RouteServiceProvider and all of them will
 | be assigned to the "web" middleware group. Make something great!
-|
+|gs
 */
 
 Route::get('/', function() {
@@ -86,8 +86,18 @@ Route::get('/the-flora3', function() {
 Route::get('/the-laws-1', function() {
     $links = ['/the-laws', '/the-laws-1'];
     $nextLink = "#";
-    return view('laws_1') ->with('links', $links)
-                          ->with('nextLink', $nextLink);
+    return view('laws_1')->with('links', $links)
+                        ->with('nextLink', $nextLink)
+                        ;
+});
+Route::get('/the-flora2', function() {
+    $cnavBg = "the-kingdom-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+    $links = ['/the-kingdom', '/the-kingdom2'];
+    $nextLink = "#";
+
+    return view('flora2')->with('links', $links)
+                         ->with('nextLink', $nextLink);
 });
 
 Route::get('/the-kingdom', function() {

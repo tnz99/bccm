@@ -95,3 +95,18 @@
 .inner-text {
     color: yellow;
 }
+
+@media (min-width: 1900px) {
+    .circular-nav {
+        height: 100vh;
+        width: 50%;
+        opacity: 0.75;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: -25%;
+    }
+}

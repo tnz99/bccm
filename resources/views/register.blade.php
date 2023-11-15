@@ -11,10 +11,26 @@
     <div class="register-form-container">
         <h4 class="{{ $darkThemeFlag ? 'text-white' : 'text-black' }} fw-400 ">Dont miss the latest updates!</h4>
 
-        <form class="d-flex flex-column register-form">
-            <input class="registration-input" type="text" placeholder="Full name"/>
-            <input class="registration-input" type="email" placeholder="E-mail" />
-            <input class="w-513 registration-input" type="text" placeholder="Country" />
+        <form class="d-flex flex-column align-items-start register-form">
+            <div class="form-group">
+                <input class="registration-input form-control" type="text" placeholder="Full name"/>
+            </div>
+
+            <div class="form-group">
+                <input class="registration-input form-control" type="email" placeholder="E-mail" />
+            </div>
+
+            <div class="form-group">
+                <input class="w-513 registration-input form-control" type="text" placeholder="Country" />
+            </div>
+            
+            <div class="d-flex justify-content-center  align-item-center form-check form-check-inline">
+                <input class="form-check-input form-check-input-box" type="checkbox" id="inlineCheckbox2" value="option2">
+                <span class="form-check-label check-label-text" for="inlineCheckbox2">
+                    I agree with the <span class="terms-condition">terms & conditions </span>
+                </label>
+            </div>
+
 
             <button class="register-btn" type="submit">
                 <a href="register" class="no-underline text-dark register-text">Register</a>
@@ -25,10 +41,15 @@
                 </svg>
             </button>
         </form>
+
+        <div class="register-success-wrapper">
+            <h2 class="register-success-text">Success</h2>
+            <p class="register-success-subtext">We will redirect you back to home</p>
+        </div>
     </div>
 </section>
 @endsection
 
 @section('nav')
-    <x-circular_nav background="the-register-cnav-bg" inner-border="border-white"/>
+    <x-circular_nav background="the-spring-cnav-bg" inner-border="border-white"/>
 @endsection
