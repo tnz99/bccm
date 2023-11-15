@@ -39,7 +39,6 @@ Route::get('/register', function() {
 });
 
 
-
 Route::get('/the-kingdom2', function() {
     $links = ['/the-kingdom', '/the-kingdom2'];
     $nextLink = "the-flora";
@@ -80,16 +79,55 @@ Route::get('/the-flora3', function() {
                          ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 
+Route::get('/laws/1999', function() {
+    $year = 1999;
+    $cnavBg = "the-law-cnav-bg";
+    $cnavInnerBorder = "border-gray";
 
-
-
-Route::get('/the-laws-1', function() {
-    $links = ['/the-laws', '/the-laws-1'];
+    $links = ['/the-laws', '/laws/1999'];
     $nextLink = "#";
-    return view('laws_1')->with('links', $links)
-                        ->with('nextLink', $nextLink)
-                        ;
+
+    $subtext = "Bhutan's Forest and Nature Conservation Act - Conservation and sustainable management of Bhutan/'s forests.";
+    $story = "The act has helped in the conservation and sustainable management of Bhutan's forests, which cover over 70% of the country's land area
+    Bhutan has maintained a high forest coverage, which contributes to carbon sequestration and helps mitigate climate change.
+    The act has facilitated the protection of biodiversity, including endangered species like the Bengal tiger and snow leopard.";
+
+    return view('components.yearly-story')->with('darkThemeFlag', false)
+                                          ->with('links', $links)
+                                          ->with('nextLink', $nextLink)
+                                          ->with('bodyClass', 'the-laws-1')
+                                          ->with('year', $year)
+                                          ->with('subtext', $subtext)
+                                          ->with('story', $story)
+                                          ->with('cnavBg', $cnavBg)
+                                          ->with('cnavInnerBorder', $cnavInnerBorder);
 });
+
+Route::get('/laws/2000', function() {
+    $year = 2000;
+    $cnavBg = "the-law-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+
+    $links = ['/the-laws', '/laws/1999'];
+    $nextLink = "#";
+
+    $subtext = "Bhutan's Forest and Nature Conservation Act - Conservation and sustainable management of Bhutan/'s forests.";
+    $story = "The act has helped in the conservation and sustainable management of Bhutan's forests, which cover over 70% of the country's land area
+    Bhutan has maintained a high forest coverage, which contributes to carbon sequestration and helps mitigate climate change.
+    The act has facilitated the protection of biodiversity, including endangered species like the Bengal tiger and snow leopard.";
+
+    return view('components.yearly-story')->with('darkThemeFlag', false)
+                                          ->with('links', $links)
+                                          ->with('nextLink', $nextLink)
+                                          ->with('bodyClass', 'the-laws-1')
+                                          ->with('year', $year)
+                                          ->with('subtext', $subtext)
+                                          ->with('story', $story)
+                                          ->with('cnavBg', $cnavBg)
+                                          ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+
+
 Route::get('/the-flora2', function() {
     $cnavBg = "the-kingdom-cnav-bg";
     $cnavInnerBorder = "border-gray";
@@ -272,7 +310,7 @@ Route::get('/the-change', function() {
 
 Route::get('/the-laws', function() {
     $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
-    $links = ['/the-laws', '/the-laws-1'];
+    $links = ['/the-laws', '/laws/1999'];
     $nextLink = "the-people";
     $cnavBg = "the-law-cnav-bg";
     $cnavInnerBorder = "border-white";

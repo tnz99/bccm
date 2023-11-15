@@ -38,17 +38,17 @@ $(function(){
    let prayerWheel = $('#prayer-wheel');
 
    let prayerWheelFrames = [
-      'images/prayer-wheel/1.png',
-      'images/prayer-wheel/2.png',
-      'images/prayer-wheel/3.png',
-      'images/prayer-wheel/4.png',
-      'images/prayer-wheel/5.png',
-      'images/prayer-wheel/6.png',
-      'images/prayer-wheel/1.png',
-      'images/prayer-wheel/2.png',
-      'images/prayer-wheel/3.png',
-      'images/prayer-wheel/4.png',
-      'images/prayer-wheel/5.png'
+      '/images/prayer-wheel/1.png',
+      '/images/prayer-wheel/2.png',
+      '/images/prayer-wheel/3.png',
+      '/images/prayer-wheel/4.png',
+      '/images/prayer-wheel/5.png',
+      '/images/prayer-wheel/6.png',
+      '/images/prayer-wheel/1.png',
+      '/images/prayer-wheel/2.png',
+      '/images/prayer-wheel/3.png',
+      '/images/prayer-wheel/4.png',
+      '/images/prayer-wheel/5.png'
    ];
      
    // let currentFrameIndex = 0;

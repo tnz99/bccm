@@ -14,6 +14,12 @@
     }
 }
 
+/* @media (max-width: 1900px) {
+    .prayer-wheel {
+        display: none;
+    }
+} */
+
 @media (max-width: 1100px) {
     /* Header Component */
     .header {
@@ -113,6 +119,7 @@
     .story-control-wrapper {
         margin-left: 0px;
         justify-content: space-between;
+        bottom: 0;
     }
 
     .story-control {
@@ -163,11 +170,6 @@
         align-items: center;
     }
 
-    .story-control-wrapper {
-        bottom: 100px;
-        margin-left: 50px;
-    }
-
     .next-story-btn {
         width: 60px;
         height: 50px;
@@ -193,10 +195,28 @@
         width: 25ch;
     }
 
+    .year-story-header-subtext {
+        width: 450px;
+    }
+
+    .year-story-content {
+        width: 100%;
+        margin-left: 50px;
+        margin-right: 40px;
+        padding: 0;
+    }
+
+    .year-nav-list {
+        margin-left: 50px;
+    }
+
+    /* end */
+
     .story-header-content {
         margin-left: 50px;
         margin-right: 40px;
     }
 
 }
+
 

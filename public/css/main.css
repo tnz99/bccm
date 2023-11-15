@@ -8,6 +8,10 @@ body {
     overflow: hidden;
 }
 
+ol, ul {
+    padding: 0;
+}
+
 ::placeholder {
     color: #000;
     font-family: Inter;
@@ -388,23 +392,24 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     min-height: 15vh; /* Adjust the minimum height as needed */
 }
 
-.position {
-    position: absolute;
-    right: -500px;
-    top: -15px;
-    height: 140%;
-    z-index: -5;
+.prayer-wheel-position {
+    position: fixed;
+    right: -550px;
+    bottom: -170px;
+    z-index: -1000;
+    height: 130%;
 }
 
 
 /* year story */
 .year-story-wrapper {
     margin-top: 145px;
+    align-items: flex-start;
 }
 
 .year-story-header {
     margin-left: 150px;
-    margin-right: 40px;
+    width: 25%;
 }
 
 .year-story-header-year {
@@ -428,6 +433,8 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     font-weight: 400;
     line-height: normal;
     opacity: 0.5;
+    width: 30%;
+    padding-left: 9px;
 }
 
 .story-header-content {
@@ -435,15 +442,11 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     margin-right: 40px;
 }
 
-.year-nav-wrapper {
-    margin-left: 115px;
-    margin-top: 150px;
-}
-
 .year-nav-list {
+    margin-top: 150px;
+    margin-left: 150px;
     display: flex;
     list-style: none;
-    margin-top: 20px;
 }
 
 .year-nav-list-item {
@@ -457,17 +460,17 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     font-weight: 500;
     text-decoration-line: none;
     color: black;
-
 }
-
 
 /* Story Control */
 .story-control-wrapper {
     position: fixed;
     bottom: 0;
 
-    margin-left: 110px;
+    margin-left: 150px;
     margin-bottom: 60px;
+
+    width: 30%;
 
     justify-content: space-between;
 }
@@ -654,14 +657,6 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow for better visibility */
    
     text-align: justify; 
-   
-    
-
-   
-   
-    
-    /* position: relative;
-    bottom: -60px; */
 }
 
 
