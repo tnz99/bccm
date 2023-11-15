@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function() {
-    $cnavBg = "the-law-cnav-bg";
+    $cnavBg = "the-climate-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
     return view('home')->with('darkThemeFlag', false)
@@ -38,9 +38,12 @@ Route::get('/register', function() {
     return view('register')->with('darkThemeFlag', false);
 });
 
+
+
 Route::get('/the-kingdom2', function() {
     return view('kingdom2');
 });
+
 
 Route::get('/the-laws-1', function() {
     $links = ['/the-laws', '/the-laws-1'];
@@ -58,13 +61,20 @@ Route::get('/the-flora2', function() {
 });
 
 Route::get('/the-kingdom', function() {
-    $description = "Visionary Kings of Bhutan have played essential roles in ensuring that Bhutan remains a shining example of environmental conservation and sustainability. Their leadership has helped the country maintain its carbon-neutral status and preserve its breathtaking natural landscapes for generations to come.";
+    $description = "Bhutan, as a kingdom, has taken remarkable steps to tackle climate change and exemplifies 
+    an unwavering commitment to environmental sustainability. Its unique approach includes the preservation of
+    vast forested areas, which act as vital carbon sinks and biodiversity havens. Bhutan has pledged to remain 
+    carbon neutral,actively working to absorb more carbon dioxide than it emits through responsible forestry 
+    practices and hydropower production, which provides clean energy and reduces the nation's reliance on fossil fuels. 
+    the Bhutanese government also emphasizes sustainable agriculture, eco-friendly transportation, and renewable energy adoption,
+    fostering a holistic approach to mitigating climate change. Additionally, Bhutan's pioneering concept of Gross National Happiness (GNH)
+    places well-being, cultural preservation, and environmental conservation at the core of its development agenda, ensuring that climate action is integrated into the very fabric of the kingdom's policies and practices.";
     $links = ['/the-kingdom', '/the-kingdom2'];
-    $nextLink = "#";
+    $nextLink = "the-flora";
     $cnavBg = "the-kingdom-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
-    $cnavBg = "the-law-cnav-bg";
+    $cnavBg = "the-kingdom-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
     return view('story')->with('darkThemeFlag', true)
@@ -81,7 +91,7 @@ Route::get('/the-kingdom', function() {
 Route::get('/the-flora', function() {
     $description = "Bhutan's flora is characterized by its incredible variety. The country's elevation gradient, ranging from subtropical valleys to snow-capped peaks, supports a wide array of plant life. Bhutan is home to over 5,500 species of vascular plants, including countless medicinal herbs, alpine flowers, and rare orchids. The country's rugged terrain and pristine environment have contributed to the preservation of many endemic species found nowhere else on Earth.";
     $links = ['/the-flora', '/the-flora2'];
-    $nextLink = "";
+    $nextLink = "the-fauna";
     $cnavBg = "the-flora-cnav-bg";
     $cnavInnerBorder = "border-white";
 
@@ -99,7 +109,7 @@ Route::get('/the-flora', function() {
 Route::get('/the-fauna', function() {
     $description = "The Kingdom of Bhutan is not only renowned for its breathtaking landscapes but also for its incredible biodiversity. The Kingdom of Bhutan is a sanctuary for a diverse array of wildlife, making it a dream destination for nature enthusiasts and conservationists alike.";
     $links = ['/the-fauna', '/the-fauna2'];
-    $nextLink = "#";
+    $nextLink = "the-climate";
     $cnavBg = "the-fauna-cnav-bg";
     $cnavInnerBorder = "border-white";
 
@@ -117,7 +127,7 @@ Route::get('/the-fauna', function() {
 Route::get('/the-climate', function() {
     $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
-    $nextLink = "#";
+    $nextLink = "the-change";
     $cnavBg = "the-climate-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
@@ -135,7 +145,7 @@ Route::get('/the-climate', function() {
 Route::get('/the-summer', function() {
     $description = "Bhutan's summers beckon with open arms, inviting you to a world where the air is filled with the scent of wildflowers and the echoes of ancient traditions.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
-    $nextLink = "#";
+    $nextLink = "the-change";
     $cnavBg = "the-change-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
@@ -152,7 +162,7 @@ Route::get('/the-summer', function() {
 Route::get('/the-winter', function() {
     $description = "Embrace the cozy charm of Bhutanese winters, where snow-capped peaks stand tall, and the crisp mountain air carries the promise of adventure and tranquility.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
-    $nextLink = "#";
+    $nextLink = "the-change";
     $cnavBg = "the-law-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
@@ -170,7 +180,7 @@ Route::get('/the-winter', function() {
 Route::get('/the-spring', function() {
     $description = "Awakening from winter's embrace, step into this captivating scene where cherry blossoms and dzongs come together, inviting you to witness not just a seasonal transformation but an enchanting fusion of nature's fleeting beauty and Bhutan's enduring cultural heritage.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
-    $nextLink = "#";
+    $nextLink = "the-change";
     $cnavBg = "the-spring-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
@@ -187,7 +197,7 @@ Route::get('/the-spring', function() {
 Route::get('/the-autumn', function() {
     $description = "As summer bids farewell, Bhutan's autumn unveils a breathtaking spectacle, with golden leaves carpeting the ground and the clear skies framing the majestic Himalayas.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
-    $nextLink = "#";
+    $nextLink = "the-change";
     $cnavBg = "the-law-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
@@ -205,7 +215,7 @@ Route::get('/the-autumn', function() {
 Route::get('/the-change', function() {
     $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
     $links = ['/the-change', '/the-r'];
-    $nextLink = "#";
+    $nextLink = "the-laws";
     $cnavBg = "the-change-cnav-bg";
     $cnavInnerBorder = "border-white";
 
@@ -223,11 +233,11 @@ Route::get('/the-change', function() {
 Route::get('/the-laws', function() {
     $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
     $links = ['/the-laws', '/the-laws-1'];
-    $nextLink = "#";
+    $nextLink = "the-people";
     $cnavBg = "the-law-cnav-bg";
     $cnavInnerBorder = "border-white";
 
-    return view('story')->with('darkThemeFlag', true)
+    return view('story')->with('darkThemeFlag', false)
                         ->with('bodyClass', 'the-laws')
                         ->with('name', 'laws')
                         ->with('description', $description)
