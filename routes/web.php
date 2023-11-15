@@ -41,7 +41,7 @@ Route::get('/register', function() {
 
 
 Route::get('/the-kingdom2', function() {
-    return view('kingdom2');
+    return view('kingdom2')->with('darkThemeFlag', true);
 });
 
 
