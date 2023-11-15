@@ -23,17 +23,24 @@ li.mt-n10 audio {
    
 }
 
-/* Style the play icon on the button */
+/* Style the initial music symbol on the button */
 #play-pause-button:before {
-    content: "\25B6"; /* Unicode play symbol */
+    content: "\1F3B6"; /* Unicode musical note symbol */
     font-size: 24px;
-    color: white;
+    color:black;
     display: block;
     text-align: center;
     line-height: 40px;
 }
 
-/* Style the play button when it's in the "pause" state */
+/* Style the play button when it's in the "paused" state */
 #play-pause-button.paused:before {
-    content: "\23F8"; /* Unicode pause symbol */
+    content: "\25B6"; /* Unicode play symbol */
 }
+
+/* Style the pause button when it's in the "playing" state */
+#play-pause-button.playing:before {
+    content: "\23F8"; /* Unicode pause symbol */
+    
+}
+

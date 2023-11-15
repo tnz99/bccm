@@ -33,7 +33,7 @@
 
             <li class="mt-n10">
                 <div class="custom-audio">
-                    <audio id="audio" src="{{ asset('audios/a1.mp3') }}" preload="auto"></audio>
+                    <audio id="audio" src="{{ asset('audios/a1.m4a') }}" preload="auto"></audio>
                     <button id="play-pause-button" class="play"></button>
                 </div>
             </li>

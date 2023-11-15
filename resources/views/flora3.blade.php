@@ -11,65 +11,157 @@
     <div class="gallery-container">
         <div class="options">
             <div class="option active">
-                <div class="image" style="background-image:url('../images/backgrounds/queen.jpeg');">
+                <div class="image" style="background-image:url('../images/backgrounds/rho1.png');">
                 <div class="label">
                     <div class="info">
                         <div class="main">Scientific name:</div>
-                        <div class="sub">Meconopsis betonicifolia</div>
+                        <div class="sub">Rhododendron pogonophyllum Cowan</div>
                     </div>
                 </div>
                 <div class="overlay"></div>
             </div>
             <div class="description" style="display: none;">
-            <div class="image-content">The blue poppy is a highly exquisite and exceptionally rare flower in the nation and blooms in spring season, typically thriving at altitudes ranging from 3,000m to 4,000m above sea level. The blue poppy encompasses 13 distinct species and can also be encountered in shades of pink, white, and red within the country's borders.</div>
+            <div class="image-content-1"> Bhutan hosts approximately 46 species of Rhododendron, small shrubby plants with vibrant deep pink buds that unfold into delicate pale pink corollas. Blooming from April to July, these Rhododendrons thrive on open hillsides and in the Fir/Juniper/Rhododendron scrub terrain above the treeline, specifically at elevations between 3810 to 4270 meters.</div>
          </div>
         </div>
 
         
         <div class="option">
-            <div class="image" style="background-image: url('../images/backgrounds/poppy1.png');">
+            <div class="image" style="background-image: url('../images/backgrounds/rho2.png');">
                 <div class="label">
                     <div class="info">
                         <div class="main">Scientific name:</div>
-                        <div class="sub">Meconopsis Superba (endemic To HAA)</div>
+                        <div class="sub">Rhododendron campanulatum</div>
                     </div>
                 </div>
                 <div class="overlay"></div>
             </div>
             <div class="description" style="display: none;">
-                <div class="image-content">The blue poppy is a highly exquisite and exceptionally rare flower in the nation and blooms in spring season, typically thriving at altitudes ranging from 3,000m to 4,000m above sea level. The blue poppy encompasses 13 distinct species and can also be encountered in shades of pink, white, and red within the country's borders.</div>
+                <div class="image-content-1">Bhutan hosts approximately 46 species of Rhododendron, small shrubby plants with vibrant deep pink buds that unfold into delicate pale pink corollas. Blooming from April to July, these Rhododendrons thrive on open hillsides and in the Fir/Juniper/Rhododendron scrub terrain above the treeline, specifically at elevations between 3810 to 4270 meters.</div>
             </div>
         </div>
 
         <div class="option">
-            <div class="image" style="background-image: url('../images/backgrounds/poppy2.png');">
+            <div class="image" style="background-image: url('../images/backgrounds/rho3.png');">
                 <div class="label">
                     <div class="info">
                         <div class="main">Scientific name:</div>
-                        <div class="sub">Meconopsis napaulensis</div>
+                        <div class="sub">Rhododendron campylocarpum</div>
                     </div>
                 </div>
                 <div class="overlay"></div>
             </div>
             <div class="description" style="display: none;">
-                <div class="image-content">The blue poppy is a highly exquisite and exceptionally rare flower in the nation and blooms in spring season, typically thriving at altitudes ranging from 3,000m to 4,000m above sea level. The blue poppy encompasses 13 distinct species and can also be encountered in shades of pink, white, and red within the country's borders.</div>
+                <div class="image-content-1">Bhutan hosts approximately 46 species of Rhododendron, small shrubby plants with vibrant deep pink buds that unfold into delicate pale pink corollas. Blooming from April to July, these Rhododendrons thrive on open hillsides and in the Fir/Juniper/Rhododendron scrub terrain above the treeline, specifically at elevations between 3810 to 4270 meters.</div>
             </div>
         </div>
 
         <div class="option">
-            <div class="image" style="background-image: url('../images/backgrounds/poppy3.png');">
+            <div class="image" style="background-image: url('../images/backgrounds/rho4.png');">
                 <div class="label">
                     <div class="info">
                         <div class="main">Scientific name: </div>
-                        <div class="sub">Meconopsis paniculata</div>
+                        <div class="sub">Rhododendron cinnabarinum</div>
                     </div>
                 </div>
                 <div class="overlay"></div>
             </div>
             <div class="description" style="display: none;">
-                <div class="image-content">The blue poppy is a highly exquisite and exceptionally rare flower in the nation and blooms in spring season, typically thriving at altitudes ranging from 3,000m to 4,000m above sea level. The blue poppy encompasses 13 distinct species and can also be encountered in shades of pink, white, and red within the country's borders.</div>
+                <div class="image-content-1">Bhutan hosts approximately 46 species of Rhododendron, small shrubby plants with vibrant deep pink buds that unfold into delicate pale pink corollas. Blooming from April to July, these Rhododendrons thrive on open hillsides and in the Fir/Juniper/Rhododendron scrub terrain above the treeline, specifically at elevations between 3810 to 4270 meters.</div>
             </div>
         </div>
+
+        <div class="option">
+            <div class="image" style="background-image: url('../images/backgrounds/rho5.png');">
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Scientific name: </div>
+                        <div class="sub">Rhododendron hodgsonii</div>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+            <div class="description" style="display: none;">
+                <div class="image-content-1">Bhutan hosts approximately 46 species of Rhododendron, small shrubby plants with vibrant deep pink buds that unfold into delicate pale pink corollas. Blooming from April to July, these Rhododendrons thrive on open hillsides and in the Fir/Juniper/Rhododendron scrub terrain above the treeline, specifically at elevations between 3810 to 4270 meters.</div>
+            </div>
+        </div>
+
+        <div class="option">
+            <div class="image" style="background-image: url('../images/backgrounds/rho6.png');">
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Scientific name: </div>
+                        <div class="sub">Rhododendron keysii</div>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+            <div class="description" style="display: none;">
+                <div class="image-content-1">Bhutan hosts approximately 46 species of Rhododendron, small shrubby plants with vibrant deep pink buds that unfold into delicate pale pink corollas. Blooming from April to July, these Rhododendrons thrive on open hillsides and in the Fir/Juniper/Rhododendron scrub terrain above the treeline, specifically at elevations between 3810 to 4270 meters.</div>
+            </div>
+        </div>
+
+        <div class="option">
+            <div class="image" style="background-image: url('../images/backgrounds/rho7.png');">
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Scientific name: </div>
+                        <div class="sub">Rhododendron kesangiae(Endemic to Bhutan)</div>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+            <div class="description" style="display: none;">
+                <div class="image-content-1">Bhutan hosts approximately 46 species of Rhododendron, small shrubby plants with vibrant deep pink buds that unfold into delicate pale pink corollas. Blooming from April to July, these Rhododendrons thrive on open hillsides and in the Fir/Juniper/Rhododendron scrub terrain above the treeline, specifically at elevations between 3810 to 4270 meters.</div>
+            </div>
+        </div>
+
+        <div class="option">
+            <div class="image" style="background-image: url('../images/backgrounds/rho8.png');">
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Scientific name: </div>
+                        <div class="sub">Rhododendron griffithianum Wight</div>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+            <div class="description" style="display: none;">
+                <div class="image-content-1">Bhutan hosts approximately 46 species of Rhododendron, small shrubby plants with vibrant deep pink buds that unfold into delicate pale pink corollas. Blooming from April to July, these Rhododendrons thrive on open hillsides and in the Fir/Juniper/Rhododendron scrub terrain above the treeline, specifically at elevations between 3810 to 4270 meters.</div>
+            </div>
+        </div>
+
+        <div class="option">
+            <div class="image" style="background-image: url('../images/backgrounds/rho9.png');">
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Scientific name: </div>
+                        <div class="sub">Rhododendron setosum D. Don</div>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+            <div class="description" style="display: none;">
+                <div class="image-content-1">Bhutan hosts approximately 46 species of Rhododendron, small shrubby plants with vibrant deep pink buds that unfold into delicate pale pink corollas. Blooming from April to July, these Rhododendrons thrive on open hillsides and in the Fir/Juniper/Rhododendron scrub terrain above the treeline, specifically at elevations between 3810 to 4270 meters.</div>
+            </div>
+        </div>
+
+        <div class="option">
+            <div class="image" style="background-image: url('../images/backgrounds/rho10.png');">
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Scientific name: </div>
+                        <div class="sub">Rhododendron lindleyi T. Moore</div>
+                    </div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+            <div class="description" style="display: none;">
+                <div class="image-content-1">Bhutan hosts approximately 46 species of Rhododendron, small shrubby plants with vibrant deep pink buds that unfold into delicate pale pink corollas. Blooming from April to July, these Rhododendrons thrive on open hillsides and in the Fir/Juniper/Rhododendron scrub terrain above the treeline, specifically at elevations between 3810 to 4270 meters.</div>
+            </div>
+        </div>
+
+
 
             
         </div>

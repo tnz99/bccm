@@ -53,7 +53,7 @@ Route::get('/the-kingdom2', function() {
 });
 
 Route::get('/the-flora2', function() {
-    $links = ['/the-flora', '/the-flora2','/the-flora3'];
+    $links = ['/the-flora', '/the-flora2','/the-flora3', '/the-flora4', '/the-flora5'];
     $nextLink = "the-fauna";
     $cnavBg = "the-flora-cnav-bg";
     $cnavInnerBorder = "border-white";
@@ -66,13 +66,40 @@ Route::get('/the-flora2', function() {
                          ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 Route::get('/the-flora3', function() {
-    $links = ['/the-flora', '/the-flora2','/the-flora3'];
+    $links = ['/the-flora', '/the-flora2','/the-flora3', '/the-flora4', '/the-flora5'];
     $nextLink = "the-fauna";
     $cnavBg = "the-flora-cnav-bg";
     $cnavInnerBorder = "border-white";
    
 
     return view('flora3')->with('darkThemeFlag', false)
+                         ->with('links', $links)
+                         ->with('nextLink', $nextLink)
+                         ->with('cnavBg', $cnavBg)
+                         ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+Route::get('/the-flora4', function() {
+    $links = ['/the-flora', '/the-flora2','/the-flora3', '/the-flora4', '/the-flora5'];
+    $nextLink = "the-fauna";
+    $cnavBg = "the-flora-cnav-bg";
+    $cnavInnerBorder = "border-white";
+   
+
+    return view('flora4')->with('darkThemeFlag', false)
+                         ->with('links', $links)
+                         ->with('nextLink', $nextLink)
+                         ->with('cnavBg', $cnavBg)
+                         ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+
+Route::get('/the-flora5', function() {
+    $links = ['/the-flora', '/the-flora2','/the-flora3', '/the-flora4', '/the-flora5'];
+    $nextLink = "the-fauna";
+    $cnavBg = "the-flora-cnav-bg";
+    $cnavInnerBorder = "border-white";
+   
+
+    return view('flora5')->with('darkThemeFlag', false)
                          ->with('links', $links)
                          ->with('nextLink', $nextLink)
                          ->with('cnavBg', $cnavBg)
@@ -158,7 +185,7 @@ Route::get('/the-kingdom', function() {
 
 Route::get('/the-flora', function() {
     $description = "Bhutan's flora is characterized by its incredible variety. The country's elevation gradient, ranging from subtropical valleys to snow-capped peaks, supports a wide array of plant life. Bhutan is home to over 5,500 species of vascular plants, including countless medicinal herbs, alpine flowers, and rare orchids. The country's rugged terrain and pristine environment have contributed to the preservation of many endemic species found nowhere else on Earth.";
-    $links = ['/the-flora', '/the-flora2','/the-flora3'];
+    $links = ['/the-flora', '/the-flora2','/the-flora3', '/the-flora4', '/the-flora5'];
     $nextLink = "the-fauna";
     $cnavBg = "the-flora-cnav-bg";
     $cnavInnerBorder = "border-white";
@@ -176,7 +203,7 @@ Route::get('/the-flora', function() {
 
 Route::get('/the-fauna', function() {
     $description = "The Kingdom of Bhutan is not only renowned for its breathtaking landscapes but also for its incredible biodiversity. The Kingdom of Bhutan is a sanctuary for a diverse array of wildlife, making it a dream destination for nature enthusiasts and conservationists alike.";
-    $links = ['/the-fauna', '/the-fauna2'];
+    $links = ['/the-fauna', '/the-mammals'];
     $nextLink = "the-climate";
     $cnavBg = "the-fauna-cnav-bg";
     $cnavInnerBorder = "border-white";
@@ -185,6 +212,24 @@ Route::get('/the-fauna', function() {
     return view('story')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-fauna')
                         ->with('name', 'fauna')
+                        ->with('description', $description)
+                        ->with('links', $links)
+                        ->with('nextLink', $nextLink)
+                        ->with('cnavBg', $cnavBg)
+                       ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+
+Route::get('/the-mammals', function() {
+    $description = "Mammals - In Bhutan, there are records of 129 mammal species inhabiting the country, with 26 of them being globally endangered species. Furthermore, Bhutan boasts significant biodiversity in the realm of wild felids, with a total of 11 out of the 36 known global felid species residing within its borders. A study conducted in the compact area of Royal Manas National Park in 2012 documented the presence of six felid species, accounting for approximately 16 percent of the world's felid species. This finding reinforces Bhutan's status as a prominent habitat and hotspot for wild felids.";
+    $links = ['/the-fauna', '/the-mammals'];
+    $nextLink = "the-climate";
+    $cnavBg = "the-fauna-cnav-bg";
+    $cnavInnerBorder = "border-white";
+
+
+    return view('story')->with('darkThemeFlag', true)
+                        ->with('bodyClass', 'the-mammals')
+                        ->with('name', 'Mammals')
                         ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
@@ -250,7 +295,7 @@ Route::get('/the-spring', function() {
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
     $nextLink = "the-change";
     $cnavBg = "the-spring-cnav-bg";
-    $cnavInnerBorder = "border-gray";
+    $cnavInnerBorder = "border-white";
 
 
     return view('story')->with('darkThemeFlag', false)

@@ -1,12 +1,18 @@
 * {
     font-size: 16px;
+ 
 }
+
 
 body {
     font-family: Inter;
     position: relative;
-    overflow: hidden;
+    overflow:hidden;
+    height: 100vh;
+    
 }
+
+
 
 ol, ul {
     padding: 0;
@@ -30,7 +36,7 @@ ol, ul {
 }
 
 .register-success-wrapper {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .register-success-text {
@@ -183,7 +189,25 @@ button { border: 0; }
     height: 100vh;
     background-size: cover;
 }
+.the-flora4 {
+    backdrop-filter: blur(10px);
+    background: lightgray url('../images/backgrounds/the_flora.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.the-flora5 {
+    backdrop-filter: blur(10px);
+    background: lightgray url('../images/backgrounds/the_flora.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
 .the-fauna {   background: lightgray url('../images/backgrounds/the_fauna.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.the-mammals {   background: lightgray url('../images/backgrounds/mam1.png') center/cover no-repeat;
     height: 100vh;
     background-size: cover;
 }
@@ -654,7 +678,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     font-style: normal;
     position: relative;
     bottom: 20px;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8); /* Add a subtle text shadow for better visibility */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.6); /* Add a subtle text shadow for better visibility */
    
     text-align: justify; 
 }
@@ -820,7 +844,24 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     left: -130px;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
     height: 30%;
+    
   
+}
+/* image content for rhododendron */
+.image-content-1{
+    text-align: justify;
+    margin-left: 139px;
+    width: 70%;
+    min-width: 50%; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: normal;
+    font-style: normal;
+    position: relative;
+    bottom: 5px;
+    left: -130px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    height: 30%;
 }
 
 /* h3{
