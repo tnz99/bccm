@@ -128,16 +128,6 @@ Route::get('/laws/2000', function() {
 });
 
 
-Route::get('/the-flora2', function() {
-    $cnavBg = "the-kingdom-cnav-bg";
-    $cnavInnerBorder = "border-gray";
-    $links = ['/the-kingdom', '/the-kingdom2'];
-    $nextLink = "#";
-
-    return view('flora2')->with('links', $links)
-                         ->with('nextLink', $nextLink);
-});
-
 Route::get('/the-kingdom', function() {
     $description = "Bhutan, as a kingdom, has taken remarkable steps to tackle climate change and exemplifies 
     an unwavering commitment to environmental sustainability. Its unique approach includes the preservation of
