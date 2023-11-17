@@ -142,5 +142,12 @@ body .options .option {
 
 .image{
     background-size: cover;
+}
 
+.description {
+    display: none;
+}
+
+.active .description {
+    display: block;
 }
