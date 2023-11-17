@@ -28,13 +28,6 @@ ol, ul {
     padding-left: 2.18rem;
 }
 
-.registration-input {
-    width: 32rem;
-    height: 3.125rem;
-    flex-shrink: 0;
-    background: #F0F0F0;
-}
-
 .register-success-wrapper {
     margin-top: 50px;
 }
@@ -696,12 +689,14 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     margin-bottom: 20px;
     border: none;
     border-radius: 0%;
-}
-
-.registration-input {
     text-align: center;
-}
 
+    /* width: 32rem;
+    height: 3.125rem; */
+    flex-shrink: 1;
+    width: 160%;
+}
+    
 .register-form-container {
     margin-left: 150px;
     margin-top: 150px;
@@ -901,7 +896,6 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     position: fixed;
     bottom: 10px;
     word-wrap: break-word; 
-   
 }
 
 

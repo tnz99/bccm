@@ -155,7 +155,7 @@
     }
 
     /* Registration Page */
-    .register-form-wrapper {
+    .register-form-wrapper .form-group{
         text-align: center;
     }
 
@@ -215,6 +215,11 @@
     .story-header-content {
         margin-left: 50px;
         margin-right: 40px;
+    }
+
+    .registration-input {
+        width: 130%;
+        align-items: center;
     }
 
 }

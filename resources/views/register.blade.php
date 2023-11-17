@@ -21,7 +21,7 @@
             </div>
 
             <div class="form-group">
-                <input class="w-513 registration-input form-control" type="text" placeholder="Country" />
+                <input class="registration-input form-control" type="text" placeholder="Country" />
             </div>
             
             <div class="d-flex justify-content-center  align-item-center form-check form-check-inline">
