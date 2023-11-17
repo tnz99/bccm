@@ -32,22 +32,34 @@ body .options .option {
 }
 
 .option:nth-child(1) {
-    --defaultBackground: gray;
+    --defaultBackground:#F1D651  ;
 }
 .option:nth-child(2) {
-    --defaultBackground: gray;
+    --defaultBackground:#F1D651  ;
 }
 .option:nth-child(3) {
-    --defaultBackground: gray;
+    --defaultBackground:#F1D651 ;
 }
 .option:nth-child(4) {
-    --defaultBackground: gray;
+    --defaultBackground:#F1D651  ;
 }
 .option:nth-child(5) {
-    --defaultBackground: gray;
+    --defaultBackground:#F1D651 ;
 }
 .option:nth-child(6) {
-    --defaultBackground: gray;
+    --defaultBackground: #F1D651 ;
+}
+.option:nth-child(7) {
+    --defaultBackground: #F1D651 ;
+}
+.option:nth-child(8) {
+    --defaultBackground: #F1D651 ;
+}
+.option:nth-child(9) {
+    --defaultBackground: #F1D651 ;
+}
+.option:nth-child(10) {
+    --defaultBackground: #F1D651 ;
 }
 
 .option.active {
