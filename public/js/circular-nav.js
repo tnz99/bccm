@@ -12,11 +12,11 @@ $(function(){
     })
 
     $('.nav-item').mouseenter(function() {
-        $('.cnav-icon').show();
+        $(this).find('.cnav-icon').show();
     })
 
     $('.nav-item').mouseleave(function() {
-        $('.cnav-icon').hide();
+        $(this).find('.cnav-icon').hide();        
     })
 
     // 2
