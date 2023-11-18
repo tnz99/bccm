@@ -18,10 +18,10 @@
                         <div class="sub">Bulbophyllum punakhaense.</div>
                     </div>
                 </div>
-                <div class="overlay"></div>
+               
             </div>
-            <div class="description" style="display: none;">
-            <div class="image-content">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
+            <div class="description">
+            <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
          </div>
         </div>
 
@@ -33,10 +33,10 @@
                         <div class="sub">Bulbophyllum gurungianum</div>
                     </div>
                 </div>
-                <div class="overlay"></div>
+               
             </div>
-            <div class="description" style="display: none;">
-                <div class="image-content">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
+            <div class="description">
+                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
             </div>
         </div>
 
@@ -50,10 +50,10 @@
                         <div class="sub">Chiloschista densiflora</div>
                     </div>
                 </div>
-                <div class="overlay"></div>
+               
             </div>
-            <div class="description" style="display: none;">
-                <div class="image-content">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
+            <div class="description">
+                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
             </div>
         </div>
 
@@ -65,10 +65,10 @@
                         <div class="sub">Paphiopedilum fairrieanum</div>
                     </div>
                 </div>
-                <div class="overlay"></div>
+              
             </div>
-            <div class="description" style="display: none;">
-                <div class="image-content">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
+            <div class="description">
+                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
             </div>
         </div>
 
@@ -80,10 +80,10 @@
                         <div class="sub">Pleione praecox (Sm.) D.Don</div>
                     </div>
                 </div>
-                <div class="overlay"></div>
+               
             </div>
-            <div class="description" style="display: none;">
-                <div class="image-content">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
+            <div class="description" >
+                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
             </div>
         </div>
 
@@ -95,10 +95,10 @@
                         <div class="sub">Acampe rigida (Buch.-Ham. ex Sm.) P.F.Hunt</div>
                     </div>
                 </div>
-                <div class="overlay"></div>
+               
             </div>
-            <div class="description" style="display: none;">
-                <div class="image-content">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
+            <div class="description">
+                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
             </div>
         </div>
 
@@ -110,10 +110,10 @@
                         <div class="sub">Calanthe plantaginea Lindl. 1833</div>
                     </div>
                 </div>
-                <div class="overlay"></div>
+               
             </div>
-            <div class="description" style="display: none;">
-                <div class="image-content">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
+            <div class="description">
+                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
             </div>
         </div>
         <div class="option">
@@ -126,10 +126,10 @@
                        
                     </div>
                 </div>
-                <div class="overlay"></div>
+                
             </div>
-            <div class="description" style="display: none;">
-                <div class="image-content">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
+            <div class="description">
+                <div class="image-content scroll">In Bhutan, there are 487 species of (recorded) orchids, one of the richest orchid habitats in the world. Out of this large number, 82 species of orchids are endemic to the country.</div>
             </div>
         </div>
            

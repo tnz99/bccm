@@ -32,7 +32,7 @@ body .options .option {
 }
 
 .option:nth-child(1) {
-    --defaultBackground:#F1D651  ;
+    --defaultBackground: #F1D651 ;
 }
 .option:nth-child(2) {
     --defaultBackground:#F1D651  ;

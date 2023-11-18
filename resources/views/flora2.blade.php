@@ -18,10 +18,9 @@
                         <div class="sub">Meconopsis betonicifolia</div>
                     </div>
                 </div>
-                <div class="overlay"></div>
             </div>
-            <div class="description" style="display: none;">
-            <div class="image-content">The blue poppy is a highly exquisite and exceptionally rare flower in the nation and blooms in spring season, typically thriving at altitudes ranging from 3,000m to 4,000m above sea level. The blue poppy encompasses 13 distinct species and can also be encountered in shades of pink, white, and red within the country's borders.</div>
+            <div class="description">
+            <div class="image-content scroll">The blue poppy is a highly exquisite and exceptionally rare flower in the nation and blooms in spring season, typically thriving at altitudes ranging from 3,000m to 4,000m above sea level. The blue poppy encompasses 13 distinct species and can also be encountered in shades of pink, white, and red within the country's borders.</div>
          </div>
         </div>
 
@@ -34,10 +33,10 @@
                         <div class="sub">Meconopsis Superba (endemic To HAA)</div>
                     </div>
                 </div>
-                <div class="overlay"></div>
+             
             </div>
-            <div class="description" style="display: none;">
-                <div class="image-content">The blue poppy is a highly exquisite and exceptionally rare flower in the nation and blooms in spring season, typically thriving at altitudes ranging from 3,000m to 4,000m above sea level. The blue poppy encompasses 13 distinct species and can also be encountered in shades of pink, white, and red within the country's borders.</div>
+            <div class="description">
+                <div class="image-content scroll">The blue poppy is a highly exquisite and exceptionally rare flower in the nation and blooms in spring season, typically thriving at altitudes ranging from 3,000m to 4,000m above sea level. The blue poppy encompasses 13 distinct species and can also be encountered in shades of pink, white, and red within the country's borders.</div>
             </div>
         </div>
 
@@ -49,10 +48,10 @@
                         <div class="sub">Meconopsis napaulensis</div>
                     </div>
                 </div>
-                <div class="overlay"></div>
+                <!-- <div class="overlay"></div> -->
             </div>
-            <div class="description" style="display: none;">
-                <div class="image-content">The blue poppy is a highly exquisite and exceptionally rare flower in the nation and blooms in spring season, typically thriving at altitudes ranging from 3,000m to 4,000m above sea level. The blue poppy encompasses 13 distinct species and can also be encountered in shades of pink, white, and red within the country's borders.</div>
+            <div class="description">
+                <div class="image-content scroll">The blue poppy is a highly exquisite and exceptionally rare flower in the nation and blooms in spring season, typically thriving at altitudes ranging from 3,000m to 4,000m above sea level. The blue poppy encompasses 13 distinct species and can also be encountered in shades of pink, white, and red within the country's borders.</div>
             </div>
         </div>
 
@@ -64,10 +63,9 @@
                         <div class="sub">Meconopsis paniculata</div>
                     </div>
                 </div>
-                <div class="overlay"></div>
             </div>
-            <div class="description" style="display: none;">
-                <div class="image-content">The blue poppy is a highly exquisite and exceptionally rare flower in the nation and blooms in spring season, typically thriving at altitudes ranging from 3,000m to 4,000m above sea level. The blue poppy encompasses 13 distinct species and can also be encountered in shades of pink, white, and red within the country's borders.</div>
+            <div class="description">
+                <div class="image-content scroll">The blue poppy is a highly exquisite and exceptionally rare flower in the nation and blooms in spring season, typically thriving at altitudes ranging from 3,000m to 4,000m above sea level. The blue poppy encompasses 13 distinct species and can also be encountered in shades of pink, white, and red within the country's borders.</div>
             </div>
         </div>
            

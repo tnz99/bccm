@@ -1,5 +1,5 @@
 @extends('components.layout')
-@section('body_class', 'the-flora5')
+@section('body_class', 'the-mammals2')
 
 @section('header')
     <x-header :dark=$darkThemeFlag />
@@ -7,10 +7,16 @@
 
 @section('content')
 
+    <style>
+        .option {
+            background-color: white;
+        }
+    </style>
+
 <section>
     <div class="gallery-container">
         <div class="options">
-            <div class="option active">
+            <div class="option active" style="background: red;">
                 <div class="image" style="background-image:url('../images/backgrounds/ctree.png');">
                 <div class="label">
                     <div class="info">
@@ -21,7 +27,7 @@
                
             </div>
             <div class="description">
-            <div class="image-content scroll">The Himalayan cypress (Cupressus torolusa) is the national tree of Bhutan. They are associated with religion, and may often be found near the religious structures and in the temperate zone between altitudes of 1800m and 3500m.</div>
+            <div class="image-content scroll" style="--defaultBackground: var(--defaultBackground);">The Himalayan cypress (Cupressus torolusa) is the national tree of Bhutan. They are associated with religion, and may often be found near the religious structures and in the temperate zone between altitudes of 1800m and 3500m.</div>
          </div>
         </div>
 
@@ -187,7 +193,7 @@
         </div>
 
         <div>
-            <h1 class="text-white">the National Tree & the Madicinal Herbs</h1>
+            <h1 class="text-white">the MAMMALS</h1>
         </div>
 
         <!-- <div class="d-flex align-items-center justify-content-between mt-46">

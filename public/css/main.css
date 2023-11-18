@@ -204,6 +204,13 @@ button { border: 0; }
     height: 100vh;
     background-size: cover;
 }
+.the-mammals2 {
+    backdrop-filter: blur(10px);
+    background: lightgray url('../images/backgrounds/mam1.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
 .the-climate {   background: lightgray url('../images/backgrounds/home.png') center/cover no-repeat;
     height: 100vh;
     background-size: cover;
@@ -257,6 +264,8 @@ button { border: 0; }
 .the-fauna-cnav-bg { background: linear-gradient(270deg, #4B5E25 42.11%, rgba(174, 177, 127, 0.50) 101.31%); }
 .the-spring-cnav-bg { background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 101.31%); }
 .the-change-cnav-bg { background: linear-gradient(270deg, #fbba78 42.11%,  rgba(216, 161, 164, 0.56) 101.31%);}
+.the-fauna2-cnav-bg { background: linear-gradient(270deg, #eab676 42.11%,  rgba(216, 161, 164, 0.56) 101.31%);}
+
 .home-cnav-bg {
     background: linear-gradient(270deg, #151A21 42.11%, rgba(23, 28, 36, 0.06) 101.31%);
 }
