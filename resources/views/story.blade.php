@@ -10,7 +10,6 @@
         <h2 class="story-header-text">the</h2>
         <h2 class="story-header-text">{{ $name }}</h2>
         <p class="story-header-description">{{ $description }}</p>
-        
     </div>
     <x-story-control :links="$links" :next-link="$nextLink"/>
 </section>
