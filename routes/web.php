@@ -156,14 +156,8 @@ Route::get('/laws/2000', function() {
 
 
 Route::get('/the-kingdom', function() {
-    $description = "Bhutan, as a kingdom, has taken remarkable steps to tackle climate change and exemplifies 
-    an unwavering commitment to environmental sustainability. Its unique approach includes the preservation of
-    vast forested areas, which act as vital carbon sinks and biodiversity havens. Bhutan has pledged to remain 
-    carbon neutral,actively working to absorb more carbon dioxide than it emits through responsible forestry 
-    practices and hydropower production, which provides clean energy and reduces the nation's reliance on fossil fuels. 
-    the Bhutanese government also emphasizes sustainable agriculture, eco-friendly transportation, and renewable energy adoption,
-    fostering a holistic approach to mitigating climate change. Additionally, Bhutan's pioneering concept of Gross National Happiness (GNH)
-    places well-being, cultural preservation, and environmental conservation at the core of its development agenda, ensuring that climate action is integrated into the very fabric of the kingdom's policies and practices.";
+    $description = "
+    Bhutan is a leader in environmental sustainability, preserving vast forests as carbon sinks and biodiversity havens. Committed to carbon neutrality, the country emphasizes responsible forestry, hydropower, sustainable agriculture, and eco-friendly practices. Bhutan's unique approach integrates well-being and environmental conservation through the concept of Gross National Happiness.";
     $links = ['/the-kingdom', '/the-kingdom2'];
     $nextLink = "the-flora";
     $cnavBg = "the-kingdom-cnav-bg";
@@ -174,7 +168,7 @@ Route::get('/the-kingdom', function() {
 
     return view('story')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-kingdom')
-                        ->with('name', 'Kingdom')
+                        ->with('name', 'KINGDOM')
                         ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
@@ -193,7 +187,7 @@ Route::get('/the-flora', function() {
 
     return view('story')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-flora')
-                        ->with('name', 'flora')
+                        ->with('name', 'FLORA')
                         ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
@@ -209,9 +203,9 @@ Route::get('/the-fauna', function() {
     $cnavInnerBorder = "border-white";
 
 
-    return view('story')->with('darkThemeFlag', true)
+    return view('story')->with('darkThemeFlag', false)
                         ->with('bodyClass', 'the-fauna')
-                        ->with('name', 'fauna')
+                        ->with('name', 'FAUNA')
                         ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
@@ -310,7 +304,7 @@ Route::get('/the-climate', function() {
 
     return view('story')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-climate')
-                        ->with('name', 'climate')
+                        ->with('name', 'CLIMATE')
                         ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
@@ -328,7 +322,7 @@ Route::get('/the-summer', function() {
 
     return view('story')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-summer')
-                        ->with('name', 'summer')
+                        ->with('name', 'SUMMER')
                         ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
@@ -345,7 +339,7 @@ Route::get('/the-winter', function() {
 
     return view('story')->with('darkThemeFlag', false)
                         ->with('bodyClass', 'the-winter')
-                        ->with('name', 'winter')
+                        ->with('name', 'WINTER')
                         ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
@@ -363,7 +357,7 @@ Route::get('/the-spring', function() {
 
     return view('story')->with('darkThemeFlag', false)
                         ->with('bodyClass', 'the-spring')
-                        ->with('name', 'spring')
+                        ->with('name', 'SPRING')
                         ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
@@ -380,7 +374,7 @@ Route::get('/the-autumn', function() {
 
     return view('story')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-autumn')
-                        ->with('name', 'autumn')
+                        ->with('name', 'AUTUMN')
                         ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
@@ -398,7 +392,7 @@ Route::get('/the-change', function() {
 
     return view('story')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-change')
-                        ->with('name', 'change')
+                        ->with('name', 'CHANGE')
                         ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
@@ -415,7 +409,7 @@ Route::get('/the-laws', function() {
 
     return view('story')->with('darkThemeFlag', false)
                         ->with('bodyClass', 'the-laws')
-                        ->with('name', 'laws')
+                        ->with('name', 'LAWS')
                         ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
@@ -433,7 +427,7 @@ Route::get('/the-people', function() {
 
     return view('story')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-people')
-                        ->with('name', 'people')
+                        ->with('name', 'PEOPLE')
                         ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
