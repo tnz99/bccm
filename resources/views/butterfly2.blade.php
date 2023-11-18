@@ -1,5 +1,5 @@
 @extends('components.layout')
-@section('body_class', 'the-birds2')
+@section('body_class', 'the-butterfly2')
 
 @section('header')
     <x-header :dark=$darkThemeFlag />
@@ -11,26 +11,26 @@
     <div class="gallery-container">
         <div class="options">
             <div class="option active" style="background: white">
-                <div class="image" style="background-image:url('../images/backgrounds/raven.png');">
+                <div class="image" style="background-image:url('../images/backgrounds/b1.png');">
                 <div class="label">
                     <div class="info">
-                        <div class="main">Raven</div>
-                        <div class="sub">Corvus Corax Tibetanus</div>
+                        <div class="main">Ludlow’s Bhutan Glory </div>
+                        <div class="sub">Bhutanitis ludlowi swallowtail</div>
                     </div>
                 </div>
                
             </div>
             <div class="description">
-            <div class="image-content scroll">The Raven is the Bhutan's national bird. It represents one of the most powerful deities of the country, Jarog Dongchen. At one time, it was a capital crime to kill a Raven in Bhutan. One can still see ravens nesting in monasteries and dzongs throughout Bhutan. We can spot a raven at Damthang, Cherithang, Jagothang, Lingshi and Chebesa in Western Bhutan; Bumthang, Dur and Pegula in Central Bhutan and Singye Dzong and surrounding areas in Eastern Bhutan.</div>
+            <div class="image-content scroll">It is a Bhutan’s national butterfly which is identified as endangered species. It was officially declared as Bhutan’s national butterfly in 2012. It is found at an altitude of 2000 to 2500 meters. It is spotted commonly in Trashi Yangtsi Valley during Autumn season.</div>
          </div>
         </div>
 
         <div class="option" style="background: white">
-            <div class="image" style="background-image: url('../images/backgrounds/bird1.png');">
+            <div class="image" style="background-image: url('../images/backgrounds/b2.png');">
                 <div class="label">
                     <div class="info">
-                        <div class="main">Baer’s Pochard </div>
-                        <div class="sub">Aythya baeri</div>
+                        <div class="main">Japanese Awlking  </div>
+                        <div class="sub">Choaspes benjaminii japonica</div>
                     </div>
                 </div>
                
@@ -46,11 +46,11 @@
         
 
         <div class="option" style="background: white">
-            <div class="image" style="background-image: url('../images/backgrounds/bird2.png');">
+            <div class="image" style="background-image: url('../images/backgrounds/b3.png');">
                 <div class="label">
                     <div class="info">
-                        <div class="main">Black-necked Stork </div>
-                        <div class="sub">Ephippiorhynchus asiaticus</div>
+                        <div class="main">Common Blue Apollo </div>
+                        <div class="sub">Parnassius hardwickii</div>
                     </div>
                 </div>
                
@@ -63,11 +63,11 @@
         </div>
 
         <div class="option" style="background: white">
-            <div class="image" style="background-image: url('../images/backgrounds/bird3.png');">
+            <div class="image" style="background-image: url('../images/backgrounds/b4.png');">
                 <div class="label">
                     <div class="info">
-                        <div class="main">Black-necked Crane </div>
-                        <div class="sub">Grus nigricollis</div>
+                        <div class="main">Purple and Purple  </div>
+                        <div class="sub">Zographetus satwa</div>
                     </div>
                 </div>
                
@@ -81,11 +81,11 @@
         </div>
 
         <div class="option" style="background: white">
-            <div class="image" style="background-image: url('../images/backgrounds/bird4.png');">
+            <div class="image" style="background-image: url('../images/backgrounds/b5.png');">
                 <div class="label">
                     <div class="info">
-                        <div class="main">White-bellied Heron </div>
-                        <div class="sub">Ardea insignis</div>
+                        <div class="main">Narrow-banded Satyr </div>
+                        <div class="sub">Aulocera brahminus</div>
                     </div>
                 </div>
               
@@ -98,11 +98,11 @@
         </div>
 
         <div class="option" style="background: white">
-            <div class="image" style="background-image: url('../images/backgrounds/bird5.png');">
+            <div class="image" style="background-image: url('../images/backgrounds/b6.png');">
                 <div class="label">
                     <div class="info">
-                        <div class="main"> Wood Snipe </div>
-                        <div class="sub">Gallinago nemoricola</div>
+                        <div class="main">Pointed Perrot </div>
+                        <div class="sub">Niphanda cymbia</div>
                     </div>
                 </div>
             </div>
@@ -114,11 +114,11 @@
         </div> 
         
         <div class="option" style="background: white">
-            <div class="image" style="background-image: url('../images/backgrounds/bird6.png');">
+            <div class="image" style="background-image: url('../images/backgrounds/b7.png');">
                 <div class="label">
                     <div class="info">
-                        <div class="main">Rufous-necked Hornbill  </div>
-                        <div class="sub">Aceros nipalensis</div>
+                        <div class="main">Brown Onyx</div>
+                        <div class="sub">Horaga viola</div>
                     </div>
                 </div>
               
@@ -131,11 +131,10 @@
         </div>
         
         <div class="option" style="background: white">
-            <div class="image" style="background-image: url('../images/backgrounds/bird7.png');">
+            <div class="image" style="background-image: url('../images/backgrounds/b8.png');">
                 <div class="label">
                     <div class="info">
-                        <div class="main">       Great Hornbill  </div>
-                        <div class="sub">Buceros bicornis</div>
+                        <div class="main">Parantica aglea (Stoll, 1782)</div>
                     </div>
                 </div>
             </div>
@@ -147,11 +146,11 @@
         </div>
 
         <div class="option" style="background: white">
-            <div class="image" style="background-image: url('../images/backgrounds/bird8.png');">
+            <div class="image" style="background-image: url('../images/backgrounds/b9.png');">
                 <div class="label">
                     <div class="info">
-                        <div class="main">Eurasian Curlew </div>
-                        <div class="sub">Numenius arquata</div>
+                        <div class="main">Danaus genutia Cramer, 1779</div>
+                        
                     </div>
                 </div>
               
@@ -162,45 +161,10 @@
                 </ul>
             </div>
         </div>
-    
-
-        <div class="option" style="background: white">
-            <div class="image" style="background-image: url('../images/backgrounds/bird9.png');">
-                <div class="label">
-                    <div class="info">
-                        <div class="main">Black-necked Stork </div>
-                        <div class="sub">Apus acuticauda</div>
-                    </div>
-                </div>
-               
-            </div>
-            <div class="description">
-                <ul class="image-content scroll">
-                    <div></div>
-                </ul>
-            </div>
-        </div>
-
-        <div class="option" style="background: white">
-            <div class="image" style="background-image: url('../images/backgrounds/bird10.png');">
-                <div class="label">
-                    <div class="info">
-                        <div class="main">Ferruginous Duck  </div>
-                        <div class="sub">Aythya nyroca</div>
-                    </div>
-                </div>
-               
-            </div>
-            <div class="description">
-                <ul class="image-content scroll">
-                    <div></div>
-                </ul>
-            </div>
-        </div> 
 </div>
 
         <div>
-            <h1 class="text-black">the BIRDS</h1>
+            <h1 class="text-black">the BUTTERFLIES</h1>
         </div>
 
         <!-- <div class="d-flex align-items-center justify-content-between mt-46">
