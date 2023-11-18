@@ -142,16 +142,22 @@
     }
 
     .story-header-description {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .next-story {
-        margin-left: 10%;;
+        margin-left: 10%;
+        /* height: 40px;
+        width: 35px; */
     }
 
-    .next-story-icon {
-        width: 15px;
-        height: 15px;
+    .next-story-text {
+        font-size: 12px;
+    }
+
+    .circle-xm {
+        width: 35px;
+        height: 35px;
     }
 
     /* Registration Page */
@@ -171,8 +177,8 @@
     }
 
     .next-story-btn {
-        width: 60px;
-        height: 50px;
+        width: 35px;
+        height: 35px;
     }
 
     /* Prayer Wheel */
@@ -221,7 +227,6 @@
         width: 130%;
         align-items: center;
     }
-
 }
 
 
