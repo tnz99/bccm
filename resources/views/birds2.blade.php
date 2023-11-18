@@ -1,5 +1,5 @@
 @extends('components.layout')
-@section('body_class', 'the-mammals2')
+@section('body_class', 'the-birds2')
 
 @section('header')
     <x-header :dark=$darkThemeFlag />
@@ -10,8 +10,8 @@
 <section>
     <div class="gallery-container">
         <div class="options">
-            <div class="option active" style="background: #eab676">
-                <div class="image" style="background-image:url('../images/backgrounds/takin.png');">
+            <div class="option active" style="background: white">
+                <div class="image" style="background-image:url('../images/backgrounds/raven.png');">
                 <div class="label">
                     <div class="info">
                         <div class="main">Takin</div>
@@ -25,7 +25,7 @@
          </div>
         </div>
 
-        <div class="option" style="background: #eab676">
+        <div class="option" style="background: white">
             <div class="image" style="background-image: url('../images/backgrounds/tiger.png');">
                 <div class="label">
                     <div class="info">
@@ -45,7 +45,7 @@
 
         
 
-        <div class="option" style="background: #eab676">
+        <div class="option" style="background: white">
             <div class="image" style="background-image: url('../images/backgrounds/golden.png');">
                 <div class="label">
                     <div class="info">
@@ -62,7 +62,7 @@
             </div>
         </div>
 
-        <div class="option" style="background: #eab676">
+        <div class="option" style="background: white">
             <div class="image" style="background-image: url('../images/backgrounds/langur.png');">
                 <div class="label">
                     <div class="info">
@@ -80,7 +80,7 @@
             </div>
         </div>
 
-        <div class="option" style="background: #eab676">
+        <div class="option" style="background: white">
             <div class="image" style="background-image: url('../images/backgrounds/langur2.png');">
                 <div class="label">
                     <div class="info">
@@ -97,7 +97,7 @@
             </div>
         </div>
 
-        <div class="option" style="background: #eab676">
+        <div class="option" style="background: white">
             <div class="image" style="background-image: url('../images/backgrounds/leopard.png');">
                 <div class="label">
                     <div class="info">
@@ -105,27 +105,18 @@
                         <div class="sub">Panthera uncia</div>
                     </div>
                 </div>
-               
             </div>
             <div class="description">
                 <ul class="image-content scroll">
                    <div>Bhutan is one of the 12 countries in Asia that harbor endangered Snow leopard population in its natural habitat. The presence of 134 snow leopards has been confirmed in Bhutan by the National Snow Leopard Survey 2022-2023</div>
                 </ul>
             </div>
+        </div>  
         </div>
 
-       
-           
-            <!-- <div class="option" style="--optionBackground: url('../images/backgrounds/king.jpeg');">
-            </div>
-            <div class="option" style="--optionBackground: url('../images/backgrounds/queen2.jpeg') center/cover no-repeat;">
-            </div> -->
-          
-            
-        </div>
 
         <div>
-            <h1 class="text-white">the MAMMALS</h1>
+            <h1 class="text-black">the BIRDS</h1>
         </div>
 
         <!-- <div class="d-flex align-items-center justify-content-between mt-46">

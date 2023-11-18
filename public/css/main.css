@@ -195,6 +195,12 @@ button { border: 0; }
     height: 100vh;
     background-size: cover;
 }
+.the-birds {
+   
+    background: lightgray url('../images/backgrounds/winter.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
 
 .the-fauna {   background: lightgray url('../images/backgrounds/the_fauna.png') center/cover no-repeat;
     height: 100vh;
@@ -207,6 +213,12 @@ button { border: 0; }
 .the-mammals2 {
     backdrop-filter: blur(10px);
     background: lightgray url('../images/backgrounds/mam1.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.the-birds2 {
+    backdrop-filter: blur(10px);
+    background: lightgray url('../images/backgrounds/winter.png') center/cover no-repeat;
     height: 100vh;
     background-size: cover;
 }
@@ -263,7 +275,7 @@ button { border: 0; }
 .the-people-cnav-bg { background: linear-gradient(270deg, #346D6C 42.11%, rgba(135, 176, 175, 0.47) 101.31%); }
 .the-fauna-cnav-bg { background: linear-gradient(270deg, #4B5E25 42.11%, rgba(174, 177, 127, 0.50) 101.31%); }
 .the-spring-cnav-bg { background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 101.31%); }
-.the-change-cnav-bg { background: linear-gradient(270deg, #fbba78 42.11%,  rgba(216, 161, 164, 0.56) 101.31%);}
+.the-change-cnav-bg { background: linear-gradient(270deg, #400C00 42.11%,  rgba(216, 161, 164, 0.56) 101.31%);}
 .the-fauna2-cnav-bg { background: linear-gradient(270deg, #eab676 42.11%,  rgba(216, 161, 164, 0.56) 101.31%);}
 
 .home-cnav-bg {
@@ -904,3 +916,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 .ac {
     background-color: yellow;
 }
+
+  
+
+  

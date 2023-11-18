@@ -203,7 +203,7 @@ Route::get('/the-flora', function() {
 
 Route::get('/the-fauna', function() {
     $description = "The Kingdom of Bhutan is not only renowned for its breathtaking landscapes but also for its incredible biodiversity. The Kingdom of Bhutan is a sanctuary for a diverse array of wildlife, making it a dream destination for nature enthusiasts and conservationists alike.";
-    $links = ['/the-fauna', '/the-mammals','/the-mammals2'];
+    $links = ['/the-fauna', '/the-mammals','/the-mammals2','/the-birds', '/the-birds2'];
     $nextLink = "the-climate";
     $cnavBg = "the-fauna-cnav-bg";
     $cnavInnerBorder = "border-white";
@@ -221,7 +221,7 @@ Route::get('/the-fauna', function() {
 
 Route::get('/the-mammals', function() {
     $description = "Mammals - In Bhutan, there are records of 129 mammal species inhabiting the country, with 26 of them being globally endangered species. Furthermore, Bhutan boasts significant biodiversity in the realm of wild felids, with a total of 11 out of the 36 known global felid species residing within its borders. A study conducted in the compact area of Royal Manas National Park in 2012 documented the presence of six felid species, accounting for approximately 16 percent of the world's felid species. This finding reinforces Bhutan's status as a prominent habitat and hotspot for wild felids.";
-    $links = ['/the-fauna', '/the-mammals', '/the-mammals2'];
+    $links = ['/the-fauna', '/the-mammals', '/the-mammals2','/the-birds', '/the-birds2'];
     $nextLink = "the-climate";
     $cnavBg = "the-fauna2-cnav-bg";
     $cnavInnerBorder = "border-white";
@@ -237,13 +237,45 @@ Route::get('/the-mammals', function() {
                        ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 Route::get('/the-mammals2', function() {
-    $links = ['/the-fauna', '/the-mammals', '/the-mammals2'];
+    $links = ['/the-fauna', '/the-mammals', '/the-mammals2','/the-birds', '/the-birds2'];
     $nextLink = "the-climate";
     $cnavBg = "the-fauna2-cnav-bg";
     $cnavInnerBorder = "border-white";
    
 
-    return view('mammals2')->with('darkThemeFlag', false)
+    return view('mammals2')->with('darkThemeFlag', true)
+                         ->with('links', $links)
+                         ->with('nextLink', $nextLink)
+                         ->with('cnavBg', $cnavBg)
+                         ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+
+Route::get('/the-birds', function() {
+    $description ="Bhutan is recognized as a part of several globally important bird areas. Currently, around 736 species are recorded to be found in Bhutan out of which 30 are globally threatened. Of the four critically endangered species found in Bhutan";
+    $links = ['/the-fauna', '/the-mammals', '/the-mammals2','/the-birds', '/the-birds2'];
+    $nextLink = "the-climate";
+    $cnavBg = "the-winter-cnav-bg";
+    $cnavInnerBorder = "border-white";
+
+
+    return view('story')->with('darkThemeFlag', false)
+                        ->with('bodyClass', 'the-birds')
+                        ->with('name', 'Birds')
+                        ->with('description', $description)
+                        ->with('links', $links)
+                        ->with('nextLink', $nextLink)
+                        ->with('cnavBg', $cnavBg)
+                       ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+
+Route::get('/the-birds2', function() {
+    $links = ['/the-fauna', '/the-mammals', '/the-mammals2','/the-birds', '/the-birds2'];
+    $nextLink = "the-climate";
+    $cnavBg = "the-climate-cnav-bg";
+    $cnavInnerBorder = "border-white";
+   
+
+    return view('birds2')->with('darkThemeFlag', false)
                          ->with('links', $links)
                          ->with('nextLink', $nextLink)
                          ->with('cnavBg', $cnavBg)
