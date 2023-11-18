@@ -13,9 +13,7 @@
             </div>
         </div>
         
-        <ul class="year-story-content">
-            {{ $story }}
-        </ul>
+        <div class="year-story-content">{{ $story }}</div>
     </div>
 
     <ul class="year-nav-list">
@@ -30,7 +28,9 @@
         <li class="year-nav-list-item"><a href="" class="spin-button year-nav-link">2007</a></li>
     </ul>
 
-    <x-story-control :links="$links" :next-link="$nextLink"/>
+    <div class="yearly-story-control-wrapper">
+        <x-story-control :links="$links" :next-link="$nextLink"/>
+    <div>
 </div>
 
 <img id="prayer-wheel" src="{{ asset('/images/prayer-wheel/1.png') }}" alt="prayer wheel" class="prayer-wheel-position prayer-wheel"  >

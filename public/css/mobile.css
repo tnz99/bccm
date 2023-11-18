@@ -119,6 +119,7 @@
 
     /* Story Pages */
     .story-control-wrapper {
+        /* position: relative; */
         margin-left: 0px;
         justify-content: space-between;
         bottom: 0;
@@ -207,21 +208,30 @@
         width: 25ch;
     }
 
+    .year-story-header-year {
+        font-size: 60px;
+    }
+
     .year-story-header-subtext {
         width: 450px;
+        font-size: 20px;
     }
 
     .year-story-content {
-        width: 100%;
+        width: 80%;
         margin-left: 50px;
         margin-right: 40px;
         padding: 0;
+        font-size: 14px;
     }
 
     .year-nav-list {
         margin-left: 50px;
+        display: flex;
+        list-style: none;
+        overflow-x: scroll;
+        padding-bottom: 6px;
     }
-
     /* end */
 
     .story-header-content {
@@ -236,6 +246,10 @@
 
     .story-header-description {
         max-width: 100%;
+    }
+
+    .gallery-container {
+        display: none;
     }
 }
 

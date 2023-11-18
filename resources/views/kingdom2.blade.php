@@ -39,8 +39,6 @@
                 </div>
             </div>
 
-        
-
             <div class="option">
                 <div class="image" style="background-image: url('../images/backgrounds/k4.jpg');">
                     <div class="label">
@@ -157,30 +155,53 @@
             
         </div>
 
-        <div>
-            <h1 class="text-white">the Kingdom</h1>
-        </div>
+        <h1 class="text-white">the Kingdom</h1>
     </div>
 
-    <x-story-control :links="$links" :next-link="$nextLink"/>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img class="d-block w-100" src="/images/backgrounds/queen1.webp" alt="First slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="/images/backgrounds/queen2.jpeg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="..." alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
 
- 
-    
-    <script>
-        // $(".option").click(function () {
-        //     $(".option").removeClass("active");
-        //     $(this).addClass("active");
-        // });
-        $(document).ready(function () {
-            $(".option").click(function () {
-                $(".option").removeClass("active");
-                $(this).addClass("active");
-                $(".description").hide(); // Hide all descriptions
-                $(this).find(".description").show(); // Show description of clicked image
-            });
-        });
-    </script>
+    <x-story-control :links="$links" :next-link="$nextLink"/>
 </section>
+
+<script>
+    // $(".option").click(function () {
+    //     $(".option").removeClass("active");
+    //     $(this).addClass("active");
+    // });
+    $(document).ready(function () {
+        $(".option").click(function () {
+            $(".option").removeClass("active");
+            $(this).addClass("active");
+            $(".description").hide(); // Hide all descriptions
+            $(this).find(".description").show(); // Show description of clicked image
+        });
+    });
+</script>
 @endsection
 
 @section('nav')

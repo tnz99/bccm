@@ -537,6 +537,10 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     height: 25px;
 }
 
+.yearly-story-control-wrapper {
+    margin-left: 50px;
+}
+
 /* Home Page */
 .home-wrapper {
     margin-left: 145px;
