@@ -682,18 +682,18 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     font-weight: 600;
     line-height: normal;
     position: relative;
-    bottom: -55px;
+    bottom: 20px;
 }
 
 .story-header-description {
     font-weight: 400;
     font-size: 14px;
-    max-width: 60%;
     line-height: normal;
     font-style: normal;
     position: relative;
-    bottom: -55px;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0); /* Add a subtle text shadow for better visibility */
+    bottom: 20px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.6); /* Add a subtle text shadow for better visibility */
+   
     text-align: justify; 
 }
 
