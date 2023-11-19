@@ -64,8 +64,7 @@
                 </div>
                 <div class="description">
                     <div class="image-content scroll">
-    GNH originated in Bhutan in 1970s, when His Majesty the fourth king of Bhutan, Jigme Singye Wangchuck, identified GNH as a core value of the Bhutanese way of life. His Majesty said, "Gross national happiness is more important than gross domestic product." It was officially adopted as a national goal in 2008, and its principles have been enshrined in the country's constitution.
-    GNH prioritizes the preservation of Bhutan's lush forests, clean rivers, and diverse wildlife. They set a target to maintain at least 60% forest cover and establish protected areas for wildlife. The third pillar of GNH is called "Conservation of the Environment." This pillar highlights the importance of protecting the environment as a core element of happiness and well-being. This way, GNH serves as an example of how a nation can prioritize both the happiness of its people and the health of the planet.
+                        GNH originated in Bhutan in 1970s, when His Majesty the fourth king of Bhutan, Jigme Singye Wangchuck, identified GNH as a core value of the Bhutanese way of life. His Majesty said, "Gross national happiness is more important than gross domestic product." It was officially adopted as a national goal in 2008, and its principles have been enshrined in the country's constitution. GNH prioritizes the preservation of Bhutan's lush forests, clean rivers, and diverse wildlife. They set a target to maintain at least 60% forest cover and establish protected areas for wildlife. The third pillar of GNH is called "Conservation of the Environment." This pillar highlights the importance of protecting the environment as a core element of happiness and well-being. This way, GNH serves as an example of how a nation can prioritize both the happiness of its people and the health of the planet.
                     </div>
                 </div>
             </div>
@@ -95,8 +94,7 @@
                 </div>
                 <div class="description">
                     <div class="image-content scroll">
-                        His Majesty has shown strong emphasis on addressing climate change in the country. During a visit by the Green Climate Fund delegation in 2018, His Majesty expressed the importance of using science and technology to combat the effects of climate change, which impact agriculture, water security, and community livelihood.
-    GCF has approved substantial financial support for Bhutan, including capacity building, water adaptation planning, low-emission transport, and climate-resilient agriculture. To support Bhutan's ambitious climate goals, the Green Climate Fund (GCF) is investing USD 26.6 million in the "Bhutan for Life" project, aimed at promoting nature and forest conservation to help the country remain carbon neutral. These efforts are part of Bhutan's comprehensive approach to addressing climate change and maintaining its unique commitment to gross national happiness.
+                        His Majesty has shown strong emphasis on addressing climate change in the country. During a visit by the Green Climate Fund delegation in 2018, His Majesty expressed the importance of using science and technology to combat the effects of climate change, which impact agriculture, water security, and community livelihood. GCF has approved substantial financial support for Bhutan, including capacity building, water adaptation planning, low-emission transport, and climate-resilient agriculture. To support Bhutan's ambitious climate goals, the Green Climate Fund (GCF) is investing USD 26.6 million in the "Bhutan for Life" project, aimed at promoting nature and forest conservation to help the country remain carbon neutral. These efforts are part of Bhutan's comprehensive approach to addressing climate change and maintaining its unique commitment to gross national happiness.
                     </div>
                 </div>
             </div>
@@ -141,23 +139,14 @@
                 </div>
 
                 <div class="description">
-                    <div class="image-content scroll">With her support, Bhutan initiated a flagship program on waste management in 2019 and revamped the National Waste Management Strategy. These efforts aim to manage waste effectively and promote cleanliness.
-    Her Majesty's flagship project, OGOP, supports rural farmers by adding value to their products, packaging, marketing, and exporting them. This initiative has promoted Bhutanese food products and boosted small agribusinesses and farming communities. Her leadership and dedication have played a crucial role in preserving Bhutan's natural beauty and contributing to global environmental efforts.
+                    <div class="image-content scroll">With her support, Bhutan initiated a flagship program on waste management in 2019 and revamped the National Waste Management Strategy. These efforts aim to manage waste effectively and promote cleanliness. Her Majesty's flagship project, OGOP, supports rural farmers by adding value to their products, packaging, marketing, and exporting them. This initiative has promoted Bhutanese food products and boosted small agribusinesses and farming communities. Her leadership and dedication have played a crucial role in preserving Bhutan's natural beauty and contributing to global environmental efforts.
                     </div>
                 </div>
-            </div>
-           
-            <!-- <div class="option" style="--optionBackground: url('../images/backgrounds/king.jpeg');">
-            </div>
-            <div class="option" style="--optionBackground: url('../images/backgrounds/queen2.jpeg') center/cover no-repeat;">
-            </div> -->
-          
-            
+            </div>            
         </div>
 
-        <h1 class="text-white">the Kingdom</h1>
+        <h1 class="text-white">the <span class="text-uppercase">Kingdom</span></h1>
     </div>
-
 
     <x-story-control :links="$links" :next-link="$nextLink"/>
 </section>
