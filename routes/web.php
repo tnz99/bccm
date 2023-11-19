@@ -106,18 +106,18 @@ Route::get('/the-flora5', function() {
                          ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 
-Route::get('/laws/1999', function() {
-    $year = 1999;
+Route::get('/laws/1995', function() {
+    $year = 1995;
     $cnavBg = "the-law-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
-    $links = ['/the-laws', '/laws/1999'];
+    $links = ['/the-laws', '/laws/1995'];
     $nextLink = "#";
 
-    $subtext = "Bhutan's Forest and Nature Conservation Act - Conservation and sustainable management of Bhutan/'s forests.";
-    $story = "The act has helped in the conservation and sustainable management of Bhutan's forests, which cover over 70% of the country's land area
-    Bhutan has maintained a high forest coverage, which contributes to carbon sequestration and helps mitigate climate change.
-    The act has facilitated the protection of biodiversity, including endangered species like the Bengal tiger and snow leopard.";
+    $subtext = "Bhutan's Forest and Nature Conservation Act - Conservation and sustainable management of Bhutan's forests.";
+    $story = "The act has helped in the conservation and sustainable management of Bhutan's forests, which cover over 70% of the country's land area.
+        Bhutan has maintained a high forest coverage, which contributes to carbon sequestration and helps mitigate climate change.
+        The act has facilitated the protection of biodiversity, including endangered species like the Bengal tiger and snow leopard.";
 
     return view('components.yearly-story')->with('darkThemeFlag', false)
                                           ->with('links', $links)
@@ -130,18 +130,16 @@ Route::get('/laws/1999', function() {
                                           ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 
-Route::get('/laws/2000', function() {
-    $year = 2000;
+Route::get('/laws/2001', function() {
+    $year = 2001;
     $cnavBg = "the-law-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
-    $links = ['/the-laws', '/laws/1999'];
+    $links = ['/the-laws', '/laws/1995'];
     $nextLink = "#";
 
-    $subtext = "Bhutan's Forest and Nature Conservation Act - Conservation and sustainable management of Bhutan/'s forests.";
-    $story = "The act has helped in the conservation and sustainable management of Bhutan's forests, which cover over 70% of the country's land area
-    Bhutan has maintained a high forest coverage, which contributes to carbon sequestration and helps mitigate climate change.
-    The act has facilitated the protection of biodiversity, including endangered species like the Bengal tiger and snow leopard.";
+    $subtext = "The Alternative Renewable Energy Policy - “Encouraging the use of alternative renewable energy sources such as solar, wind, embedded hydro, and biogas.”";
+    $story = "Helped Bhutan diversify its fuel mix and maintain its net-zero carbon emissions. Bhutan's electricity access rate improved from 61 per cent in 2006 to almost cent per cent in 2019, well ahead of the intended 2020 target.";
 
     return view('components.yearly-story')->with('darkThemeFlag', false)
                                           ->with('links', $links)
@@ -153,6 +151,225 @@ Route::get('/laws/2000', function() {
                                           ->with('cnavBg', $cnavBg)
                                           ->with('cnavInnerBorder', $cnavInnerBorder);
 });
+
+Route::get('/laws/2009', function() {
+    $year = 2009;
+    $cnavBg = "the-law-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+
+    $links = ['/the-laws', '/laws/1995'];
+    $nextLink = "#";
+
+    $subtext = " Bhutan Climate Change Policy (BCCP) - Addressing climate change and promoting sustainable development.";
+    $story = "The policy has guided Bhutan's efforts in addressing climate change and promoting sustainable development.
+    Bhutan has committed to remaining carbon neutral by maintaining its forest cover and utilizing renewable energy sources.
+    The BCCP has facilitated the integration of climate change considerations into national development plans and policies.
+    ";
+
+    return view('components.yearly-story')->with('darkThemeFlag', false)
+                                          ->with('links', $links)
+                                          ->with('nextLink', $nextLink)
+                                          ->with('bodyClass', 'the-laws-1')
+                                          ->with('year', $year)
+                                          ->with('subtext', $subtext)
+                                          ->with('story', $story)
+                                          ->with('cnavBg', $cnavBg)
+                                          ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+Route::get('/laws/2010', function() {
+    $year = 2010;
+    $cnavBg = "the-law-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+
+    $links = ['/the-laws', '/laws/1995'];
+    $nextLink = "#";
+
+    $subtext = "Bhutan National Environment Strategy (NES) - Comprehensive framework for environmental conservation and sustainable development. ";
+    $story = "The NES provides a comprehensive framework for environmental conservation and sustainable development in Bhutan.
+    It has helped in the effective management of natural resources and the protection of Bhutan's unique ecosystems.
+    The NES has promoted sustainable agriculture practices, waste management, and the conservation of water resources.
+    
+    ";
+
+    return view('components.yearly-story')->with('darkThemeFlag', false)
+                                          ->with('links', $links)
+                                          ->with('nextLink', $nextLink)
+                                          ->with('bodyClass', 'the-laws-1')
+                                          ->with('year', $year)
+                                          ->with('subtext', $subtext)
+                                          ->with('story', $story)
+                                          ->with('cnavBg', $cnavBg)
+                                          ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+Route::get('/laws/2011', function() {
+    $year = "2011-2013";
+    $cnavBg = "the-law-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+
+    $links = ['/the-laws', '/laws/1995'];
+    $nextLink = "#";
+
+    $subtext = "Bhutan Climate Change Policy - Reducing greenhouse gas emissions and enhancing resilience. ";
+    $story = "The BCCAP outlined specific actions to address climate change impacts, such as promoting energy efficiency and sustainable transportation.
+    It has contributed to the development and implementation of climate change mitigation and adaptation projects in Bhutan.
+    The BCCAP has enhanced awareness and capacity building on climate change issues among various stakeholders.
+    
+    
+    ";
+
+    return view('components.yearly-story')->with('darkThemeFlag', false)
+                                          ->with('links', $links)
+                                          ->with('nextLink', $nextLink)
+                                          ->with('bodyClass', 'the-laws-1')
+                                          ->with('year', $year)
+                                          ->with('subtext', $subtext)
+                                          ->with('story', $story)
+                                          ->with('cnavBg', $cnavBg)
+                                          ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+
+Route::get('/laws/2015', function() {
+    $year = 2015;
+    $cnavBg = "the-law-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+
+    $links = ['/the-laws', '/laws/1995'];
+    $nextLink = "#";
+
+    $subtext = "Bhutan's Intended Nationally Determined Contributions (INDCs) - Commitments to reduce emissions and adapt to climate change.";
+    $story = "The INDCs demonstrate Bhutan's commitments to reducing greenhouse gas emissions and adapting to climate change.
+    Bhutan aims to remain carbon neutral by maintaining its forest cover and implementing renewable energy projects.
+    The INDCs have provided a framework for Bhutan's climate change actions and helped mobilize international support and funding.
+    
+    
+    
+    ";
+
+    return view('components.yearly-story')->with('darkThemeFlag', false)
+                                          ->with('links', $links)
+                                          ->with('nextLink', $nextLink)
+                                          ->with('bodyClass', 'the-laws-1')
+                                          ->with('year', $year)
+                                          ->with('subtext', $subtext)
+                                          ->with('story', $story)
+                                          ->with('cnavBg', $cnavBg)
+                                          ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+Route::get('/laws/2016', function() {
+    $year = 2016;
+    $cnavBg = "the-law-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+
+    $links = ['/the-laws', '/laws/1995'];
+    $nextLink = "#";
+
+    $subtext = "Bhutan's National Adaptation Plan (NAP) - Enhancing resilience and reducing vulnerability.";
+    $story = "0% emissions: a net carbon sink.
+    3 NAPA projects 10 adaptation needs identified in Nationally Determined Contribution (NDC).
+    2% national budget on climate change (2012-2013).
+    4 NAP Consultation Workshops held. ";
+
+    return view('components.yearly-story')->with('darkThemeFlag', false)
+                                          ->with('links', $links)
+                                          ->with('nextLink', $nextLink)
+                                          ->with('bodyClass', 'the-laws-1')
+                                          ->with('year', $year)
+                                          ->with('subtext', $subtext)
+                                          ->with('story', $story)
+                                          ->with('cnavBg', $cnavBg)
+                                          ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+Route::get('/laws/2017', function() {
+    $year = 2017;
+    $cnavBg = "the-law-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+
+    $links = ['/the-laws', '/laws/1995'];
+    $nextLink = "#";
+
+    $subtext = "Bhutan's Forest and Nature Conservation Rules and Regulations - Guidelines for sustainable forest management.";
+    $story = "Helped in maintaining sustainable forest management, carbon sequestration, biodiversity conservation, and climate change adaptation in Bhutan";
+
+    return view('components.yearly-story')->with('darkThemeFlag', false)
+                                          ->with('links', $links)
+                                          ->with('nextLink', $nextLink)
+                                          ->with('bodyClass', 'the-laws-1')
+                                          ->with('year', $year)
+                                          ->with('subtext', $subtext)
+                                          ->with('story', $story)
+                                          ->with('cnavBg', $cnavBg)
+                                          ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+
+Route::get('/laws/2018', function() {
+    $year = 2018;
+    $cnavBg = "the-law-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+
+    $links = ['/the-laws', '/laws/1995'];
+    $nextLink = "#";
+
+    $subtext = "Bhutan's Renewable Energy Policy - Increasing the share of renewable energy sources.";
+    $story = "Installed capacity of 2.33 GW, Bhutan over the years has successfully developed its hydropower resources, much of which is exported to India.
+    The Bhutan Renewable Energy Master Plan estimates that the country could produce 12 gigawatts of solar and 760 megawatts of wind energy.
+    ";
+
+    return view('components.yearly-story')->with('darkThemeFlag', false)
+                                          ->with('links', $links)
+                                          ->with('nextLink', $nextLink)
+                                          ->with('bodyClass', 'the-laws-1')
+                                          ->with('year', $year)
+                                          ->with('subtext', $subtext)
+                                          ->with('story', $story)
+                                          ->with('cnavBg', $cnavBg)
+                                          ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+Route::get('/laws/2019', function() {
+    $year = 2019;
+    $cnavBg = "the-law-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+
+    $links = ['/the-laws', '/laws/1995'];
+    $nextLink = "#";
+
+    $subtext = "Bhutan's National REDD+ Strategy - Reducing emissions through forest conservation.";
+    $story = "Helped reducing emissions through forest conservation.
+    ";
+
+    return view('components.yearly-story')->with('darkThemeFlag', false)
+                                          ->with('links', $links)
+                                          ->with('nextLink', $nextLink)
+                                          ->with('bodyClass', 'the-laws-1')
+                                          ->with('year', $year)
+                                          ->with('subtext', $subtext)
+                                          ->with('story', $story)
+                                          ->with('cnavBg', $cnavBg)
+                                          ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+
+Route::get('/laws/2020', function() {
+    $year = 2020;
+    $cnavBg = "the-law-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+
+    $links = ['/the-laws', '/laws/1995'];
+    $nextLink = "#";
+
+    $subtext = "The Climate Change Policy of the Kingdom of Bhutan - Sustainable development and carbon neutrality.";
+    $story = "	Helping to maintain sustainable development and the goal of achieving carbon neutrality.
+    ";
+
+    return view('components.yearly-story')->with('darkThemeFlag', false)
+                                          ->with('links', $links)
+                                          ->with('nextLink', $nextLink)
+                                          ->with('bodyClass', 'the-laws-1')
+                                          ->with('year', $year)
+                                          ->with('subtext', $subtext)
+                                          ->with('story', $story)
+                                          ->with('cnavBg', $cnavBg)
+                                          ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+
 
 
 Route::get('/the-kingdom', function() {
@@ -416,7 +633,7 @@ Route::get('/the-change', function() {
 
 Route::get('/the-laws', function() {
     $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
-    $links = ['/the-laws', '/laws/1999'];
+    $links = ['/the-laws', '/laws/1995','/laws/2001',];
     $nextLink = "the-people";
     $cnavBg = "the-law-cnav-bg";
     $cnavInnerBorder = "border-white";
