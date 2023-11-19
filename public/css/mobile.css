@@ -12,6 +12,20 @@
         margin-bottom: 20px;
         margin-right: 40px;
     }
+
+    .next-story-text {
+        font-size: 14px;
+    }
+
+    .circle-xm {
+        width: 40px;
+        height: 40px;
+    }
+
+    .next-story-btn {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 /* @media (max-width: 1900px) {
