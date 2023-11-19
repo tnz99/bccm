@@ -226,6 +226,12 @@ button { border: 0; }
     height: 100vh;
     background-size: cover;
 }
+.the-change2 {
+    backdrop-filter: blur(10px);
+    background: lightgray url('../images/backgrounds/change.jpeg') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
 
 
 .the-climate {   background: lightgray url('../images/backgrounds/home.png') center/cover no-repeat;

@@ -521,10 +521,6 @@ Route::get('/the-park', function() {
 });
 
 
-
-
-
-
 Route::get('/the-climate', function() {
     $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
@@ -615,7 +611,7 @@ Route::get('/the-autumn', function() {
 
 Route::get('/the-change', function() {
     $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
-    $links = ['/the-change', '/the-r'];
+    $links = ['/the-change', '/the-change2'];
     $nextLink = "the-laws";
     $cnavBg = "the-change-cnav-bg";
     $cnavInnerBorder = "border-white";
@@ -624,6 +620,23 @@ Route::get('/the-change', function() {
     return view('story')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-change')
                         ->with('name', 'CHANGE')
+                        ->with('description', $description)
+                        ->with('links', $links)
+                        ->with('nextLink', $nextLink)
+                        ->with('cnavBg', $cnavBg)
+                       ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+Route::get('/the-change2', function() {
+    $description ="Bhutan is recognized as a part of several globally important bird areas. Currently, around 736 species are recorded to be found in Bhutan out of which 30 are globally threatened. Of the four critically endangered species found in Bhutan";
+    $links = ['/the-change', '/the-change2'];
+    $nextLink = "the-laws";
+    $cnavBg = "the-change-cnav-bg";
+    $cnavInnerBorder = "border-white";
+
+
+    return view('change2')->with('darkThemeFlag', true)
+                        ->with('bodyClass', 'the-birds')
+                        ->with('name', 'Birds')
                         ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
