@@ -144,10 +144,9 @@
                 </div>
             </div>            
         </div>
-
-        <h1 class="text-white">the <span class="text-uppercase">Kingdom</span></h1>
     </div>
 
+    <h1 class="text-white">the <span class="text-uppercase">Kingdom</span></h1>
     <x-story-control :links="$links" :next-link="$nextLink"/>
 </section>
 @endsection
