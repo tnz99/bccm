@@ -34,9 +34,9 @@ Route::get('/contact', function() {
     return view('contact');
 });
 
-// Route::get('/register', function() {
-//     return view('auth.register')->with('darkThemeFlag', false);
-// });
+Route::get('/register', function() {
+    return view('register')->with('darkThemeFlag', false);
+});
 
 
 Route::get('/the-kingdom2', function() {

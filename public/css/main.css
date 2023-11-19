@@ -278,7 +278,7 @@ button { border: 0; }
     background-attachment: fixed;
 }
 
-.the-law-cnav-bg { background: linear-gradient(270deg, #7C745C 42.11%, rgba(255, 234, 172, 0.55) 101.31%); }
+.the-law-cnav-bg { background: linear-gradient(270deg, #585858 42.11%, rgba(193, 195, 194, 0.71) 101.31%);}
 .the-kingdom-cnav-bg { background: linear-gradient(270deg, #555050 42.11%, rgba(159, 159, 159, 0.00) 101.31%);}
 .the-climate-cnav-bg { background: linear-gradient(270deg, #151A21 42.11%, rgba(23, 28, 36, 0.06) 101.31%); }
 .the-flora-cnav-bg {background: linear-gradient(270deg, #1347AF 42.11%, rgba(238, 242, 245, 0.27) 101.31%);}
@@ -311,7 +311,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     border: 1px solid gray;
 }
 .border-white {
-    border: 1px solid #BFBFBF;
+    border: 1px solid white;
 }
 
 .our-story-btn {
@@ -560,7 +560,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 }
 .home-main-content{
     position:relative;
-    bottom: -50px;
+    bottom: 50px;
 }
 
 .home-header-text {

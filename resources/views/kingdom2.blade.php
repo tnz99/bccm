@@ -10,7 +10,7 @@
     <div class="gallery-container">
         <div class="options">
             <div class="option active">
-                <div class="image active-image" style="background-image:url('../images/backgrounds/4thking.jpeg');">
+                <div class="image active-image" style="background-image:url('../images/backgrounds/41.jpg');">
                     <div class="label">
                         <div class="info">
                             <div class="main">The 4th King</div>
@@ -25,7 +25,7 @@
             </div>
 
             <div class="option">
-                <div class="image" style="background-image: url('../images/backgrounds/k42.jpeg');">
+                <div class="image" style="background-image: url('../images/backgrounds/42.jpg');">
                     <div class="label">
                         <div class="info">
                             <div class="main">The 4th King</div>
@@ -40,7 +40,7 @@
             </div>
 
             <div class="option">
-                <div class="image" style="background-image: url('../images/backgrounds/k4.jpg');">
+                <div class="image" style="background-image: url('../images/backgrounds/43.jpg');">
                     <div class="label">
                         <div class="info">
                             <div class="main">The 4th King</div>
@@ -54,7 +54,7 @@
             </div>
 
             <div class="option">
-                <div class="image" style="background-image: url('../images/backgrounds/4thking2.jpeg');">
+                <div class="image" style="background-image: url('../images/backgrounds/44.jpg');">
                     <div class="label">
                         <div class="info">
                             <div class="main">The 4th King</div>
@@ -70,7 +70,7 @@
             </div>
 
             <div class="option">
-                <div class="image" style="background-image: url('../images/backgrounds/5thking.jpeg');">
+                <div class="image" style="background-image: url('../images/backgrounds/king52.jpg');">
                     <div class="label">
                         <div class="info">
                             <div class="main">The 5th King</div>
@@ -84,7 +84,7 @@
             </div>
 
             <div class="option">
-                <div class="image" style="background-image: url('../images/backgrounds/k5.jpeg');">
+                <div class="image" style="background-image: url('../images/backgrounds/53.jpg');">
                     <div class="label">
                         <div class="info">
                             <div class="main">The 5th King</div>
@@ -100,7 +100,7 @@
             </div>
 
             <div class="option">
-                <div class="image" style="background-image: url('../images/backgrounds/k52.jpeg');">
+                <div class="image" style="background-image: url('../images/backgrounds/54.jpg');">
                     <div class="label">
                         <div class="info">
                             <div class="main">The 5th King</div>
@@ -114,7 +114,7 @@
             </div>
 
             <div class="option">
-                <div class="image" style="background-image: url('../images/backgrounds/queen1.webp');">
+                <div class="image" style="background-image: url('../images/backgrounds/qu1.jpg');">
                     <div class="label">
                         <div class="info">
                             <div class="main">The Queen</div>
