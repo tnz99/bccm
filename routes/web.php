@@ -382,7 +382,8 @@ Route::get('/laws/2020', function() {
 
 Route::get('/the-kingdom', function() {
     $description = "
-    Bhutan is a leader in environmental sustainability, preserving vast forests as carbon sinks and biodiversity havens. Committed to carbon neutrality, the country emphasizes responsible forestry, hydropower, sustainable agriculture, and eco-friendly practices. Bhutan's unique approach integrates well-being and environmental conservation through the concept of Gross National Happiness.";
+    
+Bhutan excels in environmental sustainability, preserving vast forests for carbon storage and biodiversity. Committed to carbon neutrality, it prioritizes responsible forestry, hydropower, sustainable agriculture, and eco-friendly practices, all while integrating well-being through the unique concept of Gross National Happiness.";
     $links = ['/the-kingdom', '/the-kingdom2'];
     $nextLink = "the-flora";
     $cnavBg = "the-kingdom-cnav-bg";

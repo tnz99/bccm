@@ -1,7 +1,7 @@
 /* @import url(https://pro.fontawesome.com/releases/v5.11.2/css/all.css); */
 
 .gallery-container {
-    margin-top: 50px;
+    margin-top: -100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
