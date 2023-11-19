@@ -19,5 +19,5 @@ $(function(){
         $(this).find('.cnav-icon').hide();        
     })
 
-    // 2
+    
 });

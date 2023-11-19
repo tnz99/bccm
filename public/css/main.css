@@ -12,8 +12,6 @@ body {
     
 }
 
-
-
 ol, ul {
     padding: 0;
 }
@@ -694,17 +692,17 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     font-weight: 600;
     line-height: normal;
     position: relative;
-    bottom: -50px;
+    /* bottom: -50px; */
 }
 
 .story-header-description {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
     max-width: 70%;
     line-height: normal;
     font-style: normal;
     position: relative;
-    bottom: -50px;
+    /* bottom: -50px; */
     text-shadow: 0 0 5px rgba(0, 0, 0, 0); /* Add a subtle text shadow for better visibility */
     text-align: justify; 
 }
@@ -824,16 +822,6 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     top: 0;
     left: 0;
 } */
-.image {
-    width: 90%; 
-    height: 40%;
-    border-radius: 10px; 
-    background-size: center;
-    background-position: center;
-    position: absolute;
-    top: 5%; 
-    left: 5%; 
-}
 
 
 /* Overlay styling
@@ -932,10 +920,3 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 .ac {
     background-color: yellow;
 }
-
-
-
-
-  
-
-  

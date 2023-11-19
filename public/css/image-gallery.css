@@ -161,3 +161,20 @@ body .options .option {
 .active .description {
     display: block;
 }
+
+.image {
+    width: 100%; 
+    height: 100%;
+    border-radius: 10px; 
+    background-size: center;
+    background-position: center;
+
+}
+
+.active-image {
+    height: 40%;
+    width: 90%;
+    position: absolute;
+    top: 5%; 
+    left: 5%;
+}

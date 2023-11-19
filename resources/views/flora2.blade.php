@@ -11,7 +11,7 @@
     <div class="gallery-container">
         <div class="options">
             <div class="option active" style="background:  #524266; opacity: 0.8;">
-                <div class="image" style="background-image:url('../images/backgrounds/poppy.png');">
+                <div class="image active-image" style="background-image:url('../images/backgrounds/poppy.png');">
                 <div class="label">
                     <div class="info">
                         <div class="main">Scientific name:</div>
