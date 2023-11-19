@@ -689,6 +689,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 /* Story Page */
 .story-section {
     margin-top: 140px;
+    height: 100vh;
 }
 
 .story-header {
@@ -787,6 +788,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 
 /* Full Page Story Navigation */
 .story-nav {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;

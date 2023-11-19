@@ -26,6 +26,19 @@
         width: 40px;
         height: 40px;
     }
+
+    body .options .active {
+        min-width: 400px;
+    }
+
+    .gallery-container {
+        overflow-x: auto;
+        width: 100%;
+    }
+
+    h1.text-white {
+        margin-left: 50px;
+    }
 }
 
 @media (max-width: 1100px) {
