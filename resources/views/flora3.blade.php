@@ -7,7 +7,7 @@
 
 @section('content')
 
-<section>
+<section class="story-section">
     <div class="gallery-container">
         <div class="options">
             <div class="option active"style="background:  #524266; opacity: 0.8;">
@@ -161,9 +161,16 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <h1 class="text-white">the RHODODENDRON</h1>
     <x-story-control :links="$links" :next-link="$nextLink"/>
+=======
+    <h1 class="text-white">the Rhododendron Species </h1>
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
+>>>>>>> origin/main
 </section>
+
+
 @endsection
 
 @section('nav')

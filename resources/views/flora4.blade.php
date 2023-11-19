@@ -7,7 +7,7 @@
 
 @section('content')
 
-<section>
+<section class="story-section">
     <div class="gallery-container">
         <div class="options">
             <div class="option active" style="background:  #524266; opacity: 0.8;">

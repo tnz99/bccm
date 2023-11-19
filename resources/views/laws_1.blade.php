@@ -4,7 +4,7 @@
     <x-header :dark=false />
 @endsection
 @section('content')
-<div class="d-flex flex-column">
+<div class="d-flex flex-column story-section">
     <div id="main-section" class="d-flex justify-content-start year-story-wrapper">
         <div class="year-story-header">
             <div class="p-0">

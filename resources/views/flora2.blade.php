@@ -7,7 +7,7 @@
 
 @section('content')   
 
-<section>
+<section class="story-section">
     <div class="gallery-container">
         <div class="options">
             <div class="option active" style="background:  #524266; opacity: 0.8;">
@@ -162,7 +162,7 @@
 
     <h1 class="text-white">the <span class="text-uppercase">BLUE POPPY</span></h1>
 
-    <x-story-control :links="$links" :next-link="$nextLink"/>
+    <x-story-control :links="$links" :next-link="$nextLink":dark=$darkThemeFlag/>
 </section>
 @endsection
 
