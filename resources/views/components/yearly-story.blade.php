@@ -30,7 +30,7 @@
         <li class="year-nav-list-item"><a href="/laws/2020" class="spin-button year-nav-link">2020</a></li>
     </ul>
 
-    <x-story-control :links="$links" :next-link="$nextLink"/>
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
 </div>
 
 <img id="prayer-wheel" src="{{ asset('/images/prayer-wheel/1.png') }}" alt="prayer wheel" class="prayer-wheel-position prayer-wheel"  >

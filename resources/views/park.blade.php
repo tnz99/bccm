@@ -186,7 +186,7 @@
     </div>
 
     <h1 class="text-black">the PARKS</h1>
-    <x-story-control :links="$links" :next-link="$nextLink"/>
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
 </section>
 @endsection
 

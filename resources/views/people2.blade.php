@@ -93,7 +93,7 @@
     </div>
 
 
-    <x-story-control :links="$links" :next-link="$nextLink"/>
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
 </section>
 @endsection
 

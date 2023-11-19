@@ -111,7 +111,7 @@
     </div>
 
     <h1 class="text-white">the MAMMALS</h1>
-    <x-story-control :links="$links" :next-link="$nextLink"/>
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
 </section>
 @endsection
 

@@ -146,7 +146,7 @@
     </div>
 
     <h1 class="text-white">the <span class="text-uppercase">Kingdom</span></h1>
-    <x-story-control :links="$links" :next-link="$nextLink"/>
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag />
 </section>
 @endsection
 
