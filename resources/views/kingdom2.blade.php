@@ -139,10 +139,9 @@
                 </div>
 
                 <div class="description">
-                    <div class="image-content scroll">With her support, Bhutan initiated a flagship program on waste management in 2019 and revamped the National Waste Management Strategy. These efforts aim to manage waste effectively and promote cleanliness. Her Majesty's flagship project, OGOP, supports rural farmers by adding value to their products, packaging, marketing, and exporting them. This initiative has promoted Bhutanese food products and boosted small agribusinesses and farming communities. Her leadership and dedication have played a crucial role in preserving Bhutan's natural beauty and contributing to global environmental efforts.
-                    </div>
+                    <div class="image-content scroll">With her support, Bhutan initiated a flagship program on waste management in 2019 and revamped the National Waste Management Strategy. These efforts aim to manage waste effectively and promote cleanliness. Her Majesty's flagship project, OGOP, supports rural farmers by adding value to their products, packaging, marketing, and exporting them. This initiative has promoted Bhutanese food products and boosted small agribusinesses and farming communities. Her leadership and dedication have played a crucial role in preserving Bhutan's natural beauty and contributing to global environmental efforts.</div>
                 </div>
-            </div>            
+            </div>         
         </div>
     </div>
 
