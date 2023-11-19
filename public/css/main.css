@@ -152,6 +152,11 @@ button { border: 0; }
     height: 100vh;
     background-size: cover;
 }
+.contact {
+    background: lightgray url('../images/backgrounds/about.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
 
 .the-flora {
     /* backdrop-filter: blur(10px); */
