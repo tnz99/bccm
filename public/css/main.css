@@ -1,20 +1,13 @@
-* {
-    font-size: 16px;
- 
-}
-
+* { font-size: 16px; }
 
 body {
     font-family: Inter;
     position: relative;
     overflow:hidden;
-    height: 100vh;
-    
+    height: 100vh; 
 }
 
-ol, ul {
-    padding: 0;
-}
+ol, ul { padding: 0; }
 
 ::placeholder {
     color: #000;
@@ -43,7 +36,6 @@ ol, ul {
     font-weight: 400;
     line-height: normal;
 }
-
 
 button { border: 0; }
 
@@ -517,8 +509,6 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     margin-right: 50px;
 }
 
-
-
 .year-nav-link {
     font-size: 16px;
     line-height: normal;
@@ -530,10 +520,10 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 
 /* Story Control */
 .story-control-wrapper {
-    position: fixed;
+    position: relative;
     bottom: 0;
 
-    margin-left: 150px;
+    margin-left: 140px;
     margin-bottom: 60px;
 
     width: 30%;
@@ -935,4 +925,8 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 
 .ac {
     background-color: yellow;
+}
+
+h1.text-white, h1.text-black {
+    margin-left: 140px;
 }

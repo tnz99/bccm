@@ -101,10 +101,9 @@
  
         </div>
 
-        <h1 class="text-white">the CHANGE</h1>
     </div>
 
-
+    <h1 class="text-white">the CHANGE</h1>
     <x-story-control :links="$links" :next-link="$nextLink"/>
 </section>
 @endsection

@@ -133,8 +133,8 @@
 
     /* Story Pages */
     .story-control-wrapper {
-        /* position: relative; */
-        margin-left: 0px;
+        position: relative;
+        margin-left: 50px;
         justify-content: space-between;
         bottom: 0;
         margin-bottom: 25%;
@@ -263,7 +263,17 @@
     }
 
     .gallery-container {
-        display: none;
+        margin-left: 50px;
+        overflow-x: scroll;
+        width: 100%;
+    }
+
+    h1.text-white, h1.text-black, h1.text-white span.text-uppercase, h1.text-black span.text-uppercase {
+        font-size: 30px;
+    }
+
+    h1.text-white, h1.text-black {
+        margin-left: 50px;
     }
 }
 
