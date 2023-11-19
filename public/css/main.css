@@ -269,7 +269,9 @@ button { border: 0; }
     height: 100vh;
     background-size: cover;
 }
-.the-people {   background: lightgray url('../images/backgrounds/the_people.png') center/cover no-repeat;
+.the-people2{  
+    backdrop-filter: blur(10px); 
+    background: lightgray url('../images/backgrounds/the_people.png') center/cover no-repeat;
     height: 100vh;
     background-size: cover;
 }

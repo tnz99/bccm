@@ -112,7 +112,7 @@ Route::get('/laws/1995', function() {
     $cnavInnerBorder = "border-gray";
 
     $links = ['/the-laws', '/laws/1995'];
-    $nextLink = "#";
+    $nextLink = "/the-people";
 
     $subtext = "Bhutan's Forest and Nature Conservation Act - Conservation and sustainable management of Bhutan's forests.";
     $story = "The act has helped in the conservation and sustainable management of Bhutan's forests, which cover over 70% of the country's land area.
@@ -136,7 +136,7 @@ Route::get('/laws/2001', function() {
     $cnavInnerBorder = "border-gray";
 
     $links = ['/the-laws', '/laws/1995'];
-    $nextLink = "#";
+    $nextLink = "/the-people";
 
     $subtext = "The Alternative Renewable Energy Policy - “Encouraging the use of alternative renewable energy sources such as solar, wind, embedded hydro, and biogas.”";
     $story = "Helped Bhutan diversify its fuel mix and maintain its net-zero carbon emissions. Bhutan's electricity access rate improved from 61 per cent in 2006 to almost cent per cent in 2019, well ahead of the intended 2020 target.";
@@ -158,7 +158,7 @@ Route::get('/laws/2009', function() {
     $cnavInnerBorder = "border-gray";
 
     $links = ['/the-laws', '/laws/1995'];
-    $nextLink = "#";
+    $nextLink = "/the-people";
 
     $subtext = " Bhutan Climate Change Policy (BCCP) - Addressing climate change and promoting sustainable development.";
     $story = "The policy has guided Bhutan's efforts in addressing climate change and promoting sustainable development.
@@ -182,7 +182,7 @@ Route::get('/laws/2010', function() {
     $cnavInnerBorder = "border-gray";
 
     $links = ['/the-laws', '/laws/1995'];
-    $nextLink = "#";
+    $nextLink = "/the-people";
 
     $subtext = "Bhutan National Environment Strategy (NES) - Comprehensive framework for environmental conservation and sustainable development. ";
     $story = "The NES provides a comprehensive framework for environmental conservation and sustainable development in Bhutan.
@@ -207,7 +207,7 @@ Route::get('/laws/2011', function() {
     $cnavInnerBorder = "border-gray";
 
     $links = ['/the-laws', '/laws/1995'];
-    $nextLink = "#";
+    $nextLink = "/the-people";
 
     $subtext = "Bhutan Climate Change Policy - Reducing greenhouse gas emissions and enhancing resilience. ";
     $story = "The BCCAP outlined specific actions to address climate change impacts, such as promoting energy efficiency and sustainable transportation.
@@ -234,7 +234,7 @@ Route::get('/laws/2015', function() {
     $cnavInnerBorder = "border-gray";
 
     $links = ['/the-laws', '/laws/1995'];
-    $nextLink = "#";
+    $nextLink = "/the-people";
 
     $subtext = "Bhutan's Intended Nationally Determined Contributions (INDCs) - Commitments to reduce emissions and adapt to climate change.";
     $story = "The INDCs demonstrate Bhutan's commitments to reducing greenhouse gas emissions and adapting to climate change.
@@ -261,7 +261,7 @@ Route::get('/laws/2016', function() {
     $cnavInnerBorder = "border-gray";
 
     $links = ['/the-laws', '/laws/1995'];
-    $nextLink = "#";
+    $nextLink = "/the-people";
 
     $subtext = "Bhutan's National Adaptation Plan (NAP) - Enhancing resilience and reducing vulnerability.";
     $story = "0% emissions: a net carbon sink.
@@ -285,7 +285,7 @@ Route::get('/laws/2017', function() {
     $cnavInnerBorder = "border-gray";
 
     $links = ['/the-laws', '/laws/1995'];
-    $nextLink = "#";
+    $nextLink = "/the-people";
 
     $subtext = "Bhutan's Forest and Nature Conservation Rules and Regulations - Guidelines for sustainable forest management.";
     $story = "Helped in maintaining sustainable forest management, carbon sequestration, biodiversity conservation, and climate change adaptation in Bhutan";
@@ -307,7 +307,7 @@ Route::get('/laws/2018', function() {
     $cnavInnerBorder = "border-gray";
 
     $links = ['/the-laws', '/laws/1995'];
-    $nextLink = "#";
+    $nextLink = "/the-people";
 
     $subtext = "Bhutan's Renewable Energy Policy - Increasing the share of renewable energy sources.";
     $story = "Installed capacity of 2.33 GW, Bhutan over the years has successfully developed its hydropower resources, much of which is exported to India.
@@ -330,7 +330,7 @@ Route::get('/laws/2019', function() {
     $cnavInnerBorder = "border-gray";
 
     $links = ['/the-laws', '/laws/1995'];
-    $nextLink = "#";
+    $nextLink = "/the-people";
 
     $subtext = "Bhutan's National REDD+ Strategy - Reducing emissions through forest conservation.";
     $story = "Helped reducing emissions through forest conservation.
@@ -353,7 +353,7 @@ Route::get('/laws/2020', function() {
     $cnavInnerBorder = "border-gray";
 
     $links = ['/the-laws', '/laws/1995'];
-    $nextLink = "#";
+    $nextLink = "/the-people";
 
     $subtext = "The Climate Change Policy of the Kingdom of Bhutan - Sustainable development and carbon neutrality.";
     $story = "	Helping to maintain sustainable development and the goal of achieving carbon neutrality.
@@ -540,7 +540,7 @@ Route::get('/the-climate', function() {
 });
 
 Route::get('/the-summer', function() {
-    $description = "Bhutan's summers beckon with open arms, inviting you to a world where the air is filled with the scent of wildflowers and the echoes of ancient traditions.";
+    $description = "Bhutan's summer is a canvas of vibrant traditions and lush landscapes. From tending to crops and lively festivals to outdoor adventures against stunning mountains, it's a season of cultural richness. The community thrives with social gatherings, traditional attire, and fresh produce. Bhutan's summer is a celebration of heritage, community, and the breathtaking beauty of this Himalayan kingdom.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
     $nextLink = "the-change";
     $cnavBg = "the-change-cnav-bg";
@@ -557,7 +557,7 @@ Route::get('/the-summer', function() {
                        ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 Route::get('/the-winter', function() {
-    $description = "Embrace the cozy charm of Bhutanese winters, where snow-capped peaks stand tall, and the crisp mountain air carries the promise of adventure and tranquility.";
+    $description = "Bhutanese winters are marked by festive gatherings and a cozy lifestyle. Traditional clothing keeps locals warm as they celebrate cultural richness. The serene landscapes blanketed in snow create a tranquil backdrop.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
     $nextLink = "the-change";
     $cnavBg = "the-law-cnav-bg";
@@ -575,7 +575,7 @@ Route::get('/the-winter', function() {
 });
 
 Route::get('/the-spring', function() {
-    $description = "Awakening from winter's embrace, step into this captivating scene where cherry blossoms and dzongs come together, inviting you to witness not just a seasonal transformation but an enchanting fusion of nature's fleeting beauty and Bhutan's enduring cultural heritage.";
+    $description = "Spring, brings a burst of color and life to Bhutan. The landscape transforms into a riot of blossoming flowers and vibrant greenery. This season is ideal for trekking and hiking as the weather becomes milder. Rhododendrons, the national flower, paint the hillsides in various hues. Farmers begin planting crops, and festivals celebrating renewal and vitality are common. Spring in Bhutan is a time of natural beauty and cultural vibrancy.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
     $nextLink = "the-change";
     $cnavBg = "the-spring-cnav-bg";
@@ -592,7 +592,7 @@ Route::get('/the-spring', function() {
                        ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 Route::get('/the-autumn', function() {
-    $description = "As summer bids farewell, Bhutan's autumn unveils a breathtaking spectacle, with golden leaves carpeting the ground and the clear skies framing the majestic Himalayas.";
+    $description = "Bhutan's autumn (September to November) is a masterpiece painted in gold and amber. The air is crisp, and the landscape glows with the warm colors of changing leaves. Harvest activities unfold against the backdrop of clear blue skies, offering a captivating setting for lively festivals. It's a season that beckons explorers to witness the captivating allure of Bhutan's cultural and natural wonders.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
     $nextLink = "the-change";
     $cnavBg = "the-law-cnav-bg";
@@ -627,7 +627,7 @@ Route::get('/the-change', function() {
                        ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 Route::get('/the-change2', function() {
-    $description ="Bhutan is recognized as a part of several globally important bird areas. Currently, around 736 species are recorded to be found in Bhutan out of which 30 are globally threatened. Of the four critically endangered species found in Bhutan";
+   
     $links = ['/the-change', '/the-change2'];
     $nextLink = "the-laws";
     $cnavBg = "the-change-cnav-bg";
@@ -635,9 +635,6 @@ Route::get('/the-change2', function() {
 
 
     return view('change2')->with('darkThemeFlag', true)
-                        ->with('bodyClass', 'the-birds')
-                        ->with('name', 'Birds')
-                        ->with('description', $description)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
                         ->with('cnavBg', $cnavBg)
@@ -646,7 +643,7 @@ Route::get('/the-change2', function() {
 
 Route::get('/the-laws', function() {
     $description = "The Kingdom of Bhutan is a land of remarkable climatic diversity. Despite its relatively small size, this enchanting country encompasses a wide range of climates, from subtropical valleys to high-altitude alpine regions. This climatic diversity adds to the nation's allure, making it a captivating destination for adventurers and nature enthusiasts.";
-    $links = ['/the-laws', '/laws/1995','/laws/2001',];
+    $links = ['/the-laws', '/laws/1995'];
     $nextLink = "the-people";
     $cnavBg = "the-law-cnav-bg";
     $cnavInnerBorder = "border-white";
@@ -680,19 +677,16 @@ Route::get('/the-people', function() {
 });
 
 Route::get('/the-people2', function() {
-    $description = "Tens of thousands of citizens in Bhutan celebrated Prince Jigme Namgyel Wangchuck's birth by planting 108,000 tree saplings, each symbolizing longevity, health, beauty, and compassion in Buddhism. The initiative, known as Tendrel, involved all 82,000 households in the country and 26,000 trees planted by volunteers. Each sapling carries a prayer and wish for the prince's health and wisdom. Bhutan's deep connection with trees is rooted in Buddhism, where trees are seen as providers of life. In 2015, Bhutan set a Guinness World Record by planting nearly 50,000 trees in just one hour.";
+   
     $links = ['/the-people', '/the-people2'];
     $nextLink = "#";
     $cnavBg = "the-people-cnav-bg";
     $cnavInnerBorder = "border-white";
 
 
-    return view('story')->with('darkThemeFlag', true)
-                        ->with('bodyClass', 'the-people')
-                        ->with('name', 'PEOPLE')
-                        ->with('description', $description)
+    return view('people2')->with('darkThemeFlag', true)
                         ->with('links', $links)
                         ->with('nextLink', $nextLink)
                         ->with('cnavBg', $cnavBg)
-                        ->with('cnavInnerBorder', $cnavInnerBorder);
+                       ->with('cnavInnerBorder', $cnavInnerBorder);
 });
