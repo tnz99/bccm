@@ -791,7 +791,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 .story-nav {
     
     position: fixed;
-    top: 0;
+    top:100px;
     left: 0;
     z-index: 2;
     height: 100%;
