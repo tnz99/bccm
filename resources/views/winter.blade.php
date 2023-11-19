@@ -5,6 +5,8 @@
 @endsection
 
 @section('content')
+<div class="snow">
+</div>
 <section class="d-flex flex-column z-3 story-section">
     <div class="{{ $darkThemeFlag ? 'text-white' : 'text-black' }} story-header">
         <h2 class="story-header-text">the</h2>

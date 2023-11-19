@@ -528,7 +528,6 @@ Route::get('/the-climate', function() {
     $cnavBg = "the-climate-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
-
     return view('story')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-climate')
                         ->with('name', 'CLIMATE')
@@ -547,7 +546,7 @@ Route::get('/the-summer', function() {
     $cnavInnerBorder = "border-gray";
 
 
-    return view('story')->with('darkThemeFlag', true)
+    return view('summer')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-summer')
                         ->with('name', 'SUMMER')
                         ->with('description', $description)
@@ -564,7 +563,7 @@ Route::get('/the-winter', function() {
     $cnavInnerBorder = "border-gray";
 
 
-    return view('story')->with('darkThemeFlag', false)
+    return view('winter')->with('darkThemeFlag', false)
                         ->with('bodyClass', 'the-winter')
                         ->with('name', 'WINTER')
                         ->with('description', $description)
@@ -582,7 +581,7 @@ Route::get('/the-spring', function() {
     $cnavInnerBorder = "border-white";
 
 
-    return view('story')->with('darkThemeFlag', false)
+    return view('spring')->with('darkThemeFlag', false)
                         ->with('bodyClass', 'the-spring')
                         ->with('name', 'SPRING')
                         ->with('description', $description)
@@ -599,7 +598,7 @@ Route::get('/the-autumn', function() {
     $cnavInnerBorder = "border-gray";
 
 
-    return view('story')->with('darkThemeFlag', true)
+    return view('autumn')->with('darkThemeFlag', true)
                         ->with('bodyClass', 'the-autumn')
                         ->with('name', 'AUTUMN')
                         ->with('description', $description)
