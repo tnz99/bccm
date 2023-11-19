@@ -11,7 +11,7 @@
     <div class="gallery-container">
         <div class="options">
             <div class="option active">
-                <div class="image" style="background-image:url('../images/backgrounds/orc1.png');">
+                <div class="image active-image" style="background-image:url('../images/backgrounds/orc1.png');">
                 <div class="label">
                     <div class="info">
                         <div class="main">Scientific name</div>
