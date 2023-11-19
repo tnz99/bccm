@@ -941,41 +941,6 @@ h1.text-white, h1.text-black {
 }
 
 
-/* Preview */
-/* .nav-item-7 {
-    position: relative;
-}
 
 
 
-.imagep {
-    position: absolute;
-    top: -50px; 
-    left: -155px; 
-    transform: translateX(-50%);
-    width: 280px; 
-    height: auto; 
-    display: none;
-    border-radius: 25px;
-}
-.nav-item-1:hover .imagep{
-    display: block;
-}
-.nav-item-2:hover .imagep{
-    display: block;
-}
-.nav-item-3:hover .imagep{
-    display: block;
-}
-.nav-item-4:hover .imagep{
-    display: block;
-}
-.nav-item-5:hover .imagep{
-    display: block;
-}
-.nav-item-6:hover .imagep{
-    display: block;
-}
-.nav-item-7:hover .imagep{
-    display: block; 
-} */

@@ -12,5 +12,3 @@
         <p class="inner-text ml-50p fw-700 font-normal lh-normal fs-24">Our Story</p>
     </div>
 </nav> 
-
-
