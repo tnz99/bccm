@@ -161,13 +161,8 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-    <h1 class="text-white">the RHODODENDRON</h1>
-    <x-story-control :links="$links" :next-link="$nextLink"/>
-=======
-    <h1 class="text-white">the Rhododendron Species </h1>
+    <h1 class="text-white">the RODODENDRONS </h1>
     <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
->>>>>>> origin/main
 </section>
 
 
