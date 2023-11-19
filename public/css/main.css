@@ -789,13 +789,11 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 
 /* Full Page Story Navigation */
 .story-nav {
-    display: none;
+    
     position: fixed;
     top: 0;
     left: 0;
-
     z-index: 2;
-
     height: 100%;
     width: 100vw;
     backdrop-filter: blur(3px);
@@ -803,6 +801,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .story-nav-list > li {
