@@ -148,11 +148,11 @@
     }
 
     .story-control {
-        padding-left: 0;
+        padding-left: 50px;
     }
 
     .story-section {
-        padding-left: 50px;
+        /* padding-left: 50px; */
         padding-right: 40px;
         margin-top: 80px;
     }
@@ -281,6 +281,10 @@
 
     h1.text-white, h1.text-black {
         margin-left: 50px;
+    }
+
+    .gallery-container {
+        margin-top: -5px;
     }
 }
 
