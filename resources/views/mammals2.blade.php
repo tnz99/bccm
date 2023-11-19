@@ -56,9 +56,7 @@
                
             </div>
             <div class="description">
-                <ul class="image-content scroll">
-                    <div>Geei's Golden Langur or simply the Golden Langur is a species of primate and an endangered mammal endemic to the Assam and central valleys in Bhutan.</div>
-                </ul>
+                    <div class="image-content scroll">Geei's Golden Langur or simply the Golden Langur is a species of primate and an endangered mammal endemic to the Assam and central valleys in Bhutan.</div>
             </div>
         </div>
 
@@ -73,10 +71,7 @@
                
             </div>
             <div class="description">
-                <ul class="image-content scroll">
-                    <div></div>
-                </ul>    
-
+                    <div class="image-content scroll">Largest of all the langurs of Bhutan, the Grey or Hanuman Langur is found only west of the Sunkosh River and west of the Pelela range in Bhutan. The subspecies in the Himalayas have been called the Himalayan Langur with their distinctive white heads, thick grey coats, and large body size. Their feet, hands, face, and ears are black, and their face is framed with white fur. Their tail is usually longer than the body, with a white tip. Infants are born with fine, dark brown or black fur. Their skin is pale, but darkens to black by three months old. They are sexually dimorphic, with males being slightly larger than females. Males weigh about 13 kg and females weigh about 9.9 kg. Excluding their tail, males are about 64 cm long, and females are about 58.5 cm long. Male Hanuman langur tails average 91.0 cm and those of females average 86 cm. They have 32 teeth. Hanuman langurs are found in a wide variety of habitats, ranging from arid to tropical evergreen rainforests.</div>
             </div>
         </div>
 
@@ -91,9 +86,7 @@
               
             </div>
             <div class="description">
-                <ul class="image-content scroll">
-                    <div></div>
-                </ul>
+                    <div class="image-content scroll">The capped langur has been recorded in eight of the 20 dzongkhags of Bhutan. A common primate of eastern Bhutan, recorded it between 100 and a little more than 2,600 m above sea level. Capped Langurs are predominantly arboreal and usually found leaping through the forest canopy where they also forage, rest, feed and play. They are a vocal species and have several different calls within their repertoire. These primates are diurnal and mostly folivorous – they are most active during the day and their diet mainly consists of leaves. They live in groups made up of roughly seven females and one male, and females often share the responsibility of looking after each other’s infants.</div>
             </div>
         </div>
 
@@ -108,9 +101,7 @@
                
             </div>
             <div class="description">
-                <ul class="image-content scroll">
-                   <div>Bhutan is one of the 12 countries in Asia that harbor endangered Snow leopard population in its natural habitat. The presence of 134 snow leopards has been confirmed in Bhutan by the National Snow Leopard Survey 2022-2023</div>
-                </ul>
+                   <div class="image-content scroll">Bhutan is one of the 12 countries in Asia that harbor endangered Snow leopard population in its natural habitat. The presence of 134 snow leopards has been confirmed in Bhutan by the National Snow Leopard Survey 2022-2023</div>
             </div>
         </div>
 

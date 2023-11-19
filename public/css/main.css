@@ -229,6 +229,7 @@ button { border: 0; }
     background-size: cover;
 }
 
+
 .the-climate {   background: lightgray url('../images/backgrounds/home.png') center/cover no-repeat;
     height: 100vh;
     background-size: cover;
@@ -264,6 +265,11 @@ button { border: 0; }
     height: 100vh;
     background-size: cover;
 }
+.the-people {   background: lightgray url('../images/backgrounds/the_people.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
 .home {
     backdrop-filter: blur(50%);
     background: lightgray url('../images/backgrounds/home.png');
@@ -458,12 +464,13 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 
 .year-story-header-year {
     font-size: 70px;
+
 }
 
 .year-story-header-subtext {
     color: #000;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -491,6 +498,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     margin-left: 150px;
     display: flex;
     list-style: none;
+   
 }
 
 .year-nav-list-item {
@@ -560,7 +568,7 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     line-height: normal;
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .home-main-content {
@@ -682,27 +690,20 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     font-weight: 600;
     line-height: normal;
     position: relative;
-    bottom: 20px;
+    bottom: -50px;
 }
 
 .story-header-description {
     font-weight: 400;
     font-size: 14px;
+    max-width: 70%;
     line-height: normal;
     font-style: normal;
     position: relative;
-<<<<<<< HEAD
     bottom: -50px;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0); /* Add a subtle text shadow for better visibility */
-=======
-    bottom: 20px;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.6); /* Add a subtle text shadow for better visibility */
-   
->>>>>>> origin/main
     text-align: justify; 
 }
-
-
 
 /* Registration Page */
 .register-form {
@@ -927,6 +928,9 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 .ac {
     background-color: yellow;
 }
+
+
+
 
   
 
