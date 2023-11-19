@@ -1,23 +1,32 @@
 @extends('components.layout')
-
-@section('body_class', 'contact')
-
+@section('body_class',$bodyClass,)
 @section('header')
-    <x-header :dark=$darkThemeFlag />   
+    <x-header :dark=$darkThemeFlag />
 @endsection
 
 @section('content')
-<section class="d-flex" style="justify-content: center; gap: 12%; margin-top: 12%;">
-    <div class="">
-        <h1 class="text-white">we are <span class="text-uppercase">SOCIAL</span></h1>
-        <div class="d-flex flex-column" style="justify-content: center; align-items: center;">
-            <img src="../images/social.png" />
-        </div>
+
+<section class="d-flex flex-column z-3 story-section">
+    <div class="{{ $darkThemeFlag ? 'text-white' : 'text-black' }} story-header">
+        <h2 class="story-header-text">we are</h2>
+        <h2 class="story-header-text">{{ $name }}</h2>
+        <p class="story-header-description">{{ $description }}</p>
+        <div class= "containerfb">
+        
+        <div class= "fb-div"><img class= "fb" src="../images/backgrounds/fb.png" alt="img"/></div>
+        <div class= "fb-div"><img class= "ig" src="../images/backgrounds/ig.png" alt="img"/></div>
+        <div class= "fb-div"><img class= "email" src="../images/backgrounds/email.png" alt="img"/></div>
+
     </div>
+</div>
+
+   
+   
 </section>
 @endsection
 
 @section('nav')
     <x-story-nav :dark=$darkThemeFlag />
     <x-circular_nav :background="$cnavBg" :inner-border="$cnavInnerBorder"/>
+   
 @endsection

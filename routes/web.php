@@ -22,24 +22,54 @@ Route::get('/', function() {
                        ->with('cnavInnerBorder', $cnavInnerBorder);
 });
 
-Route::get('/about', function() {
-    return view('about');
-});
 
-Route::get('/news-and-event', function() {
-    return view('news');
-});
 
-Route::get('/contact', function() {
+Route::get('/the-newsE', function() {
+    
     $cnavBg = "the-spring-cnav-bg";
     $cnavInnerBorder = "border-white";
+   
+
+    return view('newsE')->with('darkThemeFlag', true)
+                         
+                         ->with('cnavBg', $cnavBg)
+                         ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+
+
+Route::get('/contact', function() {
+    $description = "";
+    $links = [''];
+    // $nextLink = "the-kingdom";
+    $cnavBg = "the-contact-cnav-bg";
+    $cnavInnerBorder = "border-gray";
 
     return view('contact')->with('darkThemeFlag', true)
-                          ->with('cnavBg', $cnavBg)
-                          ->with('cnavInnerBorder', $cnavInnerBorder);
+                        ->with('bodyClass', 'contact')
+                        ->with('name', 'SOCIAL')
+                        ->with('description', $description)
+                        ->with('links', $links)
+                        // ->with('nextLink', $nextLink)
+                        ->with('cnavBg', $cnavBg)
+                       ->with('cnavInnerBorder', $cnavInnerBorder);
+});
+
+Route::get('/about', function() {
+    $description = "The Climate Change Museum in Bhutan inspires global action by raising awareness and promoting sustainability. Explore exhibits, access educational resources, and join us in the fight against climate change for a sustainable future.";
+
+    $cnavBg = "the-spring-cnav-bg";
+    $cnavInnerBorder = "border-gray";
+
+    return view('about')->with('darkThemeFlag', true)
+                        ->with('bodyClass', 'about')
+                        ->with('name', 'US')
+                        ->with('description', $description)
                         
+                        ->with('cnavBg', $cnavBg)
+                        ->with('cnavInnerBorder', $cnavInnerBorder);
                         
 });
+
     
 
 Route::get('/register', function() {

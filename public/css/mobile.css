@@ -34,7 +34,9 @@
 
     .gallery-container {
         overflow-x: auto;
-        width: 100%;
+        width: 50%;
+        max-height: 50%;
+        margin-top: 100px;
     }
 
     h1.text-white {

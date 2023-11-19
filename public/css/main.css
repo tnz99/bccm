@@ -1,5 +1,9 @@
 * { font-size: 16px; }
 
+html{
+    overflow: hidden !important;
+}
+
 body {
     font-family: Inter;
     position: relative;
@@ -271,6 +275,19 @@ button { border: 0; }
     height: 100vh;
     background-size: cover;
 }
+.the-newsE{  
+    backdrop-filter: blur(10px); 
+    background: lightgray url('../images/backgrounds/about.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.about{  
+    backdrop-filter: blur(6px); 
+    background: lightgray url('../images/backgrounds/about.png') center/cover no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
 
 .home {
     backdrop-filter: blur(50%);
@@ -939,6 +956,60 @@ h1.text-white, h1.text-black {
     
 }
 
+.containerfb {
+    display: flex;
+    justify-content: space-around; 
+    position: relative;
+    bottom: 50%;
+    right: 10%
+}
+
+
+.fb-div {
+    border-radius: 20px;
+    background: #FCFF5C;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+   
+   
+}
+
+
+
+.fb{
+    background: url(../images/backgrounds/fb.png), cover no-repeat;
+    width: 50px;
+    height: 50px;
+   
+  
+    
+    
+}
+.ig{
+    background: url(../images/backgrounds/ig.png), cover no-repeat;
+    width: 50px;
+    height: 50px;
+   
+    
+    
+}
+.email{
+    background: url(../images/backgrounds/email.png), cover no-repeat;
+    width: 50px;
+    height: 50px;
+    
+    
+}
 
 
 
