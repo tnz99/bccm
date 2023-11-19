@@ -10,7 +10,7 @@
 <section>
     <div class="gallery-container">
         <div class="options">
-            <div class="option active">
+            <div class="option active"  style="background:  #524266; opacity: 0.8;">
                 <div class="image active-image" style="background-image:url('../images/backgrounds/ctree.png');">
                 <div class="label">
                     <div class="info">
@@ -21,11 +21,11 @@
                 
                 </div>
                 <div class="description">
-                    <div class="image-content scroll">The Himalayan cypress (Cupressus torolusa) is the national tree of Bhutan. They are associated with religion, and may often be found near the religious structures and in the temperate zone between altitudes of 1800m and 3500m.</div>
+                    <div class="image-content scroll text-white">The Himalayan cypress (Cupressus torolusa) is the national tree of Bhutan. They are associated with religion, and may often be found near the religious structures and in the temperate zone between altitudes of 1800m and 3500m.</div>
                 </div>
             </div>
 
-            <div class="option">
+            <div class="option"  style="background:  #524266; opacity: 0.8;">
                 <div class="image" style="background-image: url('../images/backgrounds/m1.png');">
                     <div class="label">
                         <div class="info">
@@ -36,7 +36,7 @@
                 
                 </div>
                 <div class="description">
-                    <ul class="image-content scroll">
+                    <ul class="image-content scroll text-white">
                         <div>Bhutan is home to around 300 medicinal plants, the majority of which are harnessed for the production of traditional medicines and herbal teas.</div>
                         <li>Local name: Agaru(Dzongkha) and Akuru(Kheng)</li>
                         <li>Description: Evergreen tree which grows up to 30-40 meters tall</li>
@@ -50,7 +50,7 @@
 
             
 
-            <div class="option">
+            <div class="option"  style="background:  #524266; opacity: 0.8;">
                 <div class="image" style="background-image: url('../images/backgrounds/m2.png');">
                     <div class="label">
                         <div class="info">
@@ -61,7 +61,7 @@
                 
                 </div>
                 <div class="description">
-                    <ul class="image-content scroll">
+                    <ul class="image-content scroll text-white">
                         <li>Pipiling(Dzongkha) and Bordamzalu(Kheng)</li>
                         <li>Description: Shrub that grows to 1-2 meters tall. Leaves are simple and oval with white flowers.Fruits areround and green which become blackish when ripe.</li>
                         <li>Distribution: Samtse, Chhukha, Sarpang, Trongsa, Trashigang, Zhemgang</li>
@@ -71,7 +71,7 @@
                 </div>
             </div>
 
-            <div class="option">
+            <div class="option"  style="background:  #524266; opacity: 0.8;">
                 <div class="image" style="background-image: url('../images/backgrounds/m3.png');">
                     <div class="label">
                         <div class="info">
@@ -82,7 +82,7 @@
                 
                 </div>
                 <div class="description">
-                    <ul class="image-content scroll">
+                    <ul class="image-content scroll text-white">
                         <li> Local name: Donga(Dzongkha) and Dongkashing(Sha)</li>
                         <li> Description: Deciduous tree which grows up to 20 meters tall, leaves are opposite and flowers are yellow.Pods are woody and black. Seeds are ovate and in line</li>
                         <li> Distribution: Samdrup Jongkhar, Chhukha, Sarpang, Trashigang</li>
@@ -93,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="option">
+            <div class="option"  style="background:  #524266; opacity: 0.8;">
                 <div class="image" style="background-image: url('../images/backgrounds/m4.png');">
                     <div class="label">
                         <div class="info">
@@ -104,7 +104,7 @@
                 
                 </div>
                 <div class="description">
-                    <ul class="image-content scroll">
+                    <ul class="image-content scroll text-white">
                         <li> Local name: Husu(Dzongkha and Kheng)</li>
                         <li> Description: Herb growing up to 60 centimeters tall. Leaves pinnately lobed with white/pinkish flowers.</li>
                         <li> Distribution: Almost all parts of Bhutan</li>
@@ -114,7 +114,7 @@
                 </div>
             </div>
 
-            <div class="option">
+            <div class="option"  style="background:  #524266; opacity: 0.8;">
                 <div class="image" style="background-image: url('../images/backgrounds/m5.png');">
                     <div class="label">
                         <div class="info">
@@ -125,7 +125,7 @@
                 
                 </div>
                 <div class="description">
-                    <ul class="image-content scroll">
+                    <ul class="image-content scroll text-white">
                         <li> Local name: Jyar-tsa-guen-bu(Dzongkha)</li>
                         <li> Description: Caterpillar shaped roots which is dark brown or black, but can be a yellow color when fresh usually 4–10 centimeters</li>
                         <li> Distribution: Thimphu, Bumthang, Trashi Yangtse</li>
@@ -135,7 +135,7 @@
                 </div>
             </div>
 
-            <div class="option">
+            <div class="option"  style="background:  #524266; opacity: 0.8;">
                 <div class="image" style="background-image: url('../images/backgrounds/m6.png');">
                     <div class="label">
                         <div class="info">
@@ -146,7 +146,7 @@
                 
                 </div>
                 <div class="description" style="display: none;">
-                    <ul class="image-content scroll">
+                    <ul class="image-content scroll text-white">
 
                         <li > Local name: Bingiraza(Dzongkha)</li>
                         <li> Description: Short Herb with oval leaves and bright red/blackish fruit</li>
@@ -156,7 +156,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="option">
+            <div class="option"  style="background:  #524266; opacity: 0.8;" >
                 <div class="image" style="background-image: url('../images/backgrounds/orc8.png');">
                     <div class="label">
                         <div class="info">
@@ -168,7 +168,7 @@
                 
                 </div>
                 <div class="description" style="display: none;">
-                    <ul class="image-content scroll">
+                    <ul class="image-content scroll text-white">
                         <li>Local name: Hong-len(Dzongkha) </li>
                         <li> Description: Herb with short leaf blade spatulate to ovate, hairy spike with purplish/black flower</li>
                         <li> Distribution: Thimphu, Bumthang</li>
@@ -181,7 +181,7 @@
 
     </div>
 
-    <h1 class="text-white">the National Tree & the Madicinal Herbs</h1>
+    <h1 class="text-white">the NATIONAL TREE & the HERBS</h1>
     <x-story-control :links="$links" :next-link="$nextLink"/>
 </section>
 @endsection

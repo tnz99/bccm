@@ -6,7 +6,7 @@
     </ul>
 
     <a class="no-underline d-flex align-items-center  justify-content-center next-story " href="{{ $nextLink }}">
-        <p class="text-white next-story-text">Next story</p>
+        <p class=" text-white next-story-text">Next story</p>
 
         <div>
             <div class="d-flex justify-content-center align-items-center next-story-btn">

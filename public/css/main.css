@@ -292,7 +292,9 @@ button { border: 0; }
 .the-spring-cnav-bg { background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 101.31%); }
 .the-change-cnav-bg { background: linear-gradient(270deg, #400C00 42.11%,  rgba(216, 161, 164, 0.56) 101.31%);}
 .the-fauna2-cnav-bg { background: linear-gradient(270deg, #eab676 42.11%,  rgba(216, 161, 164, 0.56) 101.31%);}
-
+.the-summer-cnav-bg {background: linear-gradient(270deg, #C38F33 42.11%, rgba(255, 226, 173, 0.47) 101.31%);}
+.the-winter-cnav-bg {background: linear-gradient(270deg, #262432 42.11%, rgba(83, 80, 99, 0.29) 101.31%);}
+.the-autumn-cnav-bg {background: linear-gradient(270deg, #47A2DE 42.11%, rgba(188, 219, 240, 0.40) 101.31%);}
 .home-cnav-bg {
     background: linear-gradient(270deg, #151A21 42.11%, rgba(23, 28, 36, 0.06) 101.31%);
 }
@@ -936,4 +938,45 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 
 h1.text-white, h1.text-black {
     margin-left: 140px;
+    
 }
+
+
+/* Preview */
+/* .nav-item-7 {
+    position: relative;
+}
+
+
+
+.imagep {
+    position: absolute;
+    top: -50px; 
+    left: -155px; 
+    transform: translateX(-50%);
+    width: 280px; 
+    height: auto; 
+    display: none;
+    border-radius: 25px;
+}
+.nav-item-1:hover .imagep{
+    display: block;
+}
+.nav-item-2:hover .imagep{
+    display: block;
+}
+.nav-item-3:hover .imagep{
+    display: block;
+}
+.nav-item-4:hover .imagep{
+    display: block;
+}
+.nav-item-5:hover .imagep{
+    display: block;
+}
+.nav-item-6:hover .imagep{
+    display: block;
+}
+.nav-item-7:hover .imagep{
+    display: block; 
+} */

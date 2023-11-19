@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="{{ asset('css/sunrays.css') }}">
+<!-- <link rel="stylesheet" type="text/css" href="{{ asset('css/sunrays.css') }}"> -->
 @extends('components.layout')
 @section('body_class',$bodyClass)
 @section('header')

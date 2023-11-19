@@ -11,7 +11,7 @@
     <div class="gallery-container">
         <div class="options">
             <div class="option active" style="background: white">
-                <div class="image" style="background-image:url('../images/backgrounds/b1.png');">
+                <div class="image active-image"  style="background-image:url('../images/backgrounds/b1.png');">
                 <div class="label">
                     <div class="info">
                         <div class="main">Ludlow’s Bhutan Glory </div>

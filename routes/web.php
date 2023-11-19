@@ -403,7 +403,7 @@ Route::get('/the-kingdom', function() {
 });
 
 Route::get('/the-flora', function() {
-    $description = "Bhutan's flora is characterized by its incredible variety. The country's elevation gradient, ranging from subtropical valleys to snow-capped peaks, supports a wide array of plant life. Bhutan is home to over 5,500 species of vascular plants, including countless medicinal herbs, alpine flowers, and rare orchids. The country's rugged terrain and pristine environment have contributed to the preservation of many endemic species found nowhere else on Earth.";
+    $description = "Bhutan's diverse flora thrives across its elevation gradient, from subtropical valleys to snow-capped peaks. With over 5,500 species of vascular plants, including medicinal herbs, alpine flowers, and rare orchids, the country's rugged terrain preserves numerous endemic species, making Bhutan a unique botanical haven.";
     $links = ['/the-flora', '/the-flora2','/the-flora3', '/the-flora4', '/the-flora5'];
     $nextLink = "the-fauna";
     $cnavBg = "the-flora-cnav-bg";
@@ -439,7 +439,7 @@ Route::get('/the-fauna', function() {
 });
 
 Route::get('/the-mammals', function() {
-    $description = "Mammals - In Bhutan, there are records of 129 mammal species inhabiting the country, with 26 of them being globally endangered species. Furthermore, Bhutan boasts significant biodiversity in the realm of wild felids, with a total of 11 out of the 36 known global felid species residing within its borders. A study conducted in the compact area of Royal Manas National Park in 2012 documented the presence of six felid species, accounting for approximately 16 percent of the world's felid species. This finding reinforces Bhutan's status as a prominent habitat and hotspot for wild felids.";
+    $description = "Bhutan is home to 129 mammal species, including 26 globally endangered ones. Notably, the country hosts 11 out of the 36 known global felid species, with a study in Royal Manas National Park documenting six felid species, comprising about 16 percent of the world's total. This highlights Bhutan's significance as a major habitat and hotspot for wild felids.";
     $links = ['/the-fauna', '/the-mammals', '/the-mammals2','/the-birds', '/the-birds2', '/the-butterfly2','/the-park'];
     $nextLink = "the-climate";
     $cnavBg = "the-fauna2-cnav-bg";
@@ -550,8 +550,8 @@ Route::get('/the-summer', function() {
     $description = "Bhutan's summer is a canvas of vibrant traditions and lush landscapes. From tending to crops and lively festivals to outdoor adventures against stunning mountains, it's a season of cultural richness. The community thrives with social gatherings, traditional attire, and fresh produce. Bhutan's summer is a celebration of heritage, community, and the breathtaking beauty of this Himalayan kingdom.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
     $nextLink = "the-change";
-    $cnavBg = "the-change-cnav-bg";
-    $cnavInnerBorder = "border-gray";
+    $cnavBg = "the-summer-cnav-bg";
+    $cnavInnerBorder = "border-white";
 
 
     return view('summer')->with('darkThemeFlag', true)
@@ -567,7 +567,7 @@ Route::get('/the-winter', function() {
     $description = "Bhutanese winters are marked by festive gatherings and a cozy lifestyle. Traditional clothing keeps locals warm as they celebrate cultural richness. The serene landscapes blanketed in snow create a tranquil backdrop.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
     $nextLink = "the-change";
-    $cnavBg = "the-law-cnav-bg";
+    $cnavBg = "the-winter-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
 
@@ -602,7 +602,7 @@ Route::get('/the-autumn', function() {
     $description = "Bhutan's autumn (September to November) is a masterpiece painted in gold and amber. The air is crisp, and the landscape glows with the warm colors of changing leaves. Harvest activities unfold against the backdrop of clear blue skies, offering a captivating setting for lively festivals. It's a season that beckons explorers to witness the captivating allure of Bhutan's cultural and natural wonders.";
     $links = ['/the-climate', '/the-summer','/the-winter','/the-spring','/the-autumn'];
     $nextLink = "the-change";
-    $cnavBg = "the-law-cnav-bg";
+    $cnavBg = "the-autumn-cnav-bg";
     $cnavInnerBorder = "border-gray";
 
 

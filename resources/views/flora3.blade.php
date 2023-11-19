@@ -161,7 +161,7 @@
             </div>
         </div>
     </div>
-    <h1 class="text-white">the Rhododendron Species </h1>
+    <h1 class="text-white">the RHODODENDRON</h1>
     <x-story-control :links="$links" :next-link="$nextLink"/>
 </section>
 @endsection

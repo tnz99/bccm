@@ -1,7 +1,7 @@
 /* @import url(https://pro.fontawesome.com/releases/v5.11.2/css/all.css); */
 
 .gallery-container {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -73,9 +73,9 @@ body .options .option {
 }
 
 .option.active {
-    flex-grow: 1000;
+    flex-grow: 10000;
     transform: scale(1);
-    max-width: 600px;
+    max-width: 300px;
     margin: 0px;
     border-radius: 15px;
     background-size: auto 100%;
@@ -92,6 +92,7 @@ body .options .option {
 .option:not(.active) {
     flex-grow: 1;
     border-radius: 30px;
+    max-width: 50px;
 }
 
 .option:not(.active) .label {

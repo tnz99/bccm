@@ -160,7 +160,7 @@
         </div>
     </div>
 
-    <h1 class="text-white">the <span class="text-uppercase">Endangered Blue Poppy Species</span></h1>
+    <h1 class="text-white">the <span class="text-uppercase">BLUE POPPY</span></h1>
 
     <x-story-control :links="$links" :next-link="$nextLink"/>
 </section>
