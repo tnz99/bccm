@@ -73,7 +73,7 @@ body .options .option {
 }
 
 .option.active {
-    flex-grow: 10000;
+    flex-grow: 1000;
     transform: scale(1);
     max-width: 600px;
     margin: 0px;

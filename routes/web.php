@@ -31,8 +31,16 @@ Route::get('/news-and-event', function() {
 });
 
 Route::get('/contact', function() {
-    return view('contact');
+    $cnavBg = "the-spring-cnav-bg";
+    $cnavInnerBorder = "border-white";
+
+    return view('contact')->with('darkThemeFlag', true)
+                          ->with('cnavBg', $cnavBg)
+                          ->with('cnavInnerBorder', $cnavInnerBorder);
+                        
+                        
 });
+    
 
 Route::get('/register', function() {
     return view('register')->with('darkThemeFlag', false);
