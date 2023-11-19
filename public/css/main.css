@@ -695,9 +695,14 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     line-height: normal;
     font-style: normal;
     position: relative;
+<<<<<<< HEAD
+    bottom: -50px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0); /* Add a subtle text shadow for better visibility */
+=======
     bottom: 20px;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.6); /* Add a subtle text shadow for better visibility */
    
+>>>>>>> origin/main
     text-align: justify; 
 }
 
