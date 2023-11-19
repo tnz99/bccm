@@ -461,14 +461,16 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 }
 
 .year-story-header-year {
-    font-size: 70px;
+    font-size: 50px;
+   
+    
 
 }
 
 .year-story-header-subtext {
     color: #000;
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -477,12 +479,13 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
 .year-story-content {
     color: #000;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     opacity: 0.5;
-    width: 30%;
+    width: 25%;
+    height:20%;
     padding-left: 9px;
 }
 
@@ -496,12 +499,17 @@ background: linear-gradient(270deg, #DA8495 42.11%, rgba(216, 161, 164, 0.56) 10
     margin-left: 150px;
     display: flex;
     list-style: none;
+    width:50%;
+    overflow-x: scroll;
+    padding-bottom: 6px;
    
 }
 
 .year-nav-list-item {
     margin-right: 50px;
 }
+
+
 
 .year-nav-link {
     font-size: 16px;
