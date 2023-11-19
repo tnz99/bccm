@@ -6,7 +6,7 @@
 @endsection
 
 @section('content')
-<section>
+<section class="story-section">
     <div class="gallery-container">
         <div class="options">
             <div class="option active" style="background:#400C00; opacity: 0.8;">
@@ -104,7 +104,7 @@
     </div>
 
     <h1 class="text-white">the CHANGE</h1>
-    <x-story-control :links="$links" :next-link="$nextLink"/>
+    <x-story-control :links="$links" :next-link="$nextLink" :dark=$darkThemeFlag/>
 </section>
 @endsection
 

@@ -6,7 +6,7 @@
 @endsection
 
 @section('content')
-<section class="gallery-main-container">
+<section class="story-section">
     <div class="gallery-container">
         <div class="options">
             <div class="option active">

@@ -141,7 +141,7 @@
     /* Story Pages */
     .story-control-wrapper {
         position: relative;
-        margin-left: 50px;
+        margin-left: 0px;
         justify-content: space-between;
         bottom: 0;
         margin-bottom: 25%;
